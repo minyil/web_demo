@@ -5,39 +5,116 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Nielsen Top Ten — 內部洞察 Dashboard（範本）</title>
   <style>
-    :root{--bg:#0b1020;--panel:#111a33;--panel2:#0f1730;--text:#e8ecff;--muted:#a9b3d1;--accent:#7aa2ff;--good:#3ddc97;--bad:#ff5c7a;--warn:#ffcc66;--grid:#223055;}
-    html,body{height:100%;background:var(--bg);color:var(--text);font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Noto Sans TC", Arial, "PingFang TC", "Microsoft JhengHei", sans-serif;}
-    a{color:var(--accent);text-decoration:none}
+    :root{
+      --bg0:#070a14;
+      --bg1:#0b1020;
+      --panel: rgba(255,255,255,0.06);
+      --panel2: rgba(255,255,255,0.04);
+      --stroke: rgba(255,255,255,0.10);
+      --text:#eef2ff;
+      --muted:#aab5d6;
+      --accent:#7c5cff;
+      --accent2:#2ee9a6;
+      --grid: rgba(124,92,255,0.20);
+      --shadow: 0 14px 40px rgba(0,0,0,0.45);
+      --r12: 14px;
+      --r16: 18px;
+    }
+    html,body{height:100%;}
+    body{
+      margin:0;
+      color:var(--text);
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Noto Sans TC", Arial, "PingFang TC", "Microsoft JhengHei", sans-serif;
+      background:
+        radial-gradient(1200px 600px at 10% -10%, rgba(124,92,255,0.45), transparent 55%),
+        radial-gradient(1000px 600px at 100% 0%, rgba(46,233,166,0.22), transparent 55%),
+        linear-gradient(180deg, var(--bg0), var(--bg1));
+    }
+    a{color:inherit;text-decoration:none}
     a:hover{text-decoration:underline}
-    .wrap{max-width:1200px;margin:0 auto;padding:20px;}
-    header{display:flex;gap:14px;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;margin-bottom:16px}
-    .title h1{font-size:20px;margin:0 0 6px 0;font-weight:700}
-    .title .sub{color:var(--muted);font-size:13px;line-height:1.4}
+
+    .wrap{max-width:1240px;margin:0 auto;padding:22px;}
+
+    header{display:flex;gap:14px;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;margin-bottom:14px}
+    .title{display:flex;flex-direction:column;gap:6px}
+    .title h1{font-size:18px;margin:0;font-weight:800;letter-spacing:0.2px}
+    .title .sub{color:var(--muted);font-size:13px;line-height:1.5}
+
+    .brandbar{
+      display:flex;align-items:center;gap:10px;
+      padding:10px 12px;
+      border:1px solid var(--stroke);
+      background:linear-gradient(180deg, rgba(255,255,255,0.07), rgba(255,255,255,0.03));
+      border-radius:999px;
+      box-shadow: var(--shadow);
+    }
+    .dot{width:10px;height:10px;border-radius:999px;background:linear-gradient(180deg, var(--accent), var(--accent2));box-shadow:0 0 0 4px rgba(124,92,255,0.18)}
+
     .controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
-    select,button,input{background:var(--panel);border:1px solid var(--grid);color:var(--text);padding:8px 10px;border-radius:10px;font-size:13px}
+    label.small{color:var(--muted)}
+    select,button,input{
+      background:rgba(255,255,255,0.05);
+      border:1px solid var(--stroke);
+      color:var(--text);
+      padding:9px 10px;
+      border-radius:12px;
+      font-size:13px;
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+    }
     button{cursor:pointer}
+    button#refresh{
+      background: linear-gradient(180deg, rgba(124,92,255,0.9), rgba(124,92,255,0.55));
+      border:1px solid rgba(124,92,255,0.6);
+      box-shadow: 0 10px 28px rgba(124,92,255,0.22);
+    }
+
     .grid{display:grid;grid-template-columns:repeat(12,1fr);gap:12px}
-    .card{background:linear-gradient(180deg,var(--panel),var(--panel2));border:1px solid var(--grid);border-radius:14px;padding:12px}
-    .card h2{font-size:13px;margin:0 0 10px 0;color:var(--muted);font-weight:600}
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.07), rgba(255,255,255,0.03));
+      border:1px solid var(--stroke);
+      border-radius: var(--r16);
+      padding:14px;
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+    }
+    .card h2{font-size:12px;margin:0 0 10px 0;color:var(--muted);font-weight:700;letter-spacing:0.3px;text-transform:uppercase}
+
     .kpi{display:flex;gap:10px;flex-wrap:wrap}
-    .kpi .box{flex:1;min-width:160px;background:rgba(255,255,255,0.03);border:1px solid var(--grid);border-radius:12px;padding:10px}
+    .kpi .box{
+      flex:1;min-width:180px;
+      background:rgba(0,0,0,0.18);
+      border:1px solid rgba(255,255,255,0.10);
+      border-radius: var(--r12);
+      padding:12px;
+    }
     .kpi .label{color:var(--muted);font-size:12px}
-    .kpi .value{font-size:20px;font-weight:800;margin-top:6px}
+    .kpi .value{font-size:22px;font-weight:900;margin-top:6px;letter-spacing:0.2px}
     .kpi .hint{color:var(--muted);font-size:12px;margin-top:6px}
-    .insights{display:flex;flex-direction:column;gap:8px}
-    .insight{border-left:3px solid var(--accent);padding:8px 10px;background:rgba(122,162,255,0.08);border-radius:10px}
-    .insight .i-title{font-weight:700;font-size:13px}
-    .insight .i-body{color:var(--muted);font-size:13px;line-height:1.4;margin-top:4px}
-    .table{width:100%;border-collapse:separate;border-spacing:0 8px}
-    .table th{color:var(--muted);font-size:12px;text-align:left;font-weight:600;padding:0 10px}
-    .row{background:rgba(255,255,255,0.03);border:1px solid var(--grid)}
-    .table td{padding:10px;border-top:1px solid var(--grid);border-bottom:1px solid var(--grid)}
-    .table td:first-child{border-left:1px solid var(--grid);border-top-left-radius:12px;border-bottom-left-radius:12px}
-    .table td:last-child{border-right:1px solid var(--grid);border-top-right-radius:12px;border-bottom-right-radius:12px}
-    .pill{display:inline-block;padding:2px 8px;border-radius:999px;border:1px solid var(--grid);color:var(--muted);font-size:12px}
-    .small{color:var(--muted);font-size:12px;line-height:1.35}
+
+    .insights{display:flex;flex-direction:column;gap:10px}
+    .insight{
+      border:1px solid rgba(124,92,255,0.25);
+      padding:10px 12px;
+      background: linear-gradient(90deg, rgba(124,92,255,0.14), rgba(46,233,166,0.05));
+      border-radius: 14px;
+    }
+    .insight .i-title{font-weight:900;font-size:13px}
+    .insight .i-body{color:var(--muted);font-size:13px;line-height:1.5;margin-top:4px}
+
+    .table{width:100%;border-collapse:separate;border-spacing:0 10px}
+    .table th{color:var(--muted);font-size:12px;text-align:left;font-weight:700;padding:0 10px}
+    .row{background:rgba(0,0,0,0.18);border:1px solid rgba(255,255,255,0.10)}
+    .table td{padding:12px 10px;border-top:1px solid rgba(255,255,255,0.10);border-bottom:1px solid rgba(255,255,255,0.10)}
+    .table td:first-child{border-left:1px solid rgba(255,255,255,0.10);border-top-left-radius:14px;border-bottom-left-radius:14px}
+    .table td:last-child{border-right:1px solid rgba(255,255,255,0.10);border-top-right-radius:14px;border-bottom-right-radius:14px}
+
+    .pill{display:inline-block;padding:4px 10px;border-radius:999px;border:1px solid rgba(255,255,255,0.14);color:var(--text);font-size:12px;background:rgba(255,255,255,0.04)}
+    .small{color:var(--muted);font-size:12px;line-height:1.45}
     .foot{margin-top:14px;color:var(--muted);font-size:12px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
     .mono{font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;}
+
     .col-12{grid-column:span 12}
     .col-8{grid-column:span 8}
     .col-6{grid-column:span 6}
@@ -49,10 +126,15 @@
 <div class="wrap">
   <header>
     <div class="title">
-      <h1>Nielsen Top Ten — 內部洞察 Dashboard（範本）</h1>
+      <div class="brandbar">
+        <span class="dot"></span>
+        <span style="font-weight:900;letter-spacing:.2px">Nielsen Top Ten</span>
+        <span class="pill" style="margin-left:6px">Internal</span>
+      </div>
+      <h1>現代化洞察 Dashboard</h1>
       <div class="sub">
-        資料來源：<a href="https://www.nielsen.com/data-center/top-ten/" target="_blank" rel="noreferrer">nielsen.com/data-center/top-ten</a>（此頁面表格可直接抽取）<br/>
-        用途：內部快速掃描本期榜單、平台結構、以及可能的內容策略訊號。
+        資料來源：<a href="https://www.nielsen.com/data-center/top-ten/" target="_blank" rel="noreferrer">nielsen.com/data-center/top-ten</a>（頁面表格抽取）<br/>
+        目的：一頁看懂本期榜單重點、平台結構與集中度訊號（可擴充 WoW 趨勢）。
       </div>
     </div>
     <div class="controls">
@@ -60,7 +142,7 @@
       <select id="section"></select>
       <label class="small">表格</label>
       <select id="table"></select>
-      <button id="refresh">重新載入</button>
+      <button id="refresh">Refresh</button>
     </div>
   </header>
 
