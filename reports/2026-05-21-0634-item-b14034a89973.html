@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>公開輿情內容風險報告</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #1f2933;
+      --muted: #5f6b7a;
+      --line: #d8dee8;
+      --panel: #f7f9fb;
+      --accent: #9f2f2f;
+      --link: #1f5fbf;
+    }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: #ffffff;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", sans-serif;
+      line-height: 1.6;
+    }
+    main {
+      width: min(1040px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 32px 0 48px;
+    }
+    h1, h2, h3 {
+      line-height: 1.25;
+      margin: 0;
+    }
+    h1 {
+      font-size: 30px;
+      margin-bottom: 8px;
+    }
+    h2 {
+      font-size: 20px;
+      margin-top: 28px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--line);
+    }
+    h3 {
+      font-size: 17px;
+      margin-bottom: 6px;
+    }
+    .meta, .muted {
+      color: var(--muted);
+      font-size: 14px;
+    }
+    a {
+      color: var(--link);
+      overflow-wrap: anywhere;
+    }
+    .summary {
+      padding-left: 20px;
+    }
+    .overview {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 12px;
+      margin-top: 12px;
+    }
+    .metric {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 12px;
+    }
+    .metric strong {
+      display: block;
+      font-size: 24px;
+    }
+    .item-card {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 16px;
+      margin-top: 14px;
+    }
+    .risk {
+      color: var(--accent);
+      font-weight: 700;
+    }
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 8px;
+    }
+    .chip {
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 2px 8px;
+      font-size: 13px;
+      background: #fff;
+    }
+    pre {
+      white-space: pre-wrap;
+      overflow-wrap: anywhere;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 12px;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>公開輿情內容風險報告</h1>
+      <div class="meta">生成時間：2026-05-21T06:34:01.629267+00:00</div>
+      
+      
+      <div class="meta">公開網址：<a href="https://minyil.github.io/web_demo/reports/2026-05-21-0634-item-b14034a89973.html">https://minyil.github.io/web_demo/reports/2026-05-21-0634-item-b14034a89973.html</a></div>
+      
+    </header>
+
+    <section>
+      <h2>摘要</h2>
+      <ol class="summary">
+        
+        <li>本次未納入新的公開輿情項目，暫無需要升級處理的內容風險。</li>
+        
+        <li>目前沒有符合快照差異、篩選條件與最低風險門檻的新增項目。</li>
+        
+        <li>未發現需要立即升級給製作、法務或品牌窗口的公開訊號。</li>
+        
+        <li>建議維持既有監測頻率，等待下一輪資料收集結果再比較變化。</li>
+        
+        <li>若外部情勢已變動，請重新執行監測以取得最新公開資料。</li>
+        
+      </ol>
+    </section>
+
+    <section>
+      <h2>內容風險概覽</h2>
+      <div class="overview">
+        <div class="metric"><span class="muted">納入項目</span><strong>0</strong></div>
+        <div class="metric"><span class="muted">過濾事件</span><strong>16</strong></div>
+        <div class="metric"><span class="muted">最高分</span><strong>0</strong></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>項目卡片</h2>
+      
+        
+        <p>本次未納入新的公開輿情項目。</p>
+        
+      
+    </section>
+
+    <section>
+      <h2>Actor Decisions</h2>
+      <pre>[
+  {
+    "actor_id": "google_news_rss",
+    "actor_title": "Google News RSS",
+    "dataset_id": "google_news_rss",
+    "platform": "google_news",
+    "query": "\u5b87\u5b99\u5566\u5566\u968a",
+    "run_id": null,
+    "selection_reason": "direct_google_news_rss",
+    "status": "success"
+  },
+  {
+    "actor_id": "nFJndFXA5zjCTuudP",
+    "actor_title": "Google Search Results Scraper",
+    "dataset_id": "GX0RwMA5eNEW2AbHQ",
+    "platform": "google_search",
+    "query": "\u5b87\u5b99\u5566\u5566\u968a",
+    "run_id": "DE2d9BBNk0avMWPcC",
+    "selection_reason": "apify_cli_search: matched first actor for platform google_search",
+    "status": "success"
+  },
+  {
+    "actor_id": "KoJrdxJCTtpon81KY",
+    "actor_title": "Facebook Posts Scraper",
+    "error": "Run: Calling Actor apify/facebook-posts-scraper (KoJrdxJCTtpon81KY)\n\nError: Input is not valid: Field input.startUrls is required",
+    "platform": "facebook",
+    "query": "\u5b87\u5b99\u5566\u5566\u968a",
+    "selection_reason": "apify_cli_search: matched first actor for platform facebook",
+    "status": "failed"
+  },
+  {
+    "actor_id": "FP43CZrdHtiSNn4SY",
+    "actor_title": "Threads Search Scraper",
+    "dataset_id": "b63bpoG9rY5Y5dCsA",
+    "platform": "threads",
+    "query": "\u5b87\u5b99\u5566\u5566\u968a",
+    "run_id": "5KpwaGeA2t0iwpJhI",
+    "selection_reason": "apify_cli_search: matched first actor for platform threads",
+    "status": "success"
+  }
+]</pre>
+    </section>
+
+    <section>
+      <h2>Publish Metadata</h2>
+      <pre>{
+  "branch": "main",
+  "commit_sha": null,
+  "public_url": "https://minyil.github.io/web_demo/reports/2026-05-21-0634-item-b14034a89973.html",
+  "published_at": "2026-05-21T06:34:01.629267+00:00",
+  "published_files": [
+    "reports/2026-05-21-0634-item-b14034a89973.html"
+  ],
+  "repo": "minyil/web_demo",
+  "status": "planned"
+}</pre>
+    </section>
+  </main>
+</body>
+</html>
