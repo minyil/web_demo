@@ -18,11 +18,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout source
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -euo pipefail
-          git clone --depth 1 --branch main "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" source
+          git clone --depth 1 --branch main "https://github.com/${GITHUB_REPOSITORY}.git" source
 
       - name: Prepare static site
         run: |
@@ -34,9 +32,10 @@ jobs:
 
       - name: Publish gh-pages branch
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PAGES_DEPLOY_TOKEN: ${{ secrets.PAGES_DEPLOY_TOKEN }}
         run: |
           set -euo pipefail
+          : "${PAGES_DEPLOY_TOKEN:?PAGES_DEPLOY_TOKEN secret is required}"
           cd _site
           git init
           git config user.name "github-actions[bot]"
@@ -44,5 +43,5 @@ jobs:
           git checkout -b gh-pages
           git add .
           git commit -m "Deploy ${GITHUB_SHA}"
-          git remote add origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git remote add origin "https://x-access-token:${PAGES_DEPLOY_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
           git push --force origin gh-pages
