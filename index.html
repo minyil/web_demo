@@ -1,0 +1,440 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nielsen Top Ten — 內部洞察 Dashboard（範本）</title>
+  <style>
+    :root{
+      --bg0:#070a14;
+      --bg1:#0b1020;
+      --panel: rgba(255,255,255,0.06);
+      --panel2: rgba(255,255,255,0.04);
+      --stroke: rgba(255,255,255,0.10);
+      --text:#eef2ff;
+      --muted:#aab5d6;
+      --accent:#7c5cff;
+      --accent2:#2ee9a6;
+      --grid: rgba(124,92,255,0.20);
+      --shadow: 0 14px 40px rgba(0,0,0,0.45);
+      --r12: 14px;
+      --r16: 18px;
+    }
+    html,body{height:100%;}
+    body{
+      margin:0;
+      color:var(--text);
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Noto Sans TC", Arial, "PingFang TC", "Microsoft JhengHei", sans-serif;
+      background:
+        radial-gradient(1200px 600px at 10% -10%, rgba(124,92,255,0.45), transparent 55%),
+        radial-gradient(1000px 600px at 100% 0%, rgba(46,233,166,0.22), transparent 55%),
+        linear-gradient(180deg, var(--bg0), var(--bg1));
+    }
+    a{color:inherit;text-decoration:none}
+    a:hover{text-decoration:underline}
+
+    .wrap{max-width:1240px;margin:0 auto;padding:22px;}
+
+    header{display:flex;gap:14px;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;margin-bottom:14px}
+    .title{display:flex;flex-direction:column;gap:6px}
+    .title h1{font-size:18px;margin:0;font-weight:800;letter-spacing:0.2px}
+    .title .sub{color:var(--muted);font-size:13px;line-height:1.5}
+
+    .brandbar{
+      display:flex;align-items:center;gap:10px;
+      padding:10px 12px;
+      border:1px solid var(--stroke);
+      background:linear-gradient(180deg, rgba(255,255,255,0.07), rgba(255,255,255,0.03));
+      border-radius:999px;
+      box-shadow: var(--shadow);
+    }
+    .dot{width:10px;height:10px;border-radius:999px;background:linear-gradient(180deg, var(--accent), var(--accent2));box-shadow:0 0 0 4px rgba(124,92,255,0.18)}
+
+    .controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+    label.small{color:var(--muted)}
+    select,button,input{
+      background:rgba(255,255,255,0.05);
+      border:1px solid var(--stroke);
+      color:var(--text);
+      padding:9px 10px;
+      border-radius:12px;
+      font-size:13px;
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+    }
+    button{cursor:pointer}
+    button#refresh{
+      background: linear-gradient(180deg, rgba(124,92,255,0.9), rgba(124,92,255,0.55));
+      border:1px solid rgba(124,92,255,0.6);
+      box-shadow: 0 10px 28px rgba(124,92,255,0.22);
+    }
+
+    .grid{display:grid;grid-template-columns:repeat(12,1fr);gap:12px}
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.07), rgba(255,255,255,0.03));
+      border:1px solid var(--stroke);
+      border-radius: var(--r16);
+      padding:14px;
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+    }
+    .card h2{font-size:12px;margin:0 0 10px 0;color:var(--muted);font-weight:700;letter-spacing:0.3px;text-transform:uppercase}
+
+    .kpi{display:flex;gap:10px;flex-wrap:wrap}
+    .kpi .box{
+      flex:1;min-width:180px;
+      background:rgba(0,0,0,0.18);
+      border:1px solid rgba(255,255,255,0.10);
+      border-radius: var(--r12);
+      padding:12px;
+    }
+    .kpi .label{color:var(--muted);font-size:12px}
+    .kpi .value{font-size:22px;font-weight:900;margin-top:6px;letter-spacing:0.2px}
+    .kpi .hint{color:var(--muted);font-size:12px;margin-top:6px}
+
+    .insights{display:flex;flex-direction:column;gap:10px}
+    .insight{
+      border:1px solid rgba(124,92,255,0.25);
+      padding:10px 12px;
+      background: linear-gradient(90deg, rgba(124,92,255,0.14), rgba(46,233,166,0.05));
+      border-radius: 14px;
+    }
+    .insight .i-title{font-weight:900;font-size:13px}
+    .insight .i-body{color:var(--muted);font-size:13px;line-height:1.5;margin-top:4px}
+
+    .table{width:100%;border-collapse:separate;border-spacing:0 10px}
+    .table th{color:var(--muted);font-size:12px;text-align:left;font-weight:700;padding:0 10px}
+    .row{background:rgba(0,0,0,0.18);border:1px solid rgba(255,255,255,0.10)}
+    .table td{padding:12px 10px;border-top:1px solid rgba(255,255,255,0.10);border-bottom:1px solid rgba(255,255,255,0.10)}
+    .table td:first-child{border-left:1px solid rgba(255,255,255,0.10);border-top-left-radius:14px;border-bottom-left-radius:14px}
+    .table td:last-child{border-right:1px solid rgba(255,255,255,0.10);border-top-right-radius:14px;border-bottom-right-radius:14px}
+
+    .pill{display:inline-block;padding:4px 10px;border-radius:999px;border:1px solid rgba(255,255,255,0.14);color:var(--text);font-size:12px;background:rgba(255,255,255,0.04)}
+    .small{color:var(--muted);font-size:12px;line-height:1.45}
+    .foot{margin-top:14px;color:var(--muted);font-size:12px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+    .mono{font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;}
+
+    .col-12{grid-column:span 12}
+    .col-8{grid-column:span 8}
+    .col-6{grid-column:span 6}
+    .col-4{grid-column:span 4}
+    @media (max-width: 980px){.col-8,.col-6,.col-4{grid-column:span 12}}
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="title">
+      <div class="brandbar">
+        <span class="dot"></span>
+        <span style="font-weight:900;letter-spacing:.2px">Nielsen Top Ten</span>
+        <span class="pill" style="margin-left:6px">Internal</span>
+      </div>
+      <h1>現代化洞察 Dashboard</h1>
+      <div class="sub">
+        資料來源：<a href="https://www.nielsen.com/data-center/top-ten/" target="_blank" rel="noreferrer">nielsen.com/data-center/top-ten</a>（頁面表格抽取）<br/>
+        目的：一頁看懂本期榜單重點、平台結構與集中度訊號（可擴充 WoW 趨勢）。
+      </div>
+    </div>
+    <div class="controls">
+      <label class="small">區塊</label>
+      <select id="section"></select>
+      <label class="small">表格</label>
+      <select id="table"></select>
+      <button id="refresh">Refresh</button>
+    </div>
+  </header>
+
+  <div class="grid">
+    <div class="card col-12">
+      <h2>本期概況</h2>
+      <div class="kpi" id="kpis"></div>
+    </div>
+
+    <div class="card col-6">
+      <h2>洞察（自動產生）</h2>
+      <div class="insights" id="insights"></div>
+    </div>
+
+    <div class="card col-6">
+      <h2>平台分布（Top10 內）</h2>
+      <div id="platformDist" class="small"></div>
+    </div>
+
+    <div class="card col-12">
+      <h2>Top 10 明細</h2>
+      <div class="small" id="period"></div>
+      <table class="table" id="topTable"></table>
+    </div>
+
+    <div class="card col-12">
+      <h2>資料稽核</h2>
+      <div class="small" id="audit"></div>
+    </div>
+  </div>
+
+  <div class="foot">
+    <div>建議做法：用排程抓取 → 存 JSON → 前端讀 JSON（避免每次都 scrape）</div>
+    <div class="mono" id="build"></div>
+  </div>
+</div>
+
+<script>
+// 這份 dashboard 是「可直接套用」的前端範本。
+// 實際部署時：把 fetchTopTen() 替換成你自己的後端/靜態 JSON 來源即可。
+
+const SOURCE_URL = 'https://www.nielsen.com/data-center/top-ten/';
+
+// --- Minimal parser for the extracted page text (table markdown-ish) ---
+function parseTablesFromText(text){
+  // Split by headings and detect markdown tables.
+  const lines = text.split(/\r?\n/);
+  const tables = [];
+  let currentSection = null;
+  let currentPeriod = null;
+
+  function isTableHeader(line){
+    return line.trim().startsWith('|') && line.includes('|') && line.includes('---');
+  }
+
+  for(let i=0;i<lines.length;i++){
+    const l = lines[i].trim();
+    if(l.startsWith('## ')) currentSection = l.replace(/^##\s+/, '');
+    // Period lines examples: "Feb. 09 – Feb. 15, 2026" or "Week of Mar. 02 – Mar. 08, 2026" etc.
+    if(/\b\d{4}\b/.test(l) && (l.includes('–') || l.includes('-')) && (l.includes('Week') || l.includes('Feb.') || l.includes('Mar.') || l.includes('Jan.') || l.includes('Apr.') || l.includes('May') || l.includes('Jun') || l.includes('Jul') || l.includes('Aug') || l.includes('Sep') || l.includes('Oct') || l.includes('Nov') || l.includes('Dec'))){
+      currentPeriod = l;
+    }
+
+    // Detect a markdown table block
+    if(l.startsWith('|') && i+1 < lines.length && lines[i+1].trim().startsWith('| ---')){
+      const header = l;
+      const cols = header.split('|').map(s=>s.trim()).filter(Boolean);
+      // Consume separator
+      i += 1;
+      const rows = [];
+      while(i+1 < lines.length){
+        const r = lines[i+1].trim();
+        if(!r.startsWith('|')) break;
+        const cells = r.split('|').map(s=>s.trim()).filter(Boolean);
+        if(cells.length === cols.length){
+          const obj = {};
+          cols.forEach((c, idx)=> obj[c] = cells[idx]);
+          rows.push(obj);
+        }
+        i += 1;
+      }
+      tables.push({section: currentSection || 'Unknown', period: currentPeriod, columns: cols, rows});
+    }
+  }
+  return tables;
+}
+
+function toNumber(s){
+  if(s == null) return null;
+  const t = String(s).replace(/[,\s]/g,'').replace(/\$/g,'');
+  const m = t.match(/(-?\d+(?:\.\d+)?)/);
+  return m ? Number(m[1]) : null;
+}
+
+function normalizeRow(row){
+  // Standardize keys for insights.
+  const keys = Object.keys(row);
+  const titleKey = keys.find(k=>/program name|program|title/i.test(k)) || keys[0];
+  const rankKey = keys.find(k=>/rank/i.test(k));
+  const providerKey = keys.find(k=>/provider|network|originator/i.test(k));
+  const minutesKey = keys.find(k=>/minutes/i.test(k));
+  const viewersKey = keys.find(k=>/viewers/i.test(k));
+
+  const title = row[titleKey];
+  const rank = rankKey ? toNumber(row[rankKey]) : null;
+  const provider = providerKey ? row[providerKey] : null;
+  const minutesM = minutesKey ? toNumber(row[minutesKey]) : null; // already in Millions per table header
+  const viewersK = viewersKey ? toNumber(row[viewersKey]) : null; // (000)
+  return {title, rank, provider, minutesM, viewersK, raw: row};
+}
+
+function computeInsights(table){
+  const norm = table.rows.map(normalizeRow).filter(r=>r.rank != null).sort((a,b)=>a.rank-b.rank);
+  const providers = new Map();
+  for(const r of norm){
+    if(!r.provider) continue;
+    // provider field may contain multiple: "Netflix | Peacock"
+    const parts = String(r.provider).split('|').map(x=>x.trim()).filter(Boolean);
+    for(const p of parts){
+      providers.set(p, (providers.get(p)||0) + 1);
+    }
+  }
+  const topProvider = [...providers.entries()].sort((a,b)=>b[1]-a[1])[0];
+
+  let metric = null;
+  let metricLabel = null;
+  const hasMinutes = norm.some(r=>r.minutesM!=null);
+  const hasViewers = norm.some(r=>r.viewersK!=null);
+  if(hasMinutes){
+    metric = 'minutesM';
+    metricLabel = 'Minutes (Millions)';
+  } else if(hasViewers){
+    metric = 'viewersK';
+    metricLabel = 'Viewers (000)';
+  }
+
+  let leader = null;
+  if(metric){
+    leader = norm.slice().filter(r=>r[metric]!=null).sort((a,b)=>b[metric]-a[metric])[0];
+  } else {
+    leader = norm[0] || null;
+  }
+
+  // Concentration: top1 share of top10 for metric
+  let top1Share = null;
+  if(metric){
+    const vals = norm.map(r=>r[metric]).filter(v=>v!=null);
+    const sum = vals.reduce((a,b)=>a+b,0);
+    if(sum>0 && leader && leader[metric]!=null) top1Share = leader[metric]/sum;
+  }
+
+  const insights = [];
+  if(leader){
+    const v = metric ? leader[metric] : null;
+    insights.push({
+      title: '榜首焦點',
+      body: metric ? `第 1 名為「${leader.title}」，${metricLabel} = ${v.toLocaleString()}。${top1Share!=null?`榜首佔 Top10 總量約 ${(top1Share*100).toFixed(1)}%。`:''}`
+                    : `第 1 名為「${leader.title}」。`
+    });
+  }
+  if(topProvider){
+    insights.push({
+      title: '平台結構訊號',
+      body: `Top10 中出現次數最多的平台/來源為 ${topProvider[0]}（${topProvider[1]} / 10）。可作為內容採買/上架窗口的優先觀察對象。`
+    });
+  }
+  if(metric && leader && top1Share!=null){
+    const conc = top1Share;
+    insights.push({
+      title: '集中度（Concentration）',
+      body: conc >= 0.25 ? '榜首占比偏高，表示本期注意力集中在少數爆款；行銷/推薦位可能更適合「追爆款」。'
+                        : 'Top10 分布較平均，表示觀眾注意力分散；可考慮多點佈局與分眾推薦。'
+    });
+  }
+  insights.push({
+    title: '下一步建議（內部）',
+    body: '把每週榜單落盤（JSON/Parquet），做 WoW（週對週）排名變動、新進榜率、連續在榜週數；洞察才會從「一次性榜單」變成「趨勢監測」。'
+  });
+  return {norm, providers, insights, metric, metricLabel};
+}
+
+function render(table, allTables){
+  const out = computeInsights(table);
+  const norm = out.norm;
+
+  // KPI
+  const kpis = document.getElementById('kpis');
+  kpis.innerHTML = '';
+  const total = norm.length;
+  const uniqueTitles = new Set(norm.map(r=>r.title)).size;
+  const providerCount = [...out.providers.keys()].length;
+  const topProvider = [...out.providers.entries()].sort((a,b)=>b[1]-a[1])[0];
+
+  function kpi(label, value, hint){
+    const div = document.createElement('div');
+    div.className = 'box';
+    div.innerHTML = `<div class="label">${label}</div><div class="value">${value}</div><div class="hint">${hint||''}</div>`;
+    return div;
+  }
+  kpis.appendChild(kpi('榜單列數', total, '通常為 10（若來源含空列會被忽略）'));
+  kpis.appendChild(kpi('作品數', uniqueTitles, '去重後作品數'));
+  kpis.appendChild(kpi('平台/來源數', providerCount, topProvider?`最多：${topProvider[0]}（${topProvider[1]}/10）`:''));
+
+  // Insights
+  const ins = document.getElementById('insights');
+  ins.innerHTML = '';
+  out.insights.forEach(x=>{
+    const d = document.createElement('div');
+    d.className='insight';
+    d.innerHTML = `<div class="i-title">${x.title}</div><div class="i-body">${x.body}</div>`;
+    ins.appendChild(d);
+  });
+
+  // Platform dist
+  const dist = document.getElementById('platformDist');
+  const sortedProv = [...out.providers.entries()].sort((a,b)=>b[1]-a[1]);
+  dist.innerHTML = sortedProv.length
+    ? sortedProv.map(([p,c])=>`<span class="pill">${p}: ${c}</span>`).join(' ')
+    : '<span class="small">（此表格沒有 provider/network/originator 欄位，或解析不到。）</span>';
+
+  // Period
+  document.getElementById('period').textContent = table.period ? `週期：${table.period}` : '週期：未解析到（可從原文抓取）。';
+
+  // Table
+  const t = document.getElementById('topTable');
+  const cols = table.columns;
+  let html = '<thead><tr>' + cols.map(c=>`<th>${c}</th>`).join('') + '</tr></thead><tbody>';
+  for(const r of table.rows){
+    html += '<tr class="row">' + cols.map(c=>`<td>${r[c] ?? ''}</td>`).join('') + '</tr>';
+  }
+  html += '</tbody>';
+  t.innerHTML = html;
+
+  // Audit
+  const audit = document.getElementById('audit');
+  audit.innerHTML = `來源 URL：<a href="${SOURCE_URL}" target="_blank" rel="noreferrer">${SOURCE_URL}</a><br/>` +
+    `載入時間：<span class="mono">${new Date().toISOString()}</span><br/>` +
+    `表格識別：<span class="mono">section=${table.section}</span>`;
+
+  // build
+  document.getElementById('build').textContent = 'build: internal-prototype v0.1';
+}
+
+async function fetchTopTen(){
+  // 內部環境：建議改成「server-side 抓取 → 存成 JSON」再給前端用。
+  // 這裡為了 demo，直接用 public fetch（若遇到 CORS，會失敗）。
+  const res = await fetch(SOURCE_URL);
+  const html = await res.text();
+  // We can't easily parse dynamic HTML here; instead, expect a pre-extracted text endpoint.
+  // For this prototype, we embed a fallback sample by requiring the user to paste extracted text.
+  return {mode:'raw-html', html};
+}
+
+// For this environment we embed the extracted TEXT (from jina/web_fetch) as seed.
+const EMBEDDED_EXTRACTED_TEXT = `# TOP 10\n\n## Streaming TV\n\n## Top 10\n\n### Original, acquired, and movie viewing\n\nDiscover the top streaming programs in the U.S., including the most-watched streaming originals, movies and acquired titles. Ranked by total minutes viewed by persons 2+.\n\nFeb. 09 – Feb. 15, 2026\n\n| Program Name | Rank | Minutes (Millions) | # of Episodes | Streaming Provider(s) |\n| --- | --- | --- | --- | --- |\n| The Lincoln Lawyer | 1 | 2,543 | 40 | Netflix |\n| The Pitt | 2 | 1,042 | 21 | HBO Max |\n| Bridgerton | 3 | 873 873 | 28 | Netflix |\n| Love Is Blind | 4 | 856 856 | 129 | Netflix |\n| Joe's College Road Trip | 5 | 849 849 | 1 | Netflix |\n| Bluey | 6 | 823 823 | 154 | Disney+ |\n| Stranger Things | 7 | 717 717 | 42 | Netflix |\n| The 'Burbs | 8 | 712 712 | 8 | Peacock |\n| The Big Bang Theory | 9 | 709 709 | 281 | HBO Max |\n| How to Train Your Dragon (2025) | 10 | 686 686 | 1 | Netflix | Peacock |\n\n## Linear TV\n\n## Top 10\n\nWeek of Mar. 02 – Mar. 08, 2026\n\n| PROGRAM | RANK | VIEWERS P2+ (000) | HHLD RATING | ORIGINATOR |\n| --- | --- | --- | --- | --- |\n| ABC WORLD NEWS TONIGHT (MON) | 1 | 9,398 | 5.6 | ABC |\n| ABC WORLD NEWS TONIGHT (TUE) | 2 | 9,283 | 5.5 | ABC |\n| ABC WORLD NEWS TONIGHT (WED) | 3 | 8,807 | 5.3 | ABC |\n| ABC WORLD NEWS TONIGHT (THU) | 4 | 8,767 | 5.3 | ABC |\n| MARSHALS | 5 | 8,397 | 4.6 | CBS |\n| TRACKER | 6 | 8,339 | 4.7 | CBS |\n| ABC WORLD NEWS TONIGHT (FRI) | 7 | 8,252 | 5.0 | ABC |\n| NBC NIGHTLY NEWS (MON) | 8 | 7,360 | 4.3 | NBC |\n| 60 MINUTES | 9 | 7,323 | 4.2 | CBS |\n| NBC NIGHTLY NEWS (TUE) | 10 | 6,997 | 4.2 | NBC |\n`;
+
+function initUI(tables){
+  // populate selectors
+  const secSel = document.getElementById('section');
+  const tblSel = document.getElementById('table');
+
+  const sections = [...new Set(tables.map(t=>t.section))];
+  secSel.innerHTML = sections.map(s=>`<option value="${s}">${s}</option>`).join('');
+
+  function refreshTables(){
+    const s = secSel.value;
+    const candidates = tables.filter(t=>t.section===s);
+    tblSel.innerHTML = candidates.map((t,idx)=>{
+      const label = (t.period?`${t.period} `:'') + `(${t.columns.join(', ')})`;
+      return `<option value="${idx}">${label}</option>`;
+    }).join('');
+    const table = candidates[Number(tblSel.value)||0] || candidates[0] || tables[0];
+    render(table, tables);
+  }
+
+  secSel.addEventListener('change', refreshTables);
+  tblSel.addEventListener('change', refreshTables);
+  document.getElementById('refresh').addEventListener('click', refreshTables);
+
+  // default
+  secSel.value = sections[0];
+  refreshTables();
+}
+
+(function main(){
+  const tables = parseTablesFromText(EMBEDDED_EXTRACTED_TEXT);
+  if(!tables.length){
+    document.body.innerHTML = '<pre style="color:white">No tables parsed. You may need to provide extracted text.</pre>';
+    return;
+  }
+  initUI(tables);
+})();
+</script>
+</body>
+</html>
