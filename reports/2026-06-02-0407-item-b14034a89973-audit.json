@@ -1,0 +1,2349 @@
+{
+  "actor_decisions": [
+    {
+      "actor_id": "google_news_rss",
+      "actor_title": "Google News RSS",
+      "dataset_id": "google_news_rss",
+      "platform": "google_news",
+      "query": "宇宙啦啦隊",
+      "run_id": null,
+      "selection_reason": "direct_google_news_rss",
+      "status": "success"
+    },
+    {
+      "actor_id": "powerai/facebook-post-search-scraper",
+      "actor_title": "powerai/facebook-post-search-scraper",
+      "dataset_id": "thK1Hq0bv3a6sZ7k4",
+      "platform": "facebook",
+      "query": "宇宙啦啦隊",
+      "run_id": "Q0G8CiLX4YKFhrvwV",
+      "selection_reason": "override",
+      "status": "success"
+    },
+    {
+      "actor_id": "futurizerush/threads-keyword-search",
+      "actor_title": "futurizerush/threads-keyword-search",
+      "dataset_id": "zaP6SEf0mByfCgzuc",
+      "platform": "threads",
+      "query": "宇宙啦啦隊",
+      "run_id": "0NVfki5L8jAf9eMnw",
+      "selection_reason": "override",
+      "status": "success"
+    }
+  ],
+  "filtered": [
+    {
+      "item": {
+        "canonical_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9pSEdiRmRRMkZRRlQwRllUaS1TaUsxMG9hUnp2YTRFLWtKV3BVcnh6M1ZrRzhoY2lYdmhBUGpJRm5JQW9BQTNzMGpGeHBrUkFicGhuSVhuT3dIZ3hMYWV4Sy1JaUVRSVRF0gFoQVVfeXFMT2lIR2JGZFEyRlFGVDBGWVRpLVNpSzEwb2FSenZhNEUta0pXcFVyeHozVmtHOGhjaVh2aEFQaklGbklBb0FBM3MwakZ4cGtSQWJwaG5JWG5Pd0hneExhZXhLLUlpRVFJVEU?oc=5",
+        "external_id": null,
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": null,
+          "likes": null,
+          "reposts": null,
+          "shares": null,
+          "views": null
+        },
+        "platform": "google_news",
+        "published_at": "2026-06-01T22:15:00+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "夢幻聯動吸睛！SJ銀赫攜牛奶唱跳〈OPPA OPPA〉　網暴動：值回票價 鏡週刊Mirror Media",
+        "source_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9pSEdiRmRRMkZRRlQwRllUaS1TaUsxMG9hUnp2YTRFLWtKV3BVcnh6M1ZrRzhoY2lYdmhBUGpJRm5JQW9BQTNzMGpGeHBrUkFicGhuSVhuT3dIZ3hMYWV4Sy1JaUVRSVRF0gFoQVVfeXFMT2lIR2JGZFEyRlFGVDBGWVRpLVNpSzEwb2FSenZhNEUta0pXcFVyeHozVmtHOGhjaVh2aEFQaklGbklBb0FBM3MwakZ4cGtSQWJwaG5JWG5Pd0hneExhZXhLLUlpRVFJVEU?oc=5",
+        "title": "夢幻聯動吸睛！SJ銀赫攜牛奶唱跳〈OPPA OPPA〉　網暴動：值回票價 - 鏡週刊Mirror Media"
+      },
+      "reason": "keyword_not_in_title_or_snippet:宇宙啦啦隊"
+    },
+    {
+      "item": {
+        "canonical_url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxQY1hhOS1SeENzZ2dLa2wyUVZmRlZaenFSNGpMLWxBaWdkWTZNUU9WcTh1Tjk1NVZPVGI3ek1NRWV4OThMMVl6TjVBWDJWYjBjNzgyYVNXbmZBclBHb1U3OU5RUG9qR1daNzZ1THJJVG1wSXJDWkhUOGp2Mk81VC10alhCQ0NzcE5pYlNpY1c0ejItMUxQU1V2X3JFSkRSVU1tYTUxWlhaZWJGV3FNNzJQWWVobE1nNDU1RnVxcDhscUhHcmJqMWEzQ3JBU0hDRFFJTUJ0aEptbzUxRUNqNGRaSE1iZmtWS3lUU0M1RVByUW5lNzItMnNGUDNTa0JzTENBUWtqVF9fakpsWkpsc1p5dGgxSzRmWVlZOVlpNGw3ZElka0hqQlE?oc=5",
+        "external_id": null,
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": null,
+          "likes": null,
+          "reposts": null,
+          "shares": null,
+          "views": null
+        },
+        "platform": "google_news",
+        "published_at": "2026-06-01T22:15:00+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "夢幻聯動吸睛！SJ銀赫攜牛奶唱跳〈OPPA OPPA〉 網暴動：值回票價 Yahoo新聞",
+        "source_url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxQY1hhOS1SeENzZ2dLa2wyUVZmRlZaenFSNGpMLWxBaWdkWTZNUU9WcTh1Tjk1NVZPVGI3ek1NRWV4OThMMVl6TjVBWDJWYjBjNzgyYVNXbmZBclBHb1U3OU5RUG9qR1daNzZ1THJJVG1wSXJDWkhUOGp2Mk81VC10alhCQ0NzcE5pYlNpY1c0ejItMUxQU1V2X3JFSkRSVU1tYTUxWlhaZWJGV3FNNzJQWWVobE1nNDU1RnVxcDhscUhHcmJqMWEzQ3JBU0hDRFFJTUJ0aEptbzUxRUNqNGRaSE1iZmtWS3lUU0M1RVByUW5lNzItMnNGUDNTa0JzTENBUWtqVF9fakpsWkpsc1p5dGgxSzRmWVlZOVlpNGw3ZElka0hqQlE?oc=5",
+        "title": "夢幻聯動吸睛！SJ銀赫攜牛奶唱跳〈OPPA OPPA〉 網暴動：值回票價 - Yahoo新聞"
+      },
+      "reason": "keyword_not_in_title_or_snippet:宇宙啦啦隊"
+    },
+    {
+      "item": {
+        "canonical_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBJYjJjSUd3emhQTDU3eGRYb25xU0szS3lab29TbFo3RVd0eFEwSWtBVWxjQU9OY21xTEVYQkVmNnJORGtZQUduZ1Z1TkJGeXZrUFBleXBB?oc=5",
+        "external_id": null,
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": null,
+          "likes": null,
+          "reposts": null,
+          "shares": null,
+          "views": null
+        },
+        "platform": "google_news",
+        "published_at": "2026-06-01T04:00:18+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "選秀節目「浪live電豹女」海莉奪冠！桃園台啤永豐雲豹啦啦隊成最大贏家 | TSNA LINE TODAY",
+        "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBJYjJjSUd3emhQTDU3eGRYb25xU0szS3lab29TbFo3RVd0eFEwSWtBVWxjQU9OY21xTEVYQkVmNnJORGtZQUduZ1Z1TkJGeXZrUFBleXBB?oc=5",
+        "title": "選秀節目「浪live電豹女」海莉奪冠！桃園台啤永豐雲豹啦啦隊成最大贏家 | TSNA - LINE TODAY"
+      },
+      "reason": "keyword_not_in_title_or_snippet:宇宙啦啦隊"
+    },
+    {
+      "item": {
+        "canonical_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9kVE15V0tkY1lra3J3UEZZX0xFS0x6UUpJQTZ1MFFhWF9RUjYxdHYybGZIdFNNU3lfWkNvbUpGdjBudTBqME0tYlY2VjFkdk9sRlp0eU12M3Rvdw?oc=5",
+        "external_id": null,
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": null,
+          "likes": null,
+          "reposts": null,
+          "shares": null,
+          "views": null
+        },
+        "platform": "google_news",
+        "published_at": "2026-06-01T08:41:00+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "牛奶驚喜合體「夢幻大咖」！選秀爆最大彩蛋 Apink鄭恩地突現身 TVBS新聞網",
+        "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9kVE15V0tkY1lra3J3UEZZX0xFS0x6UUpJQTZ1MFFhWF9RUjYxdHYybGZIdFNNU3lfWkNvbUpGdjBudTBqME0tYlY2VjFkdk9sRlp0eU12M3Rvdw?oc=5",
+        "title": "牛奶驚喜合體「夢幻大咖」！選秀爆最大彩蛋 Apink鄭恩地突現身 - TVBS新聞網"
+      },
+      "reason": "keyword_not_in_title_or_snippet:宇宙啦啦隊"
+    },
+    {
+      "item": {
+        "canonical_url": "https://www.facebook.com/groups/1638566887567479/posts/1707413144016186/",
+        "external_id": "1707413144016186",
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": 6,
+          "likes": 2,
+          "reposts": null,
+          "shares": 0,
+          "views": null
+        },
+        "platform": "facebook",
+        "published_at": "2026-06-02T01:10:53+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "換或直收\n艾莉兒\n簽名換簽名\n可高雄面交或賣貨便",
+        "source_url": "https://www.facebook.com/groups/1638566887567479/posts/1707413144016186/",
+        "title": "換或直收\n艾莉兒\n簽名換簽名\n可高雄面交或賣貨便"
+      },
+      "reason": "keyword_not_in_title_or_snippet:宇宙啦啦隊"
+    },
+    {
+      "item": {
+        "canonical_url": "https://www.facebook.com/groups/1638566887567479/posts/1707502794007221/",
+        "external_id": "1707502794007221",
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": 0,
+          "likes": 0,
+          "reposts": null,
+          "shares": 0,
+          "views": null
+        },
+        "platform": "facebook",
+        "published_at": "2026-06-02T03:39:35+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "#收\n李多寅親簽小卡 制服款\n\n李多寅影像T-shirt 星耀灰/月光白",
+        "source_url": "https://www.facebook.com/groups/1638566887567479/posts/1707502794007221/",
+        "title": "#收\n李多寅親簽小卡 制服款\n\n李多寅影像T-shirt 星耀灰/月光白"
+      },
+      "reason": "keyword_not_in_title_or_snippet:宇宙啦啦隊"
+    },
+    {
+      "item": {
+        "canonical_url": "https://www.facebook.com/groups/1638566887567479/posts/1707388084018692/",
+        "external_id": "1707388084018692",
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": 0,
+          "likes": 0,
+          "reposts": null,
+          "shares": 0,
+          "views": null
+        },
+        "platform": "facebook",
+        "published_at": "2026-06-02T00:27:49+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "售宇宙應援禮包\nLyxi毛巾\n\n黛比簽名板\n\nLyxi小卡\n\nhttps://myship.7-11.com.tw/general/detail/GM2406188153486#",
+        "source_url": "https://www.facebook.com/groups/1638566887567479/posts/1707388084018692/",
+        "title": "售宇宙應援禮包\nLyxi毛巾\n\n黛比簽名板\n\nLyxi小卡\n\nhttps://myship.7-11.com.tw/general/detail/GM2406188153486#"
+      },
+      "reason": "keyword_not_in_title_or_snippet:宇宙啦啦隊"
+    },
+    {
+      "item": {
+        "canonical_url": "https://www.facebook.com/groups/1638566887567479/posts/1707388084018692/",
+        "external_id": "1707388084018692",
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": 0,
+          "likes": 0,
+          "reposts": null,
+          "shares": 0,
+          "views": null
+        },
+        "platform": "facebook",
+        "published_at": "2026-06-02T00:27:49+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "售宇宙應援禮包\nLyxi毛巾\n\n黛比簽名板\n\nLyxi小卡\n\nhttps://myship.7-11.com.tw/general/detail/GM2406188153486#",
+        "source_url": "https://www.facebook.com/groups/1638566887567479/posts/1707388084018692/",
+        "title": "售宇宙應援禮包\nLyxi毛巾\n\n黛比簽名板\n\nLyxi小卡\n\nhttps://myship.7-11.com.tw/general/detail/GM2406188153486#"
+      },
+      "reason": "keyword_not_in_title_or_snippet:宇宙啦啦隊"
+    },
+    {
+      "item": {
+        "canonical_url": "https://www.facebook.com/wfashion.com.tw/posts/pfbid02ku8tT4ZVMACiQwLkj7Qm722YXLRaxj28tD7REH3F8fEEJ1CrYEWsuZ1Jkjs6a1Bql",
+        "external_id": "1547753554030384",
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": 1,
+          "likes": 0,
+          "reposts": null,
+          "shares": 0,
+          "views": null
+        },
+        "platform": "facebook",
+        "published_at": "2026-06-02T02:15:01+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "520才剛高調認愛放閃，馬上就被逼問終身大事進度？\n\n歌手李芷婷帶著熱騰騰的戀情現身，雙方甚至已經見過家長！\n\n但面對會不會閃婚的靈魂拷問，她居然只淡淡吐出「這三個字」...\n\n李芷婷最近為了原民台新談話節目《kaviaz 晚點聊》配唱主題曲，首度合體排灣男孩少康和前啦啦隊成員Mickey同台亮相。不過大家最關心的，當然還是她穩定交往中的戀情！\n\n被問到有沒有打算直接步入婚姻，她反應超級機智，直接拿新節目的名稱當完美擋箭牌，笑著回覆：「晚點聊。」這宣傳功力跟臨場反應，真的必須給滿分！\n\n而這次節目的主持陣容也相當有看頭，集結了王宏恩、梁文音、黑旋風、阿布田等人輪番上陣。首次跨界拿主持棒的阿布絲坦言自己其實超緊張，她透露去年才在後台向宇宙許願想當主持人，沒想到今年真的光速圓夢。\n\n有趣的是，當現場拱她「打鐵趁熱」再向宇宙許一個願望時，阿布絲竟然一秒脫口而出：「希望股票大漲！」超真實又接地氣的發言，直接讓全場笑瘋。\n\n說真的，李芷婷這招神回覆完全可以筆記起來！下次過年過節面對親戚長輩的「催婚問候攻擊」，這三個字根本是完美下台階。而阿布絲的願望，更是直接命中全台灣百萬散戶的心聲，畢竟每天盯盤的心情，真的比看八點檔還要刺激啊！\n\n面對人生各大靈魂拷問，除了這招超強擋箭牌，大家心裡還有哪些必備的防禦金句呢？ #錢編\n(圖／四季線上4gtv) #fblifestyle",
+        "source_url": "https://www.facebook.com/wfashion.com.tw/posts/pfbid02ku8tT4ZVMACiQwLkj7Qm722YXLRaxj28tD7REH3F8fEEJ1CrYEWsuZ1Jkjs6a1Bql",
+        "title": "520才剛高調認愛放閃，馬上就被逼問終身大事進度？\n\n歌手李芷婷帶著熱騰騰的戀情現身，雙方甚至已經見過家長！\n\n但面對會不會閃婚的靈魂拷問，她居然只淡淡吐出「這三個字」...\n\n李芷婷最近為了原民台新談話節目《kaviaz 晚點聊》配唱主題曲，首度合體排灣男孩少康和前啦啦隊成員Mickey同台亮相。不過大家最關心的，當然還是她穩定交往中的戀情！\n\n被問到有沒有打算直接步入婚姻，她反應超級機智，直接拿新節目的名稱當完美擋箭牌，笑著回覆：「晚點聊。」這宣傳功力跟臨場反應，真的必須給滿分！\n\n而這次節目的主持陣容也相當有看頭，集結了王宏恩、梁文音、黑旋風、阿布田等人輪番上陣。首次跨界拿主持棒的阿布絲坦言自己其實超緊張，她透露去年才在後台向宇宙許願想當主持人，沒想到今年真的光速圓夢。\n\n有趣的是，當現場拱她「打鐵趁熱」再向宇宙許一個願望時，阿布絲竟然一秒脫口而出：「希望股票大漲！」超真實又接地氣的發言，直接讓全場笑瘋。\n\n說真的，李芷婷這招神回覆完全可以筆記起來！下次過年過節面對親戚長輩的「催婚問候攻擊」，這三個字根本是完美下台階。而阿布絲的願望，更是直接命中全台灣百萬散戶的心聲，畢竟每天盯盤的心情，真的比看八點檔還要刺激啊！\n\n面對人生各大靈魂拷問，除了這招超強擋箭牌，大家心裡還有哪些必備的防禦金句呢？ #錢編\n(圖／四季線上4gtv) #fblifestyle"
+      },
+      "reason": "keyword_not_in_title_or_snippet:宇宙啦啦隊"
+    },
+    {
+      "item": {
+        "canonical_url": "https://www.facebook.com/wfashion.com.tw/posts/pfbid02ku8tT4ZVMACiQwLkj7Qm722YXLRaxj28tD7REH3F8fEEJ1CrYEWsuZ1Jkjs6a1Bql",
+        "external_id": "1547753554030384",
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": 1,
+          "likes": 0,
+          "reposts": null,
+          "shares": 0,
+          "views": null
+        },
+        "platform": "facebook",
+        "published_at": "2026-06-02T02:15:01+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "520才剛高調認愛放閃，馬上就被逼問終身大事進度？\n\n歌手李芷婷帶著熱騰騰的戀情現身，雙方甚至已經見過家長！\n\n但面對會不會閃婚的靈魂拷問，她居然只淡淡吐出「這三個字」...\n\n李芷婷最近為了原民台新談話節目《kaviaz 晚點聊》配唱主題曲，首度合體排灣男孩少康和前啦啦隊成員Mickey同台亮相。不過大家最關心的，當然還是她穩定交往中的戀情！\n\n被問到有沒有打算直接步入婚姻，她反應超級機智，直接拿新節目的名稱當完美擋箭牌，笑著回覆：「晚點聊。」這宣傳功力跟臨場反應，真的必須給滿分！\n\n而這次節目的主持陣容也相當有看頭，集結了王宏恩、梁文音、黑旋風、阿布田等人輪番上陣。首次跨界拿主持棒的阿布絲坦言自己其實超緊張，她透露去年才在後台向宇宙許願想當主持人，沒想到今年真的光速圓夢。\n\n有趣的是，當現場拱她「打鐵趁熱」再向宇宙許一個願望時，阿布絲竟然一秒脫口而出：「希望股票大漲！」超真實又接地氣的發言，直接讓全場笑瘋。\n\n說真的，李芷婷這招神回覆完全可以筆記起來！下次過年過節面對親戚長輩的「催婚問候攻擊」，這三個字根本是完美下台階。而阿布絲的願望，更是直接命中全台灣百萬散戶的心聲，畢竟每天盯盤的心情，真的比看八點檔還要刺激啊！\n\n面對人生各大靈魂拷問，除了這招超強擋箭牌，大家心裡還有哪些必備的防禦金句呢？ #錢編\n(圖／四季線上4gtv) #fblifestyle",
+        "source_url": "https://www.facebook.com/wfashion.com.tw/posts/pfbid02ku8tT4ZVMACiQwLkj7Qm722YXLRaxj28tD7REH3F8fEEJ1CrYEWsuZ1Jkjs6a1Bql",
+        "title": "520才剛高調認愛放閃，馬上就被逼問終身大事進度？\n\n歌手李芷婷帶著熱騰騰的戀情現身，雙方甚至已經見過家長！\n\n但面對會不會閃婚的靈魂拷問，她居然只淡淡吐出「這三個字」...\n\n李芷婷最近為了原民台新談話節目《kaviaz 晚點聊》配唱主題曲，首度合體排灣男孩少康和前啦啦隊成員Mickey同台亮相。不過大家最關心的，當然還是她穩定交往中的戀情！\n\n被問到有沒有打算直接步入婚姻，她反應超級機智，直接拿新節目的名稱當完美擋箭牌，笑著回覆：「晚點聊。」這宣傳功力跟臨場反應，真的必須給滿分！\n\n而這次節目的主持陣容也相當有看頭，集結了王宏恩、梁文音、黑旋風、阿布田等人輪番上陣。首次跨界拿主持棒的阿布絲坦言自己其實超緊張，她透露去年才在後台向宇宙許願想當主持人，沒想到今年真的光速圓夢。\n\n有趣的是，當現場拱她「打鐵趁熱」再向宇宙許一個願望時，阿布絲竟然一秒脫口而出：「希望股票大漲！」超真實又接地氣的發言，直接讓全場笑瘋。\n\n說真的，李芷婷這招神回覆完全可以筆記起來！下次過年過節面對親戚長輩的「催婚問候攻擊」，這三個字根本是完美下台階。而阿布絲的願望，更是直接命中全台灣百萬散戶的心聲，畢竟每天盯盤的心情，真的比看八點檔還要刺激啊！\n\n面對人生各大靈魂拷問，除了這招超強擋箭牌，大家心裡還有哪些必備的防禦金句呢？ #錢編\n(圖／四季線上4gtv) #fblifestyle"
+      },
+      "reason": "keyword_not_in_title_or_snippet:宇宙啦啦隊"
+    },
+    {
+      "item": {
+        "canonical_url": "https://www.threads.com/@vlcosmicangels/post/DYrWWILgXDA/video-%E5%80%8B%E4%BA%BA%E6%B1%BA%E6%88%B0%E8%88%9E%E5%8F%B0%E6%9C%80%E7%B5%82%E5%9B%9E-%E5%A5%B3%E5%AD%A9%E5%80%91%E6%B7%9A%E7%81%91%E6%94%9D%E5%BD%B1%E6%A3%9A-%E5%AE%87%E5%AE%99%E5%95%A6%E5%95%A6%E9%9A%8A%E5%AE%87%E5%AE%99%E5%95%A6%E5%95%A6%E9%9A%8A%E6%92%AD%E5%87%BA%E6%99%82%E9%96%93%E6%AF%8F%E9%80%B1%E5%85%AD2100-%E7%B7%AF%E4%BE%86%E7%B6%9C%E5%90%88%E5%8F%B02300-%E5%8F%B0%E7%81%A3%E5%A4%A7%E5%93%A5%E5%A4%A7myvideo%E9%81%A0%E5%82%B3friday%E5%BD%B1%E9%9F%B3netflix",
+        "external_id": "DYrWWILgXDA",
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": 5,
+          "likes": 98,
+          "reposts": 7,
+          "shares": null,
+          "views": 10158
+        },
+        "platform": "threads",
+        "published_at": "2026-05-23T10:13:40+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "個人決戰舞台最終回 女孩們淚灑攝影棚！ #宇宙啦啦隊\n\n🪐宇宙啦啦隊播出時間🪐\n🌠每週六\n21:00 緯來綜合台\n23:00 台灣大哥大MyVideo｜遠傳friDay影音｜NETFLIX\n🌠每週日\n20:00 華視主頻\n20:30 緯來體育台\n22:00 中華電信Hami Video\n🌠每週三\n21:00《宇宙啦啦隊》YouTube",
+        "source_url": "https://www.threads.com/@vlcosmicangels/post/DYrWWILgXDA/video-%E5%80%8B%E4%BA%BA%E6%B1%BA%E6%88%B0%E8%88%9E%E5%8F%B0%E6%9C%80%E7%B5%82%E5%9B%9E-%E5%A5%B3%E5%AD%A9%E5%80%91%E6%B7%9A%E7%81%91%E6%94%9D%E5%BD%B1%E6%A3%9A-%E5%AE%87%E5%AE%99%E5%95%A6%E5%95%A6%E9%9A%8A%E5%AE%87%E5%AE%99%E5%95%A6%E5%95%A6%E9%9A%8A%E6%92%AD%E5%87%BA%E6%99%82%E9%96%93%E6%AF%8F%E9%80%B1%E5%85%AD2100-%E7%B7%AF%E4%BE%86%E7%B6%9C%E5%90%88%E5%8F%B02300-%E5%8F%B0%E7%81%A3%E5%A4%A7%E5%93%A5%E5%A4%A7myvideo%E9%81%A0%E5%82%B3friday%E5%BD%B1%E9%9F%B3netflix",
+        "title": "個人決戰舞台最終回 女孩們淚灑攝影棚！ #宇宙啦啦隊\n\n🪐宇宙啦啦隊播出時間🪐\n🌠每週六\n21:00 緯來綜合台\n23:00 台灣大哥大MyVideo｜遠傳friDay影音｜NETFLIX\n🌠每週日\n20:00 華視主頻\n20:30 緯來體育台\n22:00 中華電信Hami Video\n🌠每週三\n21:00《宇宙啦啦隊》YouTube"
+      },
+      "reason": "outside_time_window"
+    },
+    {
+      "item": {
+        "canonical_url": "https://www.threads.com/@kcetair/post/DY8uii7k-LG/%E5%AE%87%E5%AE%99%E5%95%A6%E5%95%A6%E9%9A%8A%E4%BB%8A%E5%A4%A9%E6%98%AF%E6%88%90%E5%9C%98%E6%97%A5%E4%BA%86%E6%9C%89%E8%A1%8C%E7%A8%8B%E6%87%89%E8%A9%B2%E6%B2%92%E8%BE%A6%E6%B3%95%E7%9C%8B%E7%9B%B4%E6%92%AD%E5%85%88%E7%A5%88%E9%A1%98%E6%89%80%E6%9C%89%E4%BA%BA%E5%B9%B3%E5%AE%89%E9%A0%86%E5%88%A9%E4%B8%8D%E8%A6%81%E5%8F%97%E5%82%B7%E5%BF%AB%E6%A8%82%E4%BA%AB%E5%8F%97%E7%9A%84%E5%AE%8C%E6%88%90%E9%80%99%E5%80%8B%E9%9A%8E%E6%AE%B5%E7%9A%84%E6%9C%80%E5%BE%8C%E8%88%9E%E5%8F%B0%E4%B8%80%E9%96%8B%E5%A7%8B%E5%B0%B1%E7%9F%A5%E9%81%93%E9%80%99%E6%98%AF%E4%B8%80%E5%80%8B%E7%B6%9C%E8%97%9D%E7%AF%80%E7%9B%AE%E4%B8%80%E5%AE%9A%E9%9C%80%E8%A6%81%E7%AF%80%E7%9B%AE%E6%95%88%E6%9E%9C%E7%86%B1%E6%84%9B%E9%81%B8%E7%A7%80%E7%AF%80/",
+        "external_id": "DY8uii7k-LG",
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": 0,
+          "likes": 12,
+          "reposts": 0,
+          "shares": null,
+          "views": 540
+        },
+        "platform": "threads",
+        "published_at": "2026-05-30T04:09:15+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "《宇宙啦啦隊》今天是成團日了，有行程應該沒辦法看直播，先祈願所有人平安順利不要受傷，快樂享受的完成這個階段的最後舞台。\n\n一開始就知道這是一個綜藝節目，一定需要節目效果（熱愛選秀節目的人不可能不知道），但到後面越來越多我覺得不快的部分，於是越來越沒有動力寫寫觀後感，也很不喜歡沒有惡意剪輯的狀況下還要看到一些對女孩們非關舞台表現的惡意評論，總之我平等的愛著每一個美少女。\n\n好想看恩地喔，嗚嗚。",
+        "source_url": "https://www.threads.com/@kcetair/post/DY8uii7k-LG/%E5%AE%87%E5%AE%99%E5%95%A6%E5%95%A6%E9%9A%8A%E4%BB%8A%E5%A4%A9%E6%98%AF%E6%88%90%E5%9C%98%E6%97%A5%E4%BA%86%E6%9C%89%E8%A1%8C%E7%A8%8B%E6%87%89%E8%A9%B2%E6%B2%92%E8%BE%A6%E6%B3%95%E7%9C%8B%E7%9B%B4%E6%92%AD%E5%85%88%E7%A5%88%E9%A1%98%E6%89%80%E6%9C%89%E4%BA%BA%E5%B9%B3%E5%AE%89%E9%A0%86%E5%88%A9%E4%B8%8D%E8%A6%81%E5%8F%97%E5%82%B7%E5%BF%AB%E6%A8%82%E4%BA%AB%E5%8F%97%E7%9A%84%E5%AE%8C%E6%88%90%E9%80%99%E5%80%8B%E9%9A%8E%E6%AE%B5%E7%9A%84%E6%9C%80%E5%BE%8C%E8%88%9E%E5%8F%B0%E4%B8%80%E9%96%8B%E5%A7%8B%E5%B0%B1%E7%9F%A5%E9%81%93%E9%80%99%E6%98%AF%E4%B8%80%E5%80%8B%E7%B6%9C%E8%97%9D%E7%AF%80%E7%9B%AE%E4%B8%80%E5%AE%9A%E9%9C%80%E8%A6%81%E7%AF%80%E7%9B%AE%E6%95%88%E6%9E%9C%E7%86%B1%E6%84%9B%E9%81%B8%E7%A7%80%E7%AF%80/",
+        "title": "《宇宙啦啦隊》今天是成團日了，有行程應該沒辦法看直播，先祈願所有人平安順利不要受傷，快樂享受的完成這個階段的最後舞台。\n\n一開始就知道這是一個綜藝節目，一定需要節目效果（熱愛選秀節目的人不可能不知道），但到後面越來越多我覺得不快的部分，於是越來越沒有動力寫寫觀後感，也很不喜歡沒有惡意剪輯的狀況下還要看到一些對女孩們非關舞台表現的惡意評論，總之我平等的愛著每一個美少女。\n\n好想看恩地喔，嗚嗚。"
+      },
+      "reason": "outside_time_window"
+    },
+    {
+      "item": {
+        "canonical_url": "https://www.threads.com/@vlcosmicangels/post/DYzg5ssgaZy/video-%E5%AE%87%E5%AE%99%E5%95%A6%E5%95%A6%E9%9A%8A%E7%B8%BD%E6%B1%BA%E8%B3%BD%E7%8E%A9%E5%A4%A7%E7%9A%84%E9%84%AD%E6%81%A9%E5%9C%B0%E9%8A%80%E8%B5%AB%E7%A2%BA%E5%AE%9A%E6%BC%94%E5%87%BA5%E6%9C%8830%E6%97%A5%E6%98%9F%E6%9C%9F%E5%85%AD%E7%B8%BD%E6%B1%BA%E8%B3%BD%E6%88%90%E5%9C%98%E6%97%A5%E7%AD%89%E4%BD%A0%E4%B8%80%E8%B5%B7%E4%BE%862000%E7%B7%AF%E4%BE%86%E7%B6%9C%E5%90%88%E5%8F%B0%E7%B7%AF%E4%BE%86%E9%AB%94%E8%82%B2%E5%8F%B0myvideo%E5%AE%98%E6%96%B9youtube-%E5%90%8C%E6%AD%A5%E7%9B%B4%E6%92%AD/",
+        "external_id": "DYzg5ssgaZy",
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": 0,
+          "likes": 182,
+          "reposts": 22,
+          "shares": null,
+          "views": 12116
+        },
+        "platform": "threads",
+        "published_at": "2026-05-26T14:17:12+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "宇宙啦啦隊總決賽玩大的！鄭恩地、銀赫確定演出！！\n\n5月30日星期六【總決賽成團日】\n等你一起來❗\n20:00緯來綜合台｜緯來體育台｜MyVideo｜官方YouTube 同步直播",
+        "source_url": "https://www.threads.com/@vlcosmicangels/post/DYzg5ssgaZy/video-%E5%AE%87%E5%AE%99%E5%95%A6%E5%95%A6%E9%9A%8A%E7%B8%BD%E6%B1%BA%E8%B3%BD%E7%8E%A9%E5%A4%A7%E7%9A%84%E9%84%AD%E6%81%A9%E5%9C%B0%E9%8A%80%E8%B5%AB%E7%A2%BA%E5%AE%9A%E6%BC%94%E5%87%BA5%E6%9C%8830%E6%97%A5%E6%98%9F%E6%9C%9F%E5%85%AD%E7%B8%BD%E6%B1%BA%E8%B3%BD%E6%88%90%E5%9C%98%E6%97%A5%E7%AD%89%E4%BD%A0%E4%B8%80%E8%B5%B7%E4%BE%862000%E7%B7%AF%E4%BE%86%E7%B6%9C%E5%90%88%E5%8F%B0%E7%B7%AF%E4%BE%86%E9%AB%94%E8%82%B2%E5%8F%B0myvideo%E5%AE%98%E6%96%B9youtube-%E5%90%8C%E6%AD%A5%E7%9B%B4%E6%92%AD/",
+        "title": "宇宙啦啦隊總決賽玩大的！鄭恩地、銀赫確定演出！！\n\n5月30日星期六【總決賽成團日】\n等你一起來❗\n20:00緯來綜合台｜緯來體育台｜MyVideo｜官方YouTube 同步直播"
+      },
+      "reason": "outside_time_window"
+    },
+    {
+      "item": {
+        "canonical_url": "https://www.threads.com/@susanchi/post/DY_JrHAidgg/video-%E9%84%AD%E6%81%A9%E5%9C%B0530-%E5%AE%87%E5%AE%99%E5%95%A6%E5%95%A6%E9%9A%8A-%E7%B8%BD%E6%B1%BA%E8%B3%BD/",
+        "external_id": "DY_JrHAidgg",
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": 0,
+          "likes": 0,
+          "reposts": 0,
+          "shares": null,
+          "views": null
+        },
+        "platform": "threads",
+        "published_at": "2026-05-31T02:45:19+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "鄭恩地\n5/30 宇宙啦啦隊 總決賽",
+        "source_url": "https://www.threads.com/@susanchi/post/DY_JrHAidgg/video-%E9%84%AD%E6%81%A9%E5%9C%B0530-%E5%AE%87%E5%AE%99%E5%95%A6%E5%95%A6%E9%9A%8A-%E7%B8%BD%E6%B1%BA%E8%B3%BD/",
+        "title": "鄭恩地\n5/30 宇宙啦啦隊 總決賽"
+      },
+      "reason": "outside_time_window"
+    },
+    {
+      "item": {
+        "canonical_url": "https://www.threads.com/@myvideo_twm/post/DY9zM2RChHa/video-%E5%AE%87%E5%AE%99%E5%95%A6%E5%95%A6%E9%9A%8A%E6%88%90%E5%9C%98%E4%B9%8B%E5%A4%9C%E5%A5%B3%E5%AD%A9%E5%80%91%E7%8D%BB%E5%94%B1%E9%80%99%E9%A6%96%E7%9B%9B%E5%A4%8F%E8%8A%B1%E9%96%8B%E7%9A%84%E7%B4%84%E5%AE%9A%E4%B9%9F%E9%80%81%E7%B5%A6%E4%BB%8A%E5%B9%B4%E7%9A%84%E7%95%A2%E6%A5%AD%E7%94%9F%E5%80%91/",
+        "external_id": "DY9zM2RChHa",
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": 17,
+          "likes": 4775,
+          "reposts": 553,
+          "shares": null,
+          "views": 92340
+        },
+        "platform": "threads",
+        "published_at": "2026-05-30T14:11:55+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "宇宙啦啦隊成團之夜\n女孩們獻唱這首〈盛夏花開的約定〉\n也送給今年的畢業生們❣️🎓",
+        "source_url": "https://www.threads.com/@myvideo_twm/post/DY9zM2RChHa/video-%E5%AE%87%E5%AE%99%E5%95%A6%E5%95%A6%E9%9A%8A%E6%88%90%E5%9C%98%E4%B9%8B%E5%A4%9C%E5%A5%B3%E5%AD%A9%E5%80%91%E7%8D%BB%E5%94%B1%E9%80%99%E9%A6%96%E7%9B%9B%E5%A4%8F%E8%8A%B1%E9%96%8B%E7%9A%84%E7%B4%84%E5%AE%9A%E4%B9%9F%E9%80%81%E7%B5%A6%E4%BB%8A%E5%B9%B4%E7%9A%84%E7%95%A2%E6%A5%AD%E7%94%9F%E5%80%91/",
+        "title": "宇宙啦啦隊成團之夜\n女孩們獻唱這首〈盛夏花開的約定〉\n也送給今年的畢業生們❣️🎓"
+      },
+      "reason": "outside_time_window"
+    },
+    {
+      "item": {
+        "canonical_url": "https://www.threads.com/@entltn/post/DY98ff5jBy0/%E9%81%B8%E7%A7%80%E7%AF%80%E7%9B%AE%E5%AE%87%E5%AE%99%E5%95%A6%E5%95%A6%E9%9A%8A%E8%88%9E%E8%B9%88%E7%88%86%E6%8A%84%E8%A5%B2%E8%A3%BD%E4%BD%9C%E4%BA%BAb2%E8%AA%8D%E6%9C%83%E6%AA%A2%E8%A8%8E%E6%8F%AD%E5%85%A7%E6%83%85%E9%81%B8%E7%A7%80%E7%AF%80%E7%9B%AE%E5%AE%87%E5%AE%99%E5%95%A6%E5%95%A6%E9%9A%8A%E4%BB%8A30%E6%97%A5%E6%99%9A%E9%96%93%E8%88%89%E8%BE%A6live%E7%B8%BD%E6%B1%BA%E8%B3%BD18%E4%BD%8D%E5%A5%B3%E5%AD%A9%E6%AD%B7%E7%B6%93%E6%95%B8%E6%9C%88%E8%A8%93%E7%B7%B4%E5%B1%A4%E5%B1%A4%E6%B7%98%E6%B1%B0%E8%88%87%E4%BA%BA%E6%B0%A3%E8%80%83%E9%A9%97%E5%BE%8C%E7%B5%82%E6%96%BC%E7%AB%99%E4%B8%8A%E6%9C%80%E7%B5%82%E8%88%9E%E5%8F%B0%E5%85%A8/",
+        "external_id": "DY98ff5jBy0",
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": 1,
+          "likes": 20,
+          "reposts": 6,
+          "shares": null,
+          "views": 6131
+        },
+        "platform": "threads",
+        "published_at": "2026-05-30T15:30:25+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "選秀節目《宇宙啦啦隊》舞蹈爆抄襲！製作人B2認會檢討揭內情\n\n選秀節目《宇宙啦啦隊》今（30）日晚間舉辦LIVE總決賽，18位女孩歷經數月訓練、層層淘汰與人氣考驗後，終於站上最終舞台，全力爭取最後9個成團席次，稍早製作人B2率領18位女孩受訪，B2也回應日前參賽者樺樺表演舞蹈疑抄襲的爭議。\n\n照片：記者陳奕全攝",
+        "source_url": "https://www.threads.com/@entltn/post/DY98ff5jBy0/%E9%81%B8%E7%A7%80%E7%AF%80%E7%9B%AE%E5%AE%87%E5%AE%99%E5%95%A6%E5%95%A6%E9%9A%8A%E8%88%9E%E8%B9%88%E7%88%86%E6%8A%84%E8%A5%B2%E8%A3%BD%E4%BD%9C%E4%BA%BAb2%E8%AA%8D%E6%9C%83%E6%AA%A2%E8%A8%8E%E6%8F%AD%E5%85%A7%E6%83%85%E9%81%B8%E7%A7%80%E7%AF%80%E7%9B%AE%E5%AE%87%E5%AE%99%E5%95%A6%E5%95%A6%E9%9A%8A%E4%BB%8A30%E6%97%A5%E6%99%9A%E9%96%93%E8%88%89%E8%BE%A6live%E7%B8%BD%E6%B1%BA%E8%B3%BD18%E4%BD%8D%E5%A5%B3%E5%AD%A9%E6%AD%B7%E7%B6%93%E6%95%B8%E6%9C%88%E8%A8%93%E7%B7%B4%E5%B1%A4%E5%B1%A4%E6%B7%98%E6%B1%B0%E8%88%87%E4%BA%BA%E6%B0%A3%E8%80%83%E9%A9%97%E5%BE%8C%E7%B5%82%E6%96%BC%E7%AB%99%E4%B8%8A%E6%9C%80%E7%B5%82%E8%88%9E%E5%8F%B0%E5%85%A8/",
+        "title": "選秀節目《宇宙啦啦隊》舞蹈爆抄襲！製作人B2認會檢討揭內情\n\n選秀節目《宇宙啦啦隊》今（30）日晚間舉辦LIVE總決賽，18位女孩歷經數月訓練、層層淘汰與人氣考驗後，終於站上最終舞台，全力爭取最後9個成團席次，稍早製作人B2率領18位女孩受訪，B2也回應日前參賽者樺樺表演舞蹈疑抄襲的爭議。\n\n照片：記者陳奕全攝"
+      },
+      "reason": "outside_time_window"
+    },
+    {
+      "item": {
+        "canonical_url": "https://www.threads.com/@ok.hua/post/DY9-g6lgbWu/%E7%9C%9F%E7%9A%84%E5%BE%88%E8%AC%9D%E8%AC%9D%E8%87%AA%E5%B7%B1%E6%9C%89%E5%8B%87%E6%95%A2%E4%BE%86%E5%8F%83%E5%8A%A0%E5%AE%87%E5%AE%99%E5%95%A6%E5%95%A6%E9%9A%8A%E5%85%B6%E5%AF%A6%E6%9C%80%E6%8D%A8%E4%B8%8D%E5%BE%97%E7%9A%84%E4%B8%8D%E6%98%AF%E8%87%AA%E5%B7%B1%E6%B2%92%E6%9C%89%E6%8B%BF%E5%88%B0%E5%87%BA%E9%81%93%E4%BD%8D%E8%80%8C%E6%98%AF%E7%9C%8B%E5%88%B0%E4%BD%A0%E5%80%91%E9%82%A3%E9%BA%BC%E8%AA%8D%E7%9C%9F%E5%9C%B0%E5%B9%AB%E6%88%91%E6%8B%89%E7%A5%A8%E5%B9%AB%E6%88%91%E6%87%89%E6%8F%B4%E6%9B%BF%E6%88%91%E7%B7%8A%E5%BC%B5%E9%99%AA%E8%91%97%E6%88%91%E4%B8%80%E8%B5%B7%E6%9C%9F%E5%BE%85%E6%AF%8F%E4%B8%80%E6%AC%A1%E7%B5%90%E6%9E%9C%E7%9A%84%E5%85%AC%E5%B8%83%E6%9C%80%E5%BE%8C%E6%B2%92%E8%83%BD%E5%B8%B6%E8%91%97",
+        "external_id": "DY9-g6lgbWu",
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": 72,
+          "likes": 1862,
+          "reposts": 44,
+          "shares": null,
+          "views": 30356
+        },
+        "platform": "threads",
+        "published_at": "2026-05-30T15:48:05+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "真的很謝謝自己有勇敢來參加《宇宙啦啦隊》🤍\n\n其實最捨不得的，不是自己沒有拿到出道位。\n\n而是看到你們那麼認真地幫我拉票、幫我應援、替我緊張，陪著我一起期待每一次結果的公布。最後沒能帶著大家一起完成這個夢想，心裡真的有些遺憾🥺真的對你們很不好意思🙏\n\n但也因為有你們，我才擁有了一段這麼珍貴又難忘的旅程謝謝每一次比賽中導師們給我的指導，謝謝所有辛苦的工作人員，也謝謝一路支持著我的粉絲、朋友和家人。\n\n因為有你們，我才有勇氣撐過那些緊張和不安的時刻，也才能一次次站上舞台，讓更多人認識Tina\n雖然結果可能不是最理想的樣子，但我真的不後悔參加《宇宙啦啦隊》。\n這一路上收穫了好多回憶、學到了好多東西，也更確定自己真的很喜歡舞台、很喜歡表演\n\n能被大家看見、被大家喜歡，對我來說已經是一件很幸福的事情了。\n\n希望未來也能繼續帶給大家力量和快樂，成為更閃耀的Tina🦋✨\n\n真的非常謝謝你們一直都在\n\n我愛你們❤️‍🔥\n\n（今天來的大家回去小心安全喔～辛苦你們啦❣️）",
+        "source_url": "https://www.threads.com/@ok.hua/post/DY9-g6lgbWu/%E7%9C%9F%E7%9A%84%E5%BE%88%E8%AC%9D%E8%AC%9D%E8%87%AA%E5%B7%B1%E6%9C%89%E5%8B%87%E6%95%A2%E4%BE%86%E5%8F%83%E5%8A%A0%E5%AE%87%E5%AE%99%E5%95%A6%E5%95%A6%E9%9A%8A%E5%85%B6%E5%AF%A6%E6%9C%80%E6%8D%A8%E4%B8%8D%E5%BE%97%E7%9A%84%E4%B8%8D%E6%98%AF%E8%87%AA%E5%B7%B1%E6%B2%92%E6%9C%89%E6%8B%BF%E5%88%B0%E5%87%BA%E9%81%93%E4%BD%8D%E8%80%8C%E6%98%AF%E7%9C%8B%E5%88%B0%E4%BD%A0%E5%80%91%E9%82%A3%E9%BA%BC%E8%AA%8D%E7%9C%9F%E5%9C%B0%E5%B9%AB%E6%88%91%E6%8B%89%E7%A5%A8%E5%B9%AB%E6%88%91%E6%87%89%E6%8F%B4%E6%9B%BF%E6%88%91%E7%B7%8A%E5%BC%B5%E9%99%AA%E8%91%97%E6%88%91%E4%B8%80%E8%B5%B7%E6%9C%9F%E5%BE%85%E6%AF%8F%E4%B8%80%E6%AC%A1%E7%B5%90%E6%9E%9C%E7%9A%84%E5%85%AC%E5%B8%83%E6%9C%80%E5%BE%8C%E6%B2%92%E8%83%BD%E5%B8%B6%E8%91%97",
+        "title": "真的很謝謝自己有勇敢來參加《宇宙啦啦隊》🤍\n\n其實最捨不得的，不是自己沒有拿到出道位。\n\n而是看到你們那麼認真地幫我拉票、幫我應援、替我緊張，陪著我一起期待每一次結果的公布。最後沒能帶著大家一起完成這個夢想，心裡真的有些遺憾🥺真的對你們很不好意思🙏\n\n但也因為有你們，我才擁有了一段這麼珍貴又難忘的旅程謝謝每一次比賽中導師們給我的指導，謝謝所有辛苦的工作人員，也謝謝一路支持著我的粉絲、朋友和家人。\n\n因為有你們，我才有勇氣撐過那些緊張和不安的時刻，也才能一次次站上舞台，讓更多人認識Tina\n雖然結果可能不是最理想的樣子，但我真的不後悔參加《宇宙啦啦隊》。\n這一路上收穫了好多回憶、學到了好多東西，也更確定自己真的很喜歡舞台、很喜歡表演\n\n能被大家看見、被大家喜歡，對我來說已經是一件很幸福的事情了。\n\n希望未來也能繼續帶給大家力量和快樂，成為更閃耀的Tina🦋✨\n\n真的非常謝謝你們一直都在\n\n我愛你們❤️‍🔥\n\n（今天來的大家回去小心安全喔～辛苦你們啦❣️）"
+      },
+      "reason": "outside_time_window"
+    },
+    {
+      "item": {
+        "canonical_url": "https://www.threads.com/@jonathan__0709/post/DYt3tjTE4Lh/%E5%AE%87%E5%AE%99%E5%95%A6%E5%95%A6%E9%9A%8A-%E5%B0%81%E9%9D%A2shot-for-vlcosmicangels-photographerjonathan__0709-nikon_taiwan-z6iii-z7/",
+        "external_id": "DYt3tjTE4Lh",
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": 0,
+          "likes": 25,
+          "reposts": 2,
+          "shares": null,
+          "views": 937
+        },
+        "platform": "threads",
+        "published_at": "2026-05-24T09:40:48+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "📣宇宙啦啦隊 封面📣\nShot for @vlcosmicangels \n\nPhotographer／@jonathan__0709 \n\n@nikon_taiwan #z6iii #z7ii #nikoncreator",
+        "source_url": "https://www.threads.com/@jonathan__0709/post/DYt3tjTE4Lh/%E5%AE%87%E5%AE%99%E5%95%A6%E5%95%A6%E9%9A%8A-%E5%B0%81%E9%9D%A2shot-for-vlcosmicangels-photographerjonathan__0709-nikon_taiwan-z6iii-z7/",
+        "title": "📣宇宙啦啦隊 封面📣\nShot for @vlcosmicangels \n\nPhotographer／@jonathan__0709 \n\n@nikon_taiwan #z6iii #z7ii #nikoncreator"
+      },
+      "reason": "outside_time_window"
+    },
+    {
+      "item": {
+        "canonical_url": "https://www.threads.com/@stanley.akb48/post/DY9x9IhGu8B/%E5%AE%87%E5%AE%99%E5%95%A6%E5%95%A6%E9%9A%8A-%E4%BB%8A%E5%A4%A9%E5%85%AC%E4%BD%88%E5%87%BA%E9%81%93%E6%88%90%E5%93%A1%E7%AC%AC%E4%B8%80%E5%90%8D%E6%98%AF%E6%B5%B7%E8%8E%89%E7%AC%AC%E4%BA%8C%E5%90%8D%E6%98%AF%E7%B4%80%E6%AC%A3%E4%BC%B6%E7%B4%80%E5%AE%B6%E5%A7%90%E5%A6%B9%E9%83%BD%E6%9C%89%E5%85%A5%E9%81%B8/",
+        "external_id": "DY9x9IhGu8B",
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": 2,
+          "likes": 681,
+          "reposts": 37,
+          "shares": null,
+          "views": 49718
+        },
+        "platform": "threads",
+        "published_at": "2026-05-30T13:58:20+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "宇宙啦啦隊 今天公佈出道成員\n第一名是海莉\n第二名是紀欣伶\n紀家姐妹都有入選",
+        "source_url": "https://www.threads.com/@stanley.akb48/post/DY9x9IhGu8B/%E5%AE%87%E5%AE%99%E5%95%A6%E5%95%A6%E9%9A%8A-%E4%BB%8A%E5%A4%A9%E5%85%AC%E4%BD%88%E5%87%BA%E9%81%93%E6%88%90%E5%93%A1%E7%AC%AC%E4%B8%80%E5%90%8D%E6%98%AF%E6%B5%B7%E8%8E%89%E7%AC%AC%E4%BA%8C%E5%90%8D%E6%98%AF%E7%B4%80%E6%AC%A3%E4%BC%B6%E7%B4%80%E5%AE%B6%E5%A7%90%E5%A6%B9%E9%83%BD%E6%9C%89%E5%85%A5%E9%81%B8/",
+        "title": "宇宙啦啦隊 今天公佈出道成員\n第一名是海莉\n第二名是紀欣伶\n紀家姐妹都有入選"
+      },
+      "reason": "outside_time_window"
+    },
+    {
+      "item": {
+        "canonical_url": "https://www.threads.com/@hui_ling601/post/DYrtqw4ExHs/530%E5%AE%87%E5%AE%99%E5%95%A6%E5%95%A6%E9%9A%8A%E7%89%B9%E5%88%A5%E5%98%89%E8%B3%93%E6%98%AF%E6%81%A9%E5%9C%B0%E5%92%8C%E9%8A%80%E8%B5%ABvlcosmicangels",
+        "external_id": "DYrtqw4ExHs",
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": 5,
+          "likes": 87,
+          "reposts": 34,
+          "shares": null,
+          "views": 9605
+        },
+        "platform": "threads",
+        "published_at": "2026-05-23T13:34:33+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "5/30宇宙啦啦隊特別嘉賓是恩地和銀赫\n@vlcosmicangels",
+        "source_url": "https://www.threads.com/@hui_ling601/post/DYrtqw4ExHs/530%E5%AE%87%E5%AE%99%E5%95%A6%E5%95%A6%E9%9A%8A%E7%89%B9%E5%88%A5%E5%98%89%E8%B3%93%E6%98%AF%E6%81%A9%E5%9C%B0%E5%92%8C%E9%8A%80%E8%B5%ABvlcosmicangels",
+        "title": "5/30宇宙啦啦隊特別嘉賓是恩地和銀赫\n@vlcosmicangels"
+      },
+      "reason": "outside_time_window"
+    },
+    {
+      "item": {
+        "canonical_url": "https://www.facebook.com/bin3333/posts/pfbid0S2R4gjznofzt6Ar6M7KhszK9oUaGZ1zURFnYYtGZYZeyP4T3Sn6EvTYvkigZSMpjl",
+        "external_id": "10215619745963937",
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": 4,
+          "likes": 108,
+          "reposts": null,
+          "shares": 0,
+          "views": null
+        },
+        "platform": "facebook",
+        "published_at": "2026-06-01T10:28:28+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "#宇宙啦啦隊\n錄了半年 終於順利成團出道了！\n製作選秀節目好辛苦，\n每個部門也都盡心盡力！\n希望選上跟沒選上的團員，\n每個人未來都能順利、快樂、發光！\n🎉🎉🎉🕺🏻🕺🏻🕺🏻🕺🏻🕺🏻🎉🎉🎉",
+        "source_url": "https://www.facebook.com/bin3333/posts/pfbid0S2R4gjznofzt6Ar6M7KhszK9oUaGZ1zURFnYYtGZYZeyP4T3Sn6EvTYvkigZSMpjl",
+        "title": "#宇宙啦啦隊\n錄了半年 終於順利成團出道了！\n製作選秀節目好辛苦，\n每個部門也都盡心盡力！\n希望選上跟沒選上的團員，\n每個人未來都能順利、快樂、發光！\n🎉🎉🎉🕺🏻🕺🏻🕺🏻🕺🏻🕺🏻🎉🎉🎉"
+      },
+      "kept_key": "facebook:url:https://www.facebook.com/bin3333/posts/pfbid0S2R4gjznofzt6Ar6M7KhszK9oUaGZ1zURFnYYtGZYZeyP4T3Sn6EvTYvkigZSMpjl",
+      "reason": "duplicate_identity"
+    },
+    {
+      "item": {
+        "canonical_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1hT04zQWRjZUxaZUNmQ3g2MEFlR3JFV19falFpSEZkSHRFeEVMVnZ6clh2VThrUFkxWFRlNHlnUzRqbkl0Qk9LSzA2aENzSk5oa1IwRWxtVWppWjRu0gFiQVVfeXFMUEg5am92OS1RQk9Kdk1DYWw5b1BITHV4SENNY1RiUVJvN0RtOWkzS09qeW5rajFkZDFNVUhmMm11U085czdxNE9odGtXOEc5YjBDREF4YnJjV2Vhb2dQOFh3b2c?oc=5",
+        "external_id": null,
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": null,
+          "likes": null,
+          "reposts": null,
+          "shares": null,
+          "views": null
+        },
+        "platform": "google_news",
+        "published_at": "2026-05-31T10:09:48+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "《宇宙啦啦隊》女團「W!nky」成軍！外籍黑馬奪冠「B2撈回第9人」 自由娛樂",
+        "source_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1hT04zQWRjZUxaZUNmQ3g2MEFlR3JFV19falFpSEZkSHRFeEVMVnZ6clh2VThrUFkxWFRlNHlnUzRqbkl0Qk9LSzA2aENzSk5oa1IwRWxtVWppWjRu0gFiQVVfeXFMUEg5am92OS1RQk9Kdk1DYWw5b1BITHV4SENNY1RiUVJvN0RtOWkzS09qeW5rajFkZDFNVUhmMm11U085czdxNE9odGtXOEc5YjBDREF4YnJjV2Vhb2dQOFh3b2c?oc=5",
+        "title": "《宇宙啦啦隊》女團「W!nky」成軍！外籍黑馬奪冠「B2撈回第9人」 - 自由娛樂"
+      },
+      "reason": "seen_without_significant_change"
+    },
+    {
+      "item": {
+        "canonical_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5KQlZheTdaY1FKX0RmVXhkMmVHdVp2czlwNVFhNEJydk1YakhORjFJRmVjUFFlNzAxUFRHUnAwaUwzcTFrbk5tYUVhdjRXX2FZVFpoU2kyWWxXVS1iTmlsazZRU2RGTUNF0gFoQVVfeXFMTkpCVmF5N1pjUUpfRGZVeGQyZUd1WnZzOXA1UWE0QnJ2TVhqSE5GMUlGZWNQUWU3MDFQVEdScDBpTDNxMWtuTm1hRWF2NFdfYVlUWmhTaTJZbFdVLWJOaWxrNlFTZEZNQ0U?oc=5",
+        "external_id": null,
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": null,
+          "likes": null,
+          "reposts": null,
+          "shares": null,
+          "views": null
+        },
+        "platform": "google_news",
+        "published_at": "2026-05-31T09:35:00+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "從800人殺出重圍！《宇宙啦啦隊》9人成團出道　海莉奪冠全場淚崩 鏡週刊Mirror Media",
+        "source_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5KQlZheTdaY1FKX0RmVXhkMmVHdVp2czlwNVFhNEJydk1YakhORjFJRmVjUFFlNzAxUFRHUnAwaUwzcTFrbk5tYUVhdjRXX2FZVFpoU2kyWWxXVS1iTmlsazZRU2RGTUNF0gFoQVVfeXFMTkpCVmF5N1pjUUpfRGZVeGQyZUd1WnZzOXA1UWE0QnJ2TVhqSE5GMUlGZWNQUWU3MDFQVEdScDBpTDNxMWtuTm1hRWF2NFdfYVlUWmhTaTJZbFdVLWJOaWxrNlFTZEZNQ0U?oc=5",
+        "title": "從800人殺出重圍！《宇宙啦啦隊》9人成團出道　海莉奪冠全場淚崩 - 鏡週刊Mirror Media"
+      },
+      "reason": "seen_without_significant_change"
+    },
+    {
+      "item": {
+        "canonical_url": "https://news.google.com/rss/articles/CBMi_AJBVV95cUxPX1p5SVllNldGS2NzRHI1Q2d2TW9EdTVTaW5FdGg5TGpreDlXSzRCNlBSampkTU5URWFJVmdGbXBZRFJCRjAxcmpCU2FXRWVfd2Rmczk1dFpNbHE0bEUtMkp5Q1IzWmVDN1RfcVpKNU9xb1RWVV93WW1NZWQybDFwQmlld19jWm5PVzNZV0w0c2NFYlRCU01TYi1VQWhyQ19vdUdlQUNTTmZuckVnblJ2Y3hQLTZYWnJXcnAwa1FBeU13MWtsQ0lNd25RbV9TQlptMERFajA5bkRhWUU4MFZZRHhnR2UzWUE0S3NJZ2FEemlRNHk3dnk1b1lnNk9WUXQ0dUh3aWpKc3M0YkdSMjdZWEFXX1I1eHEtbUU3X2FYOGZKRDdUS3MxNndnWk5RTGRkSDZNeTFlRGgwRlB2bkRYMjNpak1wNzZmQlhrTnAtSjdPSkRBYkNocHhXTFFfYXBiNEFIVWtFSmh3NUUxeDZzaE01aUZjanNydGJhRQ?oc=5",
+        "external_id": null,
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": null,
+          "likes": null,
+          "reposts": null,
+          "shares": null,
+          "views": null
+        },
+        "platform": "google_news",
+        "published_at": "2026-05-31T09:35:00+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "從800人殺出重圍！《宇宙啦啦隊》9人成團出道 海莉奪冠全場淚崩 Yahoo新聞",
+        "source_url": "https://news.google.com/rss/articles/CBMi_AJBVV95cUxPX1p5SVllNldGS2NzRHI1Q2d2TW9EdTVTaW5FdGg5TGpreDlXSzRCNlBSampkTU5URWFJVmdGbXBZRFJCRjAxcmpCU2FXRWVfd2Rmczk1dFpNbHE0bEUtMkp5Q1IzWmVDN1RfcVpKNU9xb1RWVV93WW1NZWQybDFwQmlld19jWm5PVzNZV0w0c2NFYlRCU01TYi1VQWhyQ19vdUdlQUNTTmZuckVnblJ2Y3hQLTZYWnJXcnAwa1FBeU13MWtsQ0lNd25RbV9TQlptMERFajA5bkRhWUU4MFZZRHhnR2UzWUE0S3NJZ2FEemlRNHk3dnk1b1lnNk9WUXQ0dUh3aWpKc3M0YkdSMjdZWEFXX1I1eHEtbUU3X2FYOGZKRDdUS3MxNndnWk5RTGRkSDZNeTFlRGgwRlB2bkRYMjNpak1wNzZmQlhrTnAtSjdPSkRBYkNocHhXTFFfYXBiNEFIVWtFSmh3NUUxeDZzaE01aUZjanNydGJhRQ?oc=5",
+        "title": "從800人殺出重圍！《宇宙啦啦隊》9人成團出道 海莉奪冠全場淚崩 - Yahoo新聞"
+      },
+      "reason": "seen_without_significant_change"
+    },
+    {
+      "item": {
+        "canonical_url": "https://news.google.com/rss/articles/CBMisgNBVV95cUxQNkY5bE5XcXBRdDVTaFpuMmhOMVozYjZyMFlEamctYXhObU9ua0Y4Q0k0cTFhZFJlcFRaZVU5S0h5WGQzdlYzNFIwN3dRMEFKblNhRUxkenNhYjgyTVlMb3BXM0hHbW1rZDBJZjlhSFhfeDJGMGh5bV9hVHRxQnh5djdUbUs1V2ROYnRTLTk3eWRBVV9UVktpQl9CYUNaeVpKUkJYQW1oc19HX0dSS0tUQTh1VlFFWVJaRzdYMzZoN1FRcXFnSGFwNmtwU0Y2NjBTUFNOVGlBVlZoenhxV2RuQzVpdFdTdVZaV2daYkhfY0MtWDB1U29oYzdfOFJDM205Y3FwdzJwT0FKVjN0Vl9FY1pQdnhRVlJGVDFOVEVNOHlnd0Z0RmlYTW9FcF80ZXNsRnY1VS1QcmFpMGJlUlRqLTNWVmd4cVhjM0ZtZm45VHNIRFVZdWpfRm5wdGxsclVycDBRT3d1SWlXQVRXNFB0U1lWREFULVR2QU1QZXJrd1JuUDBSNjBFdDU3N0NIUldiOXFWUjE2RjBDcC1CSm5hWlNLWWp3U1RhUncwSmxKWjVuZw?oc=5",
+        "external_id": null,
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": null,
+          "likes": null,
+          "reposts": null,
+          "shares": null,
+          "views": null
+        },
+        "platform": "google_news",
+        "published_at": "2026-05-31T14:01:31+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "《宇宙啦啦隊》9人成團出道！ 海莉含淚奪冠：每個人都值得第一名 Yahoo新聞",
+        "source_url": "https://news.google.com/rss/articles/CBMisgNBVV95cUxQNkY5bE5XcXBRdDVTaFpuMmhOMVozYjZyMFlEamctYXhObU9ua0Y4Q0k0cTFhZFJlcFRaZVU5S0h5WGQzdlYzNFIwN3dRMEFKblNhRUxkenNhYjgyTVlMb3BXM0hHbW1rZDBJZjlhSFhfeDJGMGh5bV9hVHRxQnh5djdUbUs1V2ROYnRTLTk3eWRBVV9UVktpQl9CYUNaeVpKUkJYQW1oc19HX0dSS0tUQTh1VlFFWVJaRzdYMzZoN1FRcXFnSGFwNmtwU0Y2NjBTUFNOVGlBVlZoenhxV2RuQzVpdFdTdVZaV2daYkhfY0MtWDB1U29oYzdfOFJDM205Y3FwdzJwT0FKVjN0Vl9FY1pQdnhRVlJGVDFOVEVNOHlnd0Z0RmlYTW9FcF80ZXNsRnY1VS1QcmFpMGJlUlRqLTNWVmd4cVhjM0ZtZm45VHNIRFVZdWpfRm5wdGxsclVycDBRT3d1SWlXQVRXNFB0U1lWREFULVR2QU1QZXJrd1JuUDBSNjBFdDU3N0NIUldiOXFWUjE2RjBDcC1CSm5hWlNLWWp3U1RhUncwSmxKWjVuZw?oc=5",
+        "title": "《宇宙啦啦隊》9人成團出道！ 海莉含淚奪冠：每個人都值得第一名 - Yahoo新聞"
+      },
+      "reason": "seen_without_significant_change"
+    },
+    {
+      "item": {
+        "canonical_url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxQLUc4TTl0UGIzcmN3S2xPeFF1bDEwTzd4MWdjcWw3WEFPV09HaVBtV3hpTGd3WUo2WHA2ZGxid0VBaUh5UEpNZ0ZQejQ1blduclNncXR6cXlyNVZSckdJaWI2ZDVOQkVCZlZUYURoWURRMmd4Q1ByN0dlT0ludVlxX3Bjeng4OTFwaVQwS2lkVmlDMi1wb1FwS2dpZlNiT2huX0NxeGM3amhsN3ZjVXkza250dXNPZFF3V3g5S1czU1p3TTFudFlqaVU3Q3VzcmJZaGxwYnF2MjlIWUZhdWFmSXUxeDNRaGdaMk9EeEtOWGcwWmVCSWd4cy10VG9iZ1EyMmM3OEE5Y2JncEdub1MxME55WVZMVnQ5U2h6YURkRGVHZmxFTXlYdjhJNW01bDA?oc=5",
+        "external_id": null,
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": null,
+          "likes": null,
+          "reposts": null,
+          "shares": null,
+          "views": null
+        },
+        "platform": "google_news",
+        "published_at": "2026-05-31T05:19:32+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "《宇宙啦啦隊》9人成團哭成淚海 外籍黑馬奪冠 Yahoo新聞",
+        "source_url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxQLUc4TTl0UGIzcmN3S2xPeFF1bDEwTzd4MWdjcWw3WEFPV09HaVBtV3hpTGd3WUo2WHA2ZGxid0VBaUh5UEpNZ0ZQejQ1blduclNncXR6cXlyNVZSckdJaWI2ZDVOQkVCZlZUYURoWURRMmd4Q1ByN0dlT0ludVlxX3Bjeng4OTFwaVQwS2lkVmlDMi1wb1FwS2dpZlNiT2huX0NxeGM3amhsN3ZjVXkza250dXNPZFF3V3g5S1czU1p3TTFudFlqaVU3Q3VzcmJZaGxwYnF2MjlIWUZhdWFmSXUxeDNRaGdaMk9EeEtOWGcwWmVCSWd4cy10VG9iZ1EyMmM3OEE5Y2JncEdub1MxME55WVZMVnQ5U2h6YURkRGVHZmxFTXlYdjhJNW01bDA?oc=5",
+        "title": "《宇宙啦啦隊》9人成團哭成淚海 外籍黑馬奪冠 - Yahoo新聞"
+      },
+      "reason": "seen_without_significant_change"
+    },
+    {
+      "item": {
+        "canonical_url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5Ob01zOGFCTkRUdzNCS2x1UE9hRmdSdC01dU5hMnJpMVV4eFhudllJTVhKN3laR1d2b2FRTW94Sk1DcVlwM3lJSG1VUFJSbnNM?oc=5",
+        "external_id": null,
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": null,
+          "likes": null,
+          "reposts": null,
+          "shares": null,
+          "views": null
+        },
+        "platform": "google_news",
+        "published_at": "2026-05-31T09:48:48+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "「宇宙啦啦隊」9人成團出道 偶像女團W!nky誕生 芋傳媒 TaroNews",
+        "source_url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5Ob01zOGFCTkRUdzNCS2x1UE9hRmdSdC01dU5hMnJpMVV4eFhudllJTVhKN3laR1d2b2FRTW94Sk1DcVlwM3lJSG1VUFJSbnNM?oc=5",
+        "title": "「宇宙啦啦隊」9人成團出道 偶像女團W!nky誕生 - 芋傳媒 TaroNews"
+      },
+      "reason": "seen_without_significant_change"
+    },
+    {
+      "item": {
+        "canonical_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9adUpWcnE4ZThqNjNqWkNWdHJsdW5YR3F2S2VDRnFDc1BFeENwMVQ1ZGt3MWE1OG1vdVRBa2RIUlFwTWd6d2NNdWl6VGlBZmNVaTEzdUd2elhXQQ?oc=5",
+        "external_id": null,
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": null,
+          "likes": null,
+          "reposts": null,
+          "shares": null,
+          "views": null
+        },
+        "platform": "google_news",
+        "published_at": "2026-05-31T10:32:00+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "《宇宙啦啦隊》9人正式出道！海莉奪冠爆哭 新團名曝光 TVBS新聞網",
+        "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9adUpWcnE4ZThqNjNqWkNWdHJsdW5YR3F2S2VDRnFDc1BFeENwMVQ1ZGt3MWE1OG1vdVRBa2RIUlFwTWd6d2NNdWl6VGlBZmNVaTEzdUd2elhXQQ?oc=5",
+        "title": "《宇宙啦啦隊》9人正式出道！海莉奪冠爆哭 新團名曝光 - TVBS新聞網"
+      },
+      "reason": "seen_without_significant_change"
+    },
+    {
+      "item": {
+        "canonical_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9HRlRFWkFkcThnclZzQi1uOUJHN1FNUkZoazNwT3Z1WW0zVHBtZzlGOVl6bVlRUFVjNkptcHZwY0RDLWRHTVg1eW1iUU5kSlgtNjAxM0dn?oc=5",
+        "external_id": null,
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": null,
+          "likes": null,
+          "reposts": null,
+          "shares": null,
+          "views": null
+        },
+        "platform": "google_news",
+        "published_at": "2026-05-31T07:05:28+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "《宇宙啦啦隊》總決賽前夕 B2分享幕後心情 | 青年日報 LINE TODAY",
+        "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9HRlRFWkFkcThnclZzQi1uOUJHN1FNUkZoazNwT3Z1WW0zVHBtZzlGOVl6bVlRUFVjNkptcHZwY0RDLWRHTVg1eW1iUU5kSlgtNjAxM0dn?oc=5",
+        "title": "《宇宙啦啦隊》總決賽前夕 B2分享幕後心情 | 青年日報 - LINE TODAY"
+      },
+      "reason": "seen_without_significant_change"
+    },
+    {
+      "item": {
+        "canonical_url": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxOMkNMOFVGcWpNMl9BZDZsRGxkeXVHVWNtdGp0bmUzLTNPd2pZNXNoVjJRdmN6b0dUYXF0OGc5cDlBcVBfRS1ZXzJZWU5YUkVSSTBIaGQ1bjdnZnJlZG5CZFdLRXVKc21HUXJpU2FtY29TWVdaMDJIREtncVU2ektITnN0NV9WSThGQlZNVExmeDI5LUdRZ2lhVHBCVW1lcFZkekp5MmUwVUFvMzJtTVprOHVJUklqc01YaUpBV3BNUUI3OFV6TWZMbV9tWjZuWGJ2MzdqUkl1NEZDZVlSODhYdDB6UG5sM09ORmxjdEJvR0hFZWlnWEUtVXgwWUhuV29MTG8tS1NBYS1GWFJCMmF1Y2lLVmd4QXhpTUxHZTFsRU52Z3gtRUwtWGp0TWlBeFpzZlRJMnV4anJqUk5QbHJKbzRHVQ?oc=5",
+        "external_id": null,
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": null,
+          "likes": null,
+          "reposts": null,
+          "shares": null,
+          "views": null
+        },
+        "platform": "google_news",
+        "published_at": "2026-05-31T06:00:27+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "海莉《宇宙啦啦隊》激動奪冠! 組9人女團「W!nky」出道 MSN",
+        "source_url": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxOMkNMOFVGcWpNMl9BZDZsRGxkeXVHVWNtdGp0bmUzLTNPd2pZNXNoVjJRdmN6b0dUYXF0OGc5cDlBcVBfRS1ZXzJZWU5YUkVSSTBIaGQ1bjdnZnJlZG5CZFdLRXVKc21HUXJpU2FtY29TWVdaMDJIREtncVU2ektITnN0NV9WSThGQlZNVExmeDI5LUdRZ2lhVHBCVW1lcFZkekp5MmUwVUFvMzJtTVprOHVJUklqc01YaUpBV3BNUUI3OFV6TWZMbV9tWjZuWGJ2MzdqUkl1NEZDZVlSODhYdDB6UG5sM09ORmxjdEJvR0hFZWlnWEUtVXgwWUhuV29MTG8tS1NBYS1GWFJCMmF1Y2lLVmd4QXhpTUxHZTFsRU52Z3gtRUwtWGp0TWlBeFpzZlRJMnV4anJqUk5QbHJKbzRHVQ?oc=5",
+        "title": "海莉《宇宙啦啦隊》激動奪冠! 組9人女團「W!nky」出道 - MSN"
+      },
+      "reason": "seen_without_significant_change"
+    },
+    {
+      "item": {
+        "canonical_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1YRFFiMktILWk0alFCdnhTUW54Z3J0dWNhZnViRW40VXRZZFUydE84QWMtQ1JSTG41ODNhYVRqTWlQRjdSanF6NHhvV0JOSEhVV1V2ODBqN2N4UVBzWGg0cWp5cFQ?oc=5",
+        "external_id": null,
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": null,
+          "likes": null,
+          "reposts": null,
+          "shares": null,
+          "views": null
+        },
+        "platform": "google_news",
+        "published_at": "2026-05-31T11:54:20+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "討論牆 | 《宇宙啦啦隊》今晚總決賽 B2驕傲發聲：女孩唱跳進步神速「每個人都是冠軍」 LINE TODAY",
+        "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1YRFFiMktILWk0alFCdnhTUW54Z3J0dWNhZnViRW40VXRZZFUydE84QWMtQ1JSTG41ODNhYVRqTWlQRjdSanF6NHhvV0JOSEhVV1V2ODBqN2N4UVBzWGg0cWp5cFQ?oc=5",
+        "title": "討論牆 | 《宇宙啦啦隊》今晚總決賽 B2驕傲發聲：女孩唱跳進步神速「每個人都是冠軍」 - LINE TODAY"
+      },
+      "reason": "seen_without_significant_change"
+    },
+    {
+      "item": {
+        "canonical_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1vNjZXSnNQQTEwNDUtS3ZYRjYxTWxnQW1nT19GSWZPeGRWVms2ejRFSTd1LTI0d2NvX1JNUzlPZ2xSdXFpUEZ5OXdlS2loeEZROFNOSDdxT3pBaGpCZjI2UkdHdUo?oc=5",
+        "external_id": null,
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": null,
+          "likes": null,
+          "reposts": null,
+          "shares": null,
+          "views": null
+        },
+        "platform": "google_news",
+        "published_at": "2026-05-31T11:52:18+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "討論牆 | 從800人殺出重圍！《宇宙啦啦隊》9人成團出道 海莉奪冠全場淚崩 LINE TODAY",
+        "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1vNjZXSnNQQTEwNDUtS3ZYRjYxTWxnQW1nT19GSWZPeGRWVms2ejRFSTd1LTI0d2NvX1JNUzlPZ2xSdXFpUEZ5OXdlS2loeEZROFNOSDdxT3pBaGpCZjI2UkdHdUo?oc=5",
+        "title": "討論牆 | 從800人殺出重圍！《宇宙啦啦隊》9人成團出道 海莉奪冠全場淚崩 - LINE TODAY"
+      },
+      "reason": "seen_without_significant_change"
+    },
+    {
+      "item": {
+        "canonical_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9vaW9jOUF4RmJIckE1d2pQMDkwemJkM1BHeU83bC1qQ0M4Z2JHQXJGLXRoQV9nY3NzQmw0Vjd4WG5hQ3dZMU10OVNROHUwS0F0ekhvMG1tUUxXSDN0MG5HekpjaF8?oc=5",
+        "external_id": null,
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": null,
+          "likes": null,
+          "reposts": null,
+          "shares": null,
+          "views": null
+        },
+        "platform": "google_news",
+        "published_at": "2026-05-31T08:48:50+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "討論牆 | 《宇宙啦啦隊》海莉奪冠！第9名讓B2直呼意外 驚吐：這幾天問遍140人 LINE TODAY",
+        "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9vaW9jOUF4RmJIckE1d2pQMDkwemJkM1BHeU83bC1qQ0M4Z2JHQXJGLXRoQV9nY3NzQmw0Vjd4WG5hQ3dZMU10OVNROHUwS0F0ekhvMG1tUUxXSDN0MG5HekpjaF8?oc=5",
+        "title": "討論牆 | 《宇宙啦啦隊》海莉奪冠！第9名讓B2直呼意外 驚吐：這幾天問遍140人 - LINE TODAY"
+      },
+      "reason": "seen_without_significant_change"
+    },
+    {
+      "item": {
+        "canonical_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5peFF4Q0NGbEJUMVY4VmE4Rm5VYW9GOG9Ia00xNUhIRFpJLWRYTm5sOEJuYnBSWURYT1RqQklFa3QzTXZjWUJTQW9hRkhSeVlqMmVmMl9wcWpHS3Y3bWxBTGhsT28?oc=5",
+        "external_id": null,
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": null,
+          "likes": null,
+          "reposts": null,
+          "shares": null,
+          "views": null
+        },
+        "platform": "google_news",
+        "published_at": "2026-05-31T11:45:43+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "討論牆 | 《宇宙啦啦隊》合作醫美爆「針孔偷拍」 製作人B2澄清：錄影時間點不同 LINE TODAY",
+        "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5peFF4Q0NGbEJUMVY4VmE4Rm5VYW9GOG9Ia00xNUhIRFpJLWRYTm5sOEJuYnBSWURYT1RqQklFa3QzTXZjWUJTQW9hRkhSeVlqMmVmMl9wcWpHS3Y3bWxBTGhsT28?oc=5",
+        "title": "討論牆 | 《宇宙啦啦隊》合作醫美爆「針孔偷拍」 製作人B2澄清：錄影時間點不同 - LINE TODAY"
+      },
+      "reason": "seen_without_significant_change"
+    },
+    {
+      "item": {
+        "canonical_url": "https://www.threads.com/@energy_712/post/DY_oq4qk_sL/20260530-%E5%AE%87%E5%AE%99%E5%95%A6%E5%95%A6%E9%9A%8A%E6%B1%BA%E8%B3%BD%E6%88%90%E5%9C%98%E6%97%A5%E4%B8%80%E6%97%A9%E5%8C%97%E4%B8%8A%E6%8E%92%E7%AB%99%E5%B8%AD%E5%A4%A7%E7%A6%AE%E5%8C%85%E5%BE%9E%E6%97%A9%E4%B8%8A9%E9%BB%9E%E5%A4%9A%E4%B8%80%E8%B7%AF%E6%8E%92%E5%88%B0%E4%B8%8B%E5%8D%881%E9%BB%9E%E5%A4%9A%E7%9C%BC%E7%9C%8B%E5%B0%B1%E5%BF%AB%E8%BC%AA%E5%88%B0%E6%88%91%E5%80%91%E5%AE%98%E6%96%B9%E5%8D%BB%E5%AE%A3%E5%B8%83%E5%AE%8C%E5%94%AE%E5%8F%AA%E8%83%BD%E5%B8%B6%E8%91%97%E5%A4%B1%E8%90%BD%E5%90%84%E8%87%AA%E5%8E%BB%E5%90%83%E9%A3%AF%E5%82%8D%E6%99%9A%E5%86%8D%E6%AC%A1%E9%9B%86%E5%90%88%E6%B2%92%E6%83%B3%E5%88%B0%E7%AB%9F/",
+        "external_id": "DY_oq4qk_sL",
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": 4,
+          "likes": 135,
+          "reposts": 7,
+          "shares": null,
+          "views": 1618
+        },
+        "platform": "threads",
+        "published_at": "2026-05-31T07:15:41+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "2026/05/30 宇宙啦啦隊決賽成團日\n\n一早北上排站席大禮包，從早上9點多一路排到下午1點多，眼看就快輪到我們，官方卻宣布完售，只能帶著失落各自去吃飯😢\n\n傍晚再次集合，沒想到竟然等到奶哥來上班，還貼心請現場E家人喝消暑綠豆沙，真的又驚喜又感動❤️\n\n雖然沒搶到入場資格，我們還是在場外一路等到晚上快11點。最後等到奶哥從大門走出來，特地過來和大家聊天、合照，等了快14小時的疲累一切都值得了。（很謝謝德倫哥、還有小宗哥來側拍🤣\n\n那一刻，彷彿回到了小時候追著奶哥的日子。\n\n謝謝今天的相遇，也謝謝這份始終沒變的溫暖🤩\n@yeh_naiwen \n@darran327 \n@badlittlechung",
+        "source_url": "https://www.threads.com/@energy_712/post/DY_oq4qk_sL/20260530-%E5%AE%87%E5%AE%99%E5%95%A6%E5%95%A6%E9%9A%8A%E6%B1%BA%E8%B3%BD%E6%88%90%E5%9C%98%E6%97%A5%E4%B8%80%E6%97%A9%E5%8C%97%E4%B8%8A%E6%8E%92%E7%AB%99%E5%B8%AD%E5%A4%A7%E7%A6%AE%E5%8C%85%E5%BE%9E%E6%97%A9%E4%B8%8A9%E9%BB%9E%E5%A4%9A%E4%B8%80%E8%B7%AF%E6%8E%92%E5%88%B0%E4%B8%8B%E5%8D%881%E9%BB%9E%E5%A4%9A%E7%9C%BC%E7%9C%8B%E5%B0%B1%E5%BF%AB%E8%BC%AA%E5%88%B0%E6%88%91%E5%80%91%E5%AE%98%E6%96%B9%E5%8D%BB%E5%AE%A3%E5%B8%83%E5%AE%8C%E5%94%AE%E5%8F%AA%E8%83%BD%E5%B8%B6%E8%91%97%E5%A4%B1%E8%90%BD%E5%90%84%E8%87%AA%E5%8E%BB%E5%90%83%E9%A3%AF%E5%82%8D%E6%99%9A%E5%86%8D%E6%AC%A1%E9%9B%86%E5%90%88%E6%B2%92%E6%83%B3%E5%88%B0%E7%AB%9F/",
+        "title": "2026/05/30 宇宙啦啦隊決賽成團日\n\n一早北上排站席大禮包，從早上9點多一路排到下午1點多，眼看就快輪到我們，官方卻宣布完售，只能帶著失落各自去吃飯😢\n\n傍晚再次集合，沒想到竟然等到奶哥來上班，還貼心請現場E家人喝消暑綠豆沙，真的又驚喜又感動❤️\n\n雖然沒搶到入場資格，我們還是在場外一路等到晚上快11點。最後等到奶哥從大門走出來，特地過來和大家聊天、合照，等了快14小時的疲累一切都值得了。（很謝謝德倫哥、還有小宗哥來側拍🤣\n\n那一刻，彷彿回到了小時候追著奶哥的日子。\n\n謝謝今天的相遇，也謝謝這份始終沒變的溫暖🤩\n@yeh_naiwen \n@darran327 \n@badlittlechung"
+      },
+      "reason": "seen_without_significant_change"
+    },
+    {
+      "item": {
+        "canonical_url": "https://www.threads.com/@taisounds/post/DZAKgVGChOS/%E5%AE%87%E5%AE%99%E5%95%A6%E5%95%A6%E9%9A%8A9%E4%BA%BA%E6%88%90%E5%9C%98%E5%93%AD%E6%88%90%E6%B7%9A%E6%B5%B7%E5%A4%96%E7%B1%8D%E9%BB%91%E9%A6%AC%E5%A5%AA%E5%86%A0/",
+        "external_id": "DZAKgVGChOS",
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": 1,
+          "likes": 1,
+          "reposts": 0,
+          "shares": null,
+          "views": 367
+        },
+        "platform": "threads",
+        "published_at": "2026-05-31T12:11:21+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "《宇宙啦啦隊》\n9人成團哭成淚海\n外籍黑馬奪冠",
+        "source_url": "https://www.threads.com/@taisounds/post/DZAKgVGChOS/%E5%AE%87%E5%AE%99%E5%95%A6%E5%95%A6%E9%9A%8A9%E4%BA%BA%E6%88%90%E5%9C%98%E5%93%AD%E6%88%90%E6%B7%9A%E6%B5%B7%E5%A4%96%E7%B1%8D%E9%BB%91%E9%A6%AC%E5%A5%AA%E5%86%A0/",
+        "title": "《宇宙啦啦隊》\n9人成團哭成淚海\n外籍黑馬奪冠"
+      },
+      "reason": "seen_without_significant_change"
+    }
+  ],
+  "generated_at": "2026-06-02T04:07:19.443721+00:00",
+  "included": [
+    {
+      "inclusion_reason": "new_item",
+      "item": {
+        "canonical_url": "https://news.google.com/rss/articles/CBMivANBVV95cUxPT3VRZzgwSy1zajI0TFdnb2JtM0ZOSDF6dmJJWHRtZVRMckxTOU9uR3BsNUUwRWtzX0lrMGUtN0w1WWZVZWpqTmQzYXRQcXdORnhLNnJOaWYyQkp5WmVLRkROMEh3U3pLQzBrbjdFT2xWcm9OMU5JdDRUTi05MzV3dU5TUTc5TmxRbWU4Y0UxRG1qOEtTSUZndGU5RnRmb2dTNm1fRlBlaXVMRWdlbm50ZjdPSDIxUkhqZlN2cExzeTRVeXkxTVZOVEo1U01uMGJYd0JuQWVPT2c4OXZlYmdzYXphUV9XSXc3c09IMDJmZVJ0Q0w1ZFJXT1NsMUxYZWlzSGxFSVlISGFvRlRXeEFkaDI3SXlBVVJ0WGR2eE9NbWhrRldyN3NQbmY5a2RUSDd3MmlUaUpBRHZJZGhMU3Y0Ul85WnNRNldRVmFKYUxZQVR6bTA0OVNEWEdfVzVOa052Wm9iWlVHd2dfTjVfRWZkMnotc2tnUjJoSllCenhrMnZ6OFczanB3ZXhTRTBJc1otZHJkTVZnWFVlbnVzNU5YMnFDRDQwWU1Qbk1TeXAzY3g0MWZRSTlXbkFTdEU?oc=5",
+        "display_snippet": "《宇宙啦啦隊》爆抄襲韓女團! 編舞老師道歉秒刪文 製作人不忍發聲了 MSN",
+        "display_title": "《宇宙啦啦隊》爆抄襲韓女團! 編舞老師道歉秒刪文 製作人不忍發聲了 - MSN",
+        "external_id": null,
+        "identity_key": "google_news:url:https://news.google.com/rss/articles/CBMivANBVV95cUxPT3VRZzgwSy1zajI0TFdnb2JtM0ZOSDF6dmJJWHRtZVRMckxTOU9uR3BsNUUwRWtzX0lrMGUtN0w1WWZVZWpqTmQzYXRQcXdORnhLNnJOaWYyQkp5WmVLRkROMEh3U3pLQzBrbjdFT2xWcm9OMU5JdDRUTi05MzV3dU5TUTc5TmxRbWU4Y0UxRG1qOEtTSUZndGU5RnRmb2dTNm1fRlBlaXVMRWdlbm50ZjdPSDIxUkhqZlN2cExzeTRVeXkxTVZOVEo1U01uMGJYd0JuQWVPT2c4OXZlYmdzYXphUV9XSXc3c09IMDJmZVJ0Q0w1ZFJXT1NsMUxYZWlzSGxFSVlISGFvRlRXeEFkaDI3SXlBVVJ0WGR2eE9NbWhrRldyN3NQbmY5a2RUSDd3MmlUaUpBRHZJZGhMU3Y0Ul85WnNRNldRVmFKYUxZQVR6bTA0OVNEWEdfVzVOa052Wm9iWlVHd2dfTjVfRWZkMnotc2tnUjJoSllCenhrMnZ6OFczanB3ZXhTRTBJc1otZHJkTVZnWFVlbnVzNU5YMnFDRDQwWU1Qbk1TeXAzY3g0MWZRSTlXbkFTdEU?oc=5",
+        "interaction_total": 0,
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": null,
+          "likes": null,
+          "reposts": null,
+          "shares": null,
+          "views": null
+        },
+        "platform": "google_news",
+        "public_url": "https://news.google.com/rss/articles/CBMivANBVV95cUxPT3VRZzgwSy1zajI0TFdnb2JtM0ZOSDF6dmJJWHRtZVRMckxTOU9uR3BsNUUwRWtzX0lrMGUtN0w1WWZVZWpqTmQzYXRQcXdORnhLNnJOaWYyQkp5WmVLRkROMEh3U3pLQzBrbjdFT2xWcm9OMU5JdDRUTi05MzV3dU5TUTc5TmxRbWU4Y0UxRG1qOEtTSUZndGU5RnRmb2dTNm1fRlBlaXVMRWdlbm50ZjdPSDIxUkhqZlN2cExzeTRVeXkxTVZOVEo1U01uMGJYd0JuQWVPT2c4OXZlYmdzYXphUV9XSXc3c09IMDJmZVJ0Q0w1ZFJXT1NsMUxYZWlzSGxFSVlISGFvRlRXeEFkaDI3SXlBVVJ0WGR2eE9NbWhrRldyN3NQbmY5a2RUSDd3MmlUaUpBRHZJZGhMU3Y0Ul85WnNRNldRVmFKYUxZQVR6bTA0OVNEWEdfVzVOa052Wm9iWlVHd2dfTjVfRWZkMnotc2tnUjJoSllCenhrMnZ6OFczanB3ZXhTRTBJc1otZHJkTVZnWFVlbnVzNU5YMnFDRDQwWU1Qbk1TeXAzY3g0MWZRSTlXbkFTdEU?oc=5",
+        "published_at": "2026-06-01T05:27:24+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "《宇宙啦啦隊》爆抄襲韓女團! 編舞老師道歉秒刪文 製作人不忍發聲了 MSN",
+        "source_url": "https://news.google.com/rss/articles/CBMivANBVV95cUxPT3VRZzgwSy1zajI0TFdnb2JtM0ZOSDF6dmJJWHRtZVRMckxTOU9uR3BsNUUwRWtzX0lrMGUtN0w1WWZVZWpqTmQzYXRQcXdORnhLNnJOaWYyQkp5WmVLRkROMEh3U3pLQzBrbjdFT2xWcm9OMU5JdDRUTi05MzV3dU5TUTc5TmxRbWU4Y0UxRG1qOEtTSUZndGU5RnRmb2dTNm1fRlBlaXVMRWdlbm50ZjdPSDIxUkhqZlN2cExzeTRVeXkxTVZOVEo1U01uMGJYd0JuQWVPT2c4OXZlYmdzYXphUV9XSXc3c09IMDJmZVJ0Q0w1ZFJXT1NsMUxYZWlzSGxFSVlISGFvRlRXeEFkaDI3SXlBVVJ0WGR2eE9NbWhrRldyN3NQbmY5a2RUSDd3MmlUaUpBRHZJZGhMU3Y0Ul85WnNRNldRVmFKYUxZQVR6bTA0OVNEWEdfVzVOa052Wm9iWlVHd2dfTjVfRWZkMnotc2tnUjJoSllCenhrMnZ6OFczanB3ZXhTRTBJc1otZHJkTVZnWFVlbnVzNU5YMnFDRDQwWU1Qbk1TeXAzY3g0MWZRSTlXbkFTdEU?oc=5",
+        "title": "《宇宙啦啦隊》爆抄襲韓女團! 編舞老師道歉秒刪文 製作人不忍發聲了 - MSN"
+      },
+      "risk": {
+        "level": "低",
+        "llm_adjustment": 0,
+        "reasons": [
+          "涉及敏感議題：抄襲",
+          "與製作決策相關：製作"
+        ],
+        "rule_score": 35,
+        "score": 35
+      }
+    },
+    {
+      "inclusion_reason": "new_item",
+      "item": {
+        "canonical_url": "https://news.google.com/rss/articles/CBMizwJBVV95cUxQS1Z0Z2xkcmpnWkZ0dUFfQU51N2VUNm5FR2RIc1RGYmtPbW1OUnluY0RhaFBsN1hjOU1CdXQydEplRzlZNlhXb2h2T25WUGZHM3pHTzhjanlCV3drdDJoLS1Tb3Z0VHZDaDRtS19NbU5YWXFhMGZmVFFsRkNlN21vQUtndm5pZ2dsc0QtZ19rbU9QSE5faG91OXZNZW1BQWpXWFNMWHJEN0ktSzBVLVdBajVHbGgya0lVc184NjRhNzl0a2NXVGZhOGFCU0xxWDhUaGowOFkyUjlmdU5xbU9qX2hlUTJxaVNRWGZhN050OE1OaWgyb29QYVV3ckJYdTVYbHF3c0x4ODYtQTRyMUVuNFhEQk5IREhCOVpMc202MEZlT2RoSXU5YmloZU13Q1FVS3QwS2dpNGFFcmZybnE1dFR6YkY1U2hWbWFRN1A1cw?oc=5",
+        "display_snippet": "W!nky正式誕生！《宇宙啦啦隊》9人成團出道 海莉奪冠哭喊：大家都值得 Yahoo新聞",
+        "display_title": "W!nky正式誕生！《宇宙啦啦隊》9人成團出道 海莉奪冠哭喊：大家都值得 - Yahoo新聞",
+        "external_id": null,
+        "identity_key": "google_news:url:https://news.google.com/rss/articles/CBMizwJBVV95cUxQS1Z0Z2xkcmpnWkZ0dUFfQU51N2VUNm5FR2RIc1RGYmtPbW1OUnluY0RhaFBsN1hjOU1CdXQydEplRzlZNlhXb2h2T25WUGZHM3pHTzhjanlCV3drdDJoLS1Tb3Z0VHZDaDRtS19NbU5YWXFhMGZmVFFsRkNlN21vQUtndm5pZ2dsc0QtZ19rbU9QSE5faG91OXZNZW1BQWpXWFNMWHJEN0ktSzBVLVdBajVHbGgya0lVc184NjRhNzl0a2NXVGZhOGFCU0xxWDhUaGowOFkyUjlmdU5xbU9qX2hlUTJxaVNRWGZhN050OE1OaWgyb29QYVV3ckJYdTVYbHF3c0x4ODYtQTRyMUVuNFhEQk5IREhCOVpMc202MEZlT2RoSXU5YmloZU13Q1FVS3QwS2dpNGFFcmZybnE1dFR6YkY1U2hWbWFRN1A1cw?oc=5",
+        "interaction_total": 0,
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": null,
+          "likes": null,
+          "reposts": null,
+          "shares": null,
+          "views": null
+        },
+        "platform": "google_news",
+        "public_url": "https://news.google.com/rss/articles/CBMizwJBVV95cUxQS1Z0Z2xkcmpnWkZ0dUFfQU51N2VUNm5FR2RIc1RGYmtPbW1OUnluY0RhaFBsN1hjOU1CdXQydEplRzlZNlhXb2h2T25WUGZHM3pHTzhjanlCV3drdDJoLS1Tb3Z0VHZDaDRtS19NbU5YWXFhMGZmVFFsRkNlN21vQUtndm5pZ2dsc0QtZ19rbU9QSE5faG91OXZNZW1BQWpXWFNMWHJEN0ktSzBVLVdBajVHbGgya0lVc184NjRhNzl0a2NXVGZhOGFCU0xxWDhUaGowOFkyUjlmdU5xbU9qX2hlUTJxaVNRWGZhN050OE1OaWgyb29QYVV3ckJYdTVYbHF3c0x4ODYtQTRyMUVuNFhEQk5IREhCOVpMc202MEZlT2RoSXU5YmloZU13Q1FVS3QwS2dpNGFFcmZybnE1dFR6YkY1U2hWbWFRN1A1cw?oc=5",
+        "published_at": "2026-05-31T04:50:08+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "W!nky正式誕生！《宇宙啦啦隊》9人成團出道 海莉奪冠哭喊：大家都值得 Yahoo新聞",
+        "source_url": "https://news.google.com/rss/articles/CBMizwJBVV95cUxQS1Z0Z2xkcmpnWkZ0dUFfQU51N2VUNm5FR2RIc1RGYmtPbW1OUnluY0RhaFBsN1hjOU1CdXQydEplRzlZNlhXb2h2T25WUGZHM3pHTzhjanlCV3drdDJoLS1Tb3Z0VHZDaDRtS19NbU5YWXFhMGZmVFFsRkNlN21vQUtndm5pZ2dsc0QtZ19rbU9QSE5faG91OXZNZW1BQWpXWFNMWHJEN0ktSzBVLVdBajVHbGgya0lVc184NjRhNzl0a2NXVGZhOGFCU0xxWDhUaGowOFkyUjlmdU5xbU9qX2hlUTJxaVNRWGZhN050OE1OaWgyb29QYVV3ckJYdTVYbHF3c0x4ODYtQTRyMUVuNFhEQk5IREhCOVpMc202MEZlT2RoSXU5YmloZU13Q1FVS3QwS2dpNGFFcmZybnE1dFR6YkY1U2hWbWFRN1A1cw?oc=5",
+        "title": "W!nky正式誕生！《宇宙啦啦隊》9人成團出道 海莉奪冠哭喊：大家都值得 - Yahoo新聞"
+      },
+      "risk": {
+        "level": "極低",
+        "llm_adjustment": 0,
+        "reasons": [
+          "未見明顯內容風險"
+        ],
+        "rule_score": 0,
+        "score": 0
+      }
+    },
+    {
+      "inclusion_reason": "new_item",
+      "item": {
+        "canonical_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5NY0NCb0FZUndtRlloOGN5M0FENlFsc05lQ3g0eWtYNDJEak1ISzVHN0N3djRJbkNKejhfV2p3eEY0SXQ0S0pIREZRSi11blNIeEliVDZYSS1ZSUtVOHJQMmxIcElaVGEtTElHcERB?oc=5",
+        "display_snippet": "緯來原創《宇宙啦啦隊》9人成團出道偶像女團W!nky正式誕生 青年日報",
+        "display_title": "緯來原創《宇宙啦啦隊》9人成團出道偶像女團W!nky正式誕生 - 青年日報",
+        "external_id": null,
+        "identity_key": "google_news:url:https://news.google.com/rss/articles/CBMibkFVX3lxTE5NY0NCb0FZUndtRlloOGN5M0FENlFsc05lQ3g0eWtYNDJEak1ISzVHN0N3djRJbkNKejhfV2p3eEY0SXQ0S0pIREZRSi11blNIeEliVDZYSS1ZSUtVOHJQMmxIcElaVGEtTElHcERB?oc=5",
+        "interaction_total": 0,
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": null,
+          "likes": null,
+          "reposts": null,
+          "shares": null,
+          "views": null
+        },
+        "platform": "google_news",
+        "public_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5NY0NCb0FZUndtRlloOGN5M0FENlFsc05lQ3g0eWtYNDJEak1ISzVHN0N3djRJbkNKejhfV2p3eEY0SXQ0S0pIREZRSi11blNIeEliVDZYSS1ZSUtVOHJQMmxIcElaVGEtTElHcERB?oc=5",
+        "published_at": "2026-05-31T07:17:00+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "緯來原創《宇宙啦啦隊》9人成團出道偶像女團W!nky正式誕生 青年日報",
+        "source_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5NY0NCb0FZUndtRlloOGN5M0FENlFsc05lQ3g0eWtYNDJEak1ISzVHN0N3djRJbkNKejhfV2p3eEY0SXQ0S0pIREZRSi11blNIeEliVDZYSS1ZSUtVOHJQMmxIcElaVGEtTElHcERB?oc=5",
+        "title": "緯來原創《宇宙啦啦隊》9人成團出道偶像女團W!nky正式誕生 - 青年日報"
+      },
+      "risk": {
+        "level": "極低",
+        "llm_adjustment": 0,
+        "reasons": [
+          "未見明顯內容風險"
+        ],
+        "rule_score": 0,
+        "score": 0
+      }
+    },
+    {
+      "inclusion_reason": "new_item",
+      "item": {
+        "canonical_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPdU9sNm1pNU5uVmNvMEJyckZ0ZHNKUEFQTmdVanV6Y1FOeHNhTWI5M3JCOVFpMXRjV1NUbDBaR0l1a2t5a1JpNEl2QlJHSmctdjYxNlJweGo3R1k2NWJleDl6TTdzQ2FjdGlRTXd5amlVeGtiNUQ2N1Vudi0wM1ZKZmtiVHppdw?oc=5",
+        "display_snippet": "《宇宙啦啦隊》總決賽吸365萬人收看 鄭恩地同台銀赫掀話題 緯來新聞網",
+        "display_title": "《宇宙啦啦隊》總決賽吸365萬人收看 鄭恩地同台銀赫掀話題 - 緯來新聞網",
+        "external_id": null,
+        "identity_key": "google_news:url:https://news.google.com/rss/articles/CBMihgFBVV95cUxPdU9sNm1pNU5uVmNvMEJyckZ0ZHNKUEFQTmdVanV6Y1FOeHNhTWI5M3JCOVFpMXRjV1NUbDBaR0l1a2t5a1JpNEl2QlJHSmctdjYxNlJweGo3R1k2NWJleDl6TTdzQ2FjdGlRTXd5amlVeGtiNUQ2N1Vudi0wM1ZKZmtiVHppdw?oc=5",
+        "interaction_total": 0,
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": null,
+          "likes": null,
+          "reposts": null,
+          "shares": null,
+          "views": null
+        },
+        "platform": "google_news",
+        "public_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPdU9sNm1pNU5uVmNvMEJyckZ0ZHNKUEFQTmdVanV6Y1FOeHNhTWI5M3JCOVFpMXRjV1NUbDBaR0l1a2t5a1JpNEl2QlJHSmctdjYxNlJweGo3R1k2NWJleDl6TTdzQ2FjdGlRTXd5amlVeGtiNUQ2N1Vudi0wM1ZKZmtiVHppdw?oc=5",
+        "published_at": "2026-06-01T05:28:00+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "《宇宙啦啦隊》總決賽吸365萬人收看 鄭恩地同台銀赫掀話題 緯來新聞網",
+        "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPdU9sNm1pNU5uVmNvMEJyckZ0ZHNKUEFQTmdVanV6Y1FOeHNhTWI5M3JCOVFpMXRjV1NUbDBaR0l1a2t5a1JpNEl2QlJHSmctdjYxNlJweGo3R1k2NWJleDl6TTdzQ2FjdGlRTXd5amlVeGtiNUQ2N1Vudi0wM1ZKZmtiVHppdw?oc=5",
+        "title": "《宇宙啦啦隊》總決賽吸365萬人收看 鄭恩地同台銀赫掀話題 - 緯來新聞網"
+      },
+      "risk": {
+        "level": "極低",
+        "llm_adjustment": 0,
+        "reasons": [
+          "未見明顯內容風險"
+        ],
+        "rule_score": 0,
+        "score": 0
+      }
+    },
+    {
+      "inclusion_reason": "new_item",
+      "item": {
+        "canonical_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBhTFdhNGZZV2VZTjlJcU13RlR3dzFrai02OGhhLWJqTnN2eEV4bXAxUVlpUTh0OU1ETlFfZG81UzhHTVU5LXRfdktTRm0xdWp1WmdPZNIBVEFVX3lxTFBhTFdhNGZZV2VZTjlJcU13RlR3dzFrai02OGhhLWJqTnN2eEV4bXAxUVlpUTh0OU1ETlFfZG81UzhHTVU5LXRfdktTRm0xdWp1WmdPZA?oc=5",
+        "display_snippet": "《宇宙啦啦隊》總決賽落幕　全新女團「W!nky」9人名單正式曝光 | 娛樂 | CTWANT CTWANT",
+        "display_title": "《宇宙啦啦隊》總決賽落幕　全新女團「W!nky」9人名單正式曝光 | 娛樂 | CTWANT - CTWANT",
+        "external_id": null,
+        "identity_key": "google_news:url:https://news.google.com/rss/articles/CBMiVEFVX3lxTFBhTFdhNGZZV2VZTjlJcU13RlR3dzFrai02OGhhLWJqTnN2eEV4bXAxUVlpUTh0OU1ETlFfZG81UzhHTVU5LXRfdktTRm0xdWp1WmdPZNIBVEFVX3lxTFBhTFdhNGZZV2VZTjlJcU13RlR3dzFrai02OGhhLWJqTnN2eEV4bXAxUVlpUTh0OU1ETlFfZG81UzhHTVU5LXRfdktTRm0xdWp1WmdPZA?oc=5",
+        "interaction_total": 0,
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": null,
+          "likes": null,
+          "reposts": null,
+          "shares": null,
+          "views": null
+        },
+        "platform": "google_news",
+        "public_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBhTFdhNGZZV2VZTjlJcU13RlR3dzFrai02OGhhLWJqTnN2eEV4bXAxUVlpUTh0OU1ETlFfZG81UzhHTVU5LXRfdktTRm0xdWp1WmdPZNIBVEFVX3lxTFBhTFdhNGZZV2VZTjlJcU13RlR3dzFrai02OGhhLWJqTnN2eEV4bXAxUVlpUTh0OU1ETlFfZG81UzhHTVU5LXRfdktTRm0xdWp1WmdPZA?oc=5",
+        "published_at": "2026-06-01T04:20:43+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "《宇宙啦啦隊》總決賽落幕　全新女團「W!nky」9人名單正式曝光 | 娛樂 | CTWANT CTWANT",
+        "source_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBhTFdhNGZZV2VZTjlJcU13RlR3dzFrai02OGhhLWJqTnN2eEV4bXAxUVlpUTh0OU1ETlFfZG81UzhHTVU5LXRfdktTRm0xdWp1WmdPZNIBVEFVX3lxTFBhTFdhNGZZV2VZTjlJcU13RlR3dzFrai02OGhhLWJqTnN2eEV4bXAxUVlpUTh0OU1ETlFfZG81UzhHTVU5LXRfdktTRm0xdWp1WmdPZA?oc=5",
+        "title": "《宇宙啦啦隊》總決賽落幕　全新女團「W!nky」9人名單正式曝光 | 娛樂 | CTWANT - CTWANT"
+      },
+      "risk": {
+        "level": "極低",
+        "llm_adjustment": 0,
+        "reasons": [
+          "未見明顯內容風險"
+        ],
+        "rule_score": 0,
+        "score": 0
+      }
+    },
+    {
+      "inclusion_reason": "new_item",
+      "item": {
+        "canonical_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9QOFZ5dS1zcDJNM212QlhERVdPb0l2VUlnc1RMVTR1YktZOTZBSGFkSGNvOE5qMmdPeTgycm1CRUpLVWo4NHpVLVY2MkxmUHBKdnc?oc=5",
+        "display_snippet": "SJ銀赫驚喜合體Energy牛奶老師唱跳《OPPA OPPA》 鄭恩地領軍《宇宙啦啦隊》18女孩演出 蕃新聞",
+        "display_title": "SJ銀赫驚喜合體Energy牛奶老師唱跳《OPPA OPPA》 鄭恩地領軍《宇宙啦啦隊》18女孩演出 - 蕃新聞",
+        "external_id": null,
+        "identity_key": "google_news:url:https://news.google.com/rss/articles/CBMiUkFVX3lxTE9QOFZ5dS1zcDJNM212QlhERVdPb0l2VUlnc1RMVTR1YktZOTZBSGFkSGNvOE5qMmdPeTgycm1CRUpLVWo4NHpVLVY2MkxmUHBKdnc?oc=5",
+        "interaction_total": 0,
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": null,
+          "likes": null,
+          "reposts": null,
+          "shares": null,
+          "views": null
+        },
+        "platform": "google_news",
+        "public_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9QOFZ5dS1zcDJNM212QlhERVdPb0l2VUlnc1RMVTR1YktZOTZBSGFkSGNvOE5qMmdPeTgycm1CRUpLVWo4NHpVLVY2MkxmUHBKdnc?oc=5",
+        "published_at": "2026-06-01T10:36:00+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "SJ銀赫驚喜合體Energy牛奶老師唱跳《OPPA OPPA》 鄭恩地領軍《宇宙啦啦隊》18女孩演出 蕃新聞",
+        "source_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9QOFZ5dS1zcDJNM212QlhERVdPb0l2VUlnc1RMVTR1YktZOTZBSGFkSGNvOE5qMmdPeTgycm1CRUpLVWo4NHpVLVY2MkxmUHBKdnc?oc=5",
+        "title": "SJ銀赫驚喜合體Energy牛奶老師唱跳《OPPA OPPA》 鄭恩地領軍《宇宙啦啦隊》18女孩演出 - 蕃新聞"
+      },
+      "risk": {
+        "level": "極低",
+        "llm_adjustment": 0,
+        "reasons": [
+          "未見明顯內容風險"
+        ],
+        "rule_score": 0,
+        "score": 0
+      }
+    },
+    {
+      "inclusion_reason": "new_item",
+      "item": {
+        "canonical_url": "https://news.google.com/rss/articles/CBMi4gJBVV95cUxQSFc3OHRPbUlQRWdGcTRxdUZNMGRxM29weXNXSG9oQ0Fzc3pZRjRKbldTNjhBUUtzb0dmZlBPcVZIOElEeHVxWFNGUlFzWWNPdUJQVThhOHZvSkFtSEVlNnhMYkFzUUFPSHBORjhvMjZUZ2ZLU0p0bjltZnJwWURyMWVqVUZXMnlYc1BlSDBFb08tMjE4OWtEZjcwYWFNWjJzZFZkRWFlRFdBX0syTnZlendZdUFMQTctODFSQzVQMl9qMzYxZHZoRTZZREdUM0RNQ3lMNGN5aVpGWWpMMDByLVB1Ukp6a3FtZnRTNGc5T2l2VlVpWDUzWmRBUjh6S2ZuQW5YQ2xtUTBaM0xuV291elI4NTBlajA4aDh1VnZLSWhCMzhXc3VYbUt6bzdJYlhqeFp5b0lTYmppTWdUOVhRcHpZeHFMVFV5MmxrbmRteXZjc3owdnZ1WGtva0lLY2t2cUE?oc=5",
+        "display_snippet": "《宇宙啦啦隊》W!nky成團！ 銀赫、牛奶夢幻聯動掀熱議 Yahoo新聞",
+        "display_title": "《宇宙啦啦隊》W!nky成團！ 銀赫、牛奶夢幻聯動掀熱議 - Yahoo新聞",
+        "external_id": null,
+        "identity_key": "google_news:url:https://news.google.com/rss/articles/CBMi4gJBVV95cUxQSFc3OHRPbUlQRWdGcTRxdUZNMGRxM29weXNXSG9oQ0Fzc3pZRjRKbldTNjhBUUtzb0dmZlBPcVZIOElEeHVxWFNGUlFzWWNPdUJQVThhOHZvSkFtSEVlNnhMYkFzUUFPSHBORjhvMjZUZ2ZLU0p0bjltZnJwWURyMWVqVUZXMnlYc1BlSDBFb08tMjE4OWtEZjcwYWFNWjJzZFZkRWFlRFdBX0syTnZlendZdUFMQTctODFSQzVQMl9qMzYxZHZoRTZZREdUM0RNQ3lMNGN5aVpGWWpMMDByLVB1Ukp6a3FtZnRTNGc5T2l2VlVpWDUzWmRBUjh6S2ZuQW5YQ2xtUTBaM0xuV291elI4NTBlajA4aDh1VnZLSWhCMzhXc3VYbUt6bzdJYlhqeFp5b0lTYmppTWdUOVhRcHpZeHFMVFV5MmxrbmRteXZjc3owdnZ1WGtva0lLY2t2cUE?oc=5",
+        "interaction_total": 0,
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": null,
+          "likes": null,
+          "reposts": null,
+          "shares": null,
+          "views": null
+        },
+        "platform": "google_news",
+        "public_url": "https://news.google.com/rss/articles/CBMi4gJBVV95cUxQSFc3OHRPbUlQRWdGcTRxdUZNMGRxM29weXNXSG9oQ0Fzc3pZRjRKbldTNjhBUUtzb0dmZlBPcVZIOElEeHVxWFNGUlFzWWNPdUJQVThhOHZvSkFtSEVlNnhMYkFzUUFPSHBORjhvMjZUZ2ZLU0p0bjltZnJwWURyMWVqVUZXMnlYc1BlSDBFb08tMjE4OWtEZjcwYWFNWjJzZFZkRWFlRFdBX0syTnZlendZdUFMQTctODFSQzVQMl9qMzYxZHZoRTZZREdUM0RNQ3lMNGN5aVpGWWpMMDByLVB1Ukp6a3FtZnRTNGc5T2l2VlVpWDUzWmRBUjh6S2ZuQW5YQ2xtUTBaM0xuV291elI4NTBlajA4aDh1VnZLSWhCMzhXc3VYbUt6bzdJYlhqeFp5b0lTYmppTWdUOVhRcHpZeHFMVFV5MmxrbmRteXZjc3owdnZ1WGtva0lLY2t2cUE?oc=5",
+        "published_at": "2026-06-01T08:55:26+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "《宇宙啦啦隊》W!nky成團！ 銀赫、牛奶夢幻聯動掀熱議 Yahoo新聞",
+        "source_url": "https://news.google.com/rss/articles/CBMi4gJBVV95cUxQSFc3OHRPbUlQRWdGcTRxdUZNMGRxM29weXNXSG9oQ0Fzc3pZRjRKbldTNjhBUUtzb0dmZlBPcVZIOElEeHVxWFNGUlFzWWNPdUJQVThhOHZvSkFtSEVlNnhMYkFzUUFPSHBORjhvMjZUZ2ZLU0p0bjltZnJwWURyMWVqVUZXMnlYc1BlSDBFb08tMjE4OWtEZjcwYWFNWjJzZFZkRWFlRFdBX0syTnZlendZdUFMQTctODFSQzVQMl9qMzYxZHZoRTZZREdUM0RNQ3lMNGN5aVpGWWpMMDByLVB1Ukp6a3FtZnRTNGc5T2l2VlVpWDUzWmRBUjh6S2ZuQW5YQ2xtUTBaM0xuV291elI4NTBlajA4aDh1VnZLSWhCMzhXc3VYbUt6bzdJYlhqeFp5b0lTYmppTWdUOVhRcHpZeHFMVFV5MmxrbmRteXZjc3owdnZ1WGtva0lLY2t2cUE?oc=5",
+        "title": "《宇宙啦啦隊》W!nky成團！ 銀赫、牛奶夢幻聯動掀熱議 - Yahoo新聞"
+      },
+      "risk": {
+        "level": "極低",
+        "llm_adjustment": 0,
+        "reasons": [
+          "未見明顯內容風險"
+        ],
+        "rule_score": 0,
+        "score": 0
+      }
+    },
+    {
+      "inclusion_reason": "new_item",
+      "item": {
+        "canonical_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0zMXBKaVFpd1dlQnFmMjhYcG04TzRONkI4c0RwcC13akpnTHdweFB0YWZ2a2MzZW5ZRmJIYlhReUxCQkdNaFBQMjdVVlF4amVFNEM1MFNIbkc0M2dWdXZtSHRR0gFiQVVfeXFMTTMxcEppUWl3V2VCcWYyOFhwbThPNE42QjhzRHBwLXdqSmdMd3B4UHRhZnZrYzNlbllGYkhiWFF5TEJCR01oUFAyN1VWUXhqZUU0QzUwU0huRzQzZ1Z1dm1IdFE?oc=5",
+        "display_snippet": "宇宙啦啦隊吸365萬人看！銀赫合體牛奶掀回憶殺 鄭恩地一開口網跪了 自由娛樂",
+        "display_title": "宇宙啦啦隊吸365萬人看！銀赫合體牛奶掀回憶殺 鄭恩地一開口網跪了 - 自由娛樂",
+        "external_id": null,
+        "identity_key": "google_news:url:https://news.google.com/rss/articles/CBMiYkFVX3lxTE0zMXBKaVFpd1dlQnFmMjhYcG04TzRONkI4c0RwcC13akpnTHdweFB0YWZ2a2MzZW5ZRmJIYlhReUxCQkdNaFBQMjdVVlF4amVFNEM1MFNIbkc0M2dWdXZtSHRR0gFiQVVfeXFMTTMxcEppUWl3V2VCcWYyOFhwbThPNE42QjhzRHBwLXdqSmdMd3B4UHRhZnZrYzNlbllGYkhiWFF5TEJCR01oUFAyN1VWUXhqZUU0QzUwU0huRzQzZ1Z1dm1IdFE?oc=5",
+        "interaction_total": 0,
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": null,
+          "likes": null,
+          "reposts": null,
+          "shares": null,
+          "views": null
+        },
+        "platform": "google_news",
+        "public_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0zMXBKaVFpd1dlQnFmMjhYcG04TzRONkI4c0RwcC13akpnTHdweFB0YWZ2a2MzZW5ZRmJIYlhReUxCQkdNaFBQMjdVVlF4amVFNEM1MFNIbkc0M2dWdXZtSHRR0gFiQVVfeXFMTTMxcEppUWl3V2VCcWYyOFhwbThPNE42QjhzRHBwLXdqSmdMd3B4UHRhZnZrYzNlbllGYkhiWFF5TEJCR01oUFAyN1VWUXhqZUU0QzUwU0huRzQzZ1Z1dm1IdFE?oc=5",
+        "published_at": "2026-06-01T05:36:51+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "宇宙啦啦隊吸365萬人看！銀赫合體牛奶掀回憶殺 鄭恩地一開口網跪了 自由娛樂",
+        "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0zMXBKaVFpd1dlQnFmMjhYcG04TzRONkI4c0RwcC13akpnTHdweFB0YWZ2a2MzZW5ZRmJIYlhReUxCQkdNaFBQMjdVVlF4amVFNEM1MFNIbkc0M2dWdXZtSHRR0gFiQVVfeXFMTTMxcEppUWl3V2VCcWYyOFhwbThPNE42QjhzRHBwLXdqSmdMd3B4UHRhZnZrYzNlbllGYkhiWFF5TEJCR01oUFAyN1VWUXhqZUU0QzUwU0huRzQzZ1Z1dm1IdFE?oc=5",
+        "title": "宇宙啦啦隊吸365萬人看！銀赫合體牛奶掀回憶殺 鄭恩地一開口網跪了 - 自由娛樂"
+      },
+      "risk": {
+        "level": "極低",
+        "llm_adjustment": 0,
+        "reasons": [
+          "未見明顯內容風險"
+        ],
+        "rule_score": 0,
+        "score": 0
+      }
+    },
+    {
+      "inclusion_reason": "new_item",
+      "item": {
+        "canonical_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5VOThDblV6Yjk3SEwtSk1wOXBsUFpiV21rNGVvTnpiblpQNWxZUDNsclhLVXpURU1TaHhBWXc0T09JVE5GTnluNlgwaW5HUk1YOGFKSllpeGNIZFVSZWt3cEtkeWM?oc=5",
+        "display_snippet": "討論牆 | W!nky正式誕生！《宇宙啦啦隊》9人成團出道 海莉奪冠哭喊：大家都值得 LINE TODAY",
+        "display_title": "討論牆 | W!nky正式誕生！《宇宙啦啦隊》9人成團出道 海莉奪冠哭喊：大家都值得 - LINE TODAY",
+        "external_id": null,
+        "identity_key": "google_news:url:https://news.google.com/rss/articles/CBMiZEFVX3lxTE5VOThDblV6Yjk3SEwtSk1wOXBsUFpiV21rNGVvTnpiblpQNWxZUDNsclhLVXpURU1TaHhBWXc0T09JVE5GTnluNlgwaW5HUk1YOGFKSllpeGNIZFVSZWt3cEtkeWM?oc=5",
+        "interaction_total": 0,
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": null,
+          "likes": null,
+          "reposts": null,
+          "shares": null,
+          "views": null
+        },
+        "platform": "google_news",
+        "public_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5VOThDblV6Yjk3SEwtSk1wOXBsUFpiV21rNGVvTnpiblpQNWxZUDNsclhLVXpURU1TaHhBWXc0T09JVE5GTnluNlgwaW5HUk1YOGFKSllpeGNIZFVSZWt3cEtkeWM?oc=5",
+        "published_at": "2026-05-31T11:18:54+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "討論牆 | W!nky正式誕生！《宇宙啦啦隊》9人成團出道 海莉奪冠哭喊：大家都值得 LINE TODAY",
+        "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5VOThDblV6Yjk3SEwtSk1wOXBsUFpiV21rNGVvTnpiblpQNWxZUDNsclhLVXpURU1TaHhBWXc0T09JVE5GTnluNlgwaW5HUk1YOGFKSllpeGNIZFVSZWt3cEtkeWM?oc=5",
+        "title": "討論牆 | W!nky正式誕生！《宇宙啦啦隊》9人成團出道 海莉奪冠哭喊：大家都值得 - LINE TODAY"
+      },
+      "risk": {
+        "level": "極低",
+        "llm_adjustment": 0,
+        "reasons": [
+          "未見明顯內容風險"
+        ],
+        "rule_score": 0,
+        "score": 0
+      }
+    },
+    {
+      "inclusion_reason": "new_item",
+      "item": {
+        "canonical_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB1N2wwRnZYd3RWcDI2Qjh3b3RNRmRXZ05lTURFLW1ldGRtQ0xpRDl4TG90cF9iaElFSkUzR01xTHUxdG5ETTdQOEs1TnZKNnhQck9GZg?oc=5",
+        "display_snippet": "《宇宙啦啦隊》合作醫美爆「針孔偷拍」 製作人B2澄清：錄影時間點不同 四季線上4gTV",
+        "display_title": "《宇宙啦啦隊》合作醫美爆「針孔偷拍」 製作人B2澄清：錄影時間點不同 - 四季線上4gTV",
+        "external_id": null,
+        "identity_key": "google_news:url:https://news.google.com/rss/articles/CBMiVEFVX3lxTFB1N2wwRnZYd3RWcDI2Qjh3b3RNRmRXZ05lTURFLW1ldGRtQ0xpRDl4TG90cF9iaElFSkUzR01xTHUxdG5ETTdQOEs1TnZKNnhQck9GZg?oc=5",
+        "interaction_total": 0,
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": null,
+          "likes": null,
+          "reposts": null,
+          "shares": null,
+          "views": null
+        },
+        "platform": "google_news",
+        "public_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB1N2wwRnZYd3RWcDI2Qjh3b3RNRmRXZ05lTURFLW1ldGRtQ0xpRDl4TG90cF9iaElFSkUzR01xTHUxdG5ETTdQOEs1TnZKNnhQck9GZg?oc=5",
+        "published_at": "2026-05-31T16:24:18+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "《宇宙啦啦隊》合作醫美爆「針孔偷拍」 製作人B2澄清：錄影時間點不同 四季線上4gTV",
+        "source_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB1N2wwRnZYd3RWcDI2Qjh3b3RNRmRXZ05lTURFLW1ldGRtQ0xpRDl4TG90cF9iaElFSkUzR01xTHUxdG5ETTdQOEs1TnZKNnhQck9GZg?oc=5",
+        "title": "《宇宙啦啦隊》合作醫美爆「針孔偷拍」 製作人B2澄清：錄影時間點不同 - 四季線上4gTV"
+      },
+      "risk": {
+        "level": "極低",
+        "llm_adjustment": 0,
+        "reasons": [
+          "未見明顯內容風險"
+        ],
+        "rule_score": 0,
+        "score": 0
+      }
+    },
+    {
+      "inclusion_reason": "new_item",
+      "item": {
+        "canonical_url": "https://www.facebook.com/VLcosmicangels/posts/pfbid02R7EHE4BV6dY1pStdiXgsXBxRrzEBonfbvWsehBKMjnMu6AMcE4yNg5khS6w1vu75l",
+        "display_snippet": "",
+        "display_title": "👑 恭喜 W!nky 閃耀誕生👑\n\n歷經無數個汗水與淚水交織的日夜，\n恭喜海莉、紀欣伶、靚靚、艾莉兒、叩叩、魚肉、Lydia、妃妃、慢慢 9 位女孩，在總決賽的舞台上，正式以「W!nky」之名成團出道💫\n\n在這個充滿愛與祝福的夜晚，\n由緯來電視網與 Pandora Pandora \n攜手為 9 位女孩準備了夢想花園系列，帶來專屬的幸運與祝福——\n\n📿 歷經時間淬鍊，終於在舞台上閃耀的珍珠\n🦋 象徵蛻變與成⾧，振翅飛向更大舞台的蝴蝶\n🍀 將每一份默默耕耘的努力，開成專屬光芒的幸運草\n🌸 與身邊的伙伴並肩綻放、成為精彩的花園\n♾️ 將信任與默契緊緊牽起，承諾未來一起走得更遠的永恆符號\n\n當女孩們配戴上飾品的那一刻，所有的驚喜、感動、\n與這段日子所經歷的辛苦旅程，\n都化作了這段追夢途中最珍貴的回憶。\n\n謝謝與我們一同見證這動人一刻的你💗 \n\n未來的每一天，W!NKY 也會帶著這份光芒，\n繼續為全宇宙應援、閃閃發光💫\n\n#宇宙啦啦隊 #CosmicAngels #WINKY成團之夜 \n#Pandora #BeLove",
+        "external_id": "122319386426205551",
+        "identity_key": "facebook:id:122319386426205551",
+        "interaction_total": 433,
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": 12,
+          "likes": 402,
+          "reposts": null,
+          "shares": 19,
+          "views": null
+        },
+        "platform": "facebook",
+        "public_url": "https://www.facebook.com/VLcosmicangels/posts/pfbid02R7EHE4BV6dY1pStdiXgsXBxRrzEBonfbvWsehBKMjnMu6AMcE4yNg5khS6w1vu75l",
+        "published_at": "2026-06-01T10:00:05+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "👑 恭喜 W!nky 閃耀誕生👑\n\n歷經無數個汗水與淚水交織的日夜，\n恭喜海莉、紀欣伶、靚靚、艾莉兒、叩叩、魚肉、Lydia、妃妃、慢慢 9 位女孩，在總決賽的舞台上，正式以「W!nky」之名成團出道💫\n\n在這個充滿愛與祝福的夜晚，\n由緯來電視網與 Pandora Pandora \n攜手為 9 位女孩準備了夢想花園系列，帶來專屬的幸運與祝福——\n\n📿 歷經時間淬鍊，終於在舞台上閃耀的珍珠\n🦋 象徵蛻變與成⾧，振翅飛向更大舞台的蝴蝶\n🍀 將每一份默默耕耘的努力，開成專屬光芒的幸運草\n🌸 與身邊的伙伴並肩綻放、成為精彩的花園\n♾️ 將信任與默契緊緊牽起，承諾未來一起走得更遠的永恆符號\n\n當女孩們配戴上飾品的那一刻，所有的驚喜、感動、\n與這段日子所經歷的辛苦旅程，\n都化作了這段追夢途中最珍貴的回憶。\n\n謝謝與我們一同見證這動人一刻的你💗 \n\n未來的每一天，W!NKY 也會帶著這份光芒，\n繼續為全宇宙應援、閃閃發光💫\n\n#宇宙啦啦隊 #CosmicAngels #WINKY成團之夜 \n#Pandora #BeLove",
+        "source_url": "https://www.facebook.com/VLcosmicangels/posts/pfbid02R7EHE4BV6dY1pStdiXgsXBxRrzEBonfbvWsehBKMjnMu6AMcE4yNg5khS6w1vu75l",
+        "title": "👑 恭喜 W!nky 閃耀誕生👑\n\n歷經無數個汗水與淚水交織的日夜，\n恭喜海莉、紀欣伶、靚靚、艾莉兒、叩叩、魚肉、Lydia、妃妃、慢慢 9 位女孩，在總決賽的舞台上，正式以「W!nky」之名成團出道💫\n\n在這個充滿愛與祝福的夜晚，\n由緯來電視網與 Pandora Pandora \n攜手為 9 位女孩準備了夢想花園系列，帶來專屬的幸運與祝福——\n\n📿 歷經時間淬鍊，終於在舞台上閃耀的珍珠\n🦋 象徵蛻變與成⾧，振翅飛向更大舞台的蝴蝶\n🍀 將每一份默默耕耘的努力，開成專屬光芒的幸運草\n🌸 與身邊的伙伴並肩綻放、成為精彩的花園\n♾️ 將信任與默契緊緊牽起，承諾未來一起走得更遠的永恆符號\n\n當女孩們配戴上飾品的那一刻，所有的驚喜、感動、\n與這段日子所經歷的辛苦旅程，\n都化作了這段追夢途中最珍貴的回憶。\n\n謝謝與我們一同見證這動人一刻的你💗 \n\n未來的每一天，W!NKY 也會帶著這份光芒，\n繼續為全宇宙應援、閃閃發光💫\n\n#宇宙啦啦隊 #CosmicAngels #WINKY成團之夜 \n#Pandora #BeLove"
+      },
+      "risk": {
+        "level": "極低",
+        "llm_adjustment": 0,
+        "reasons": [
+          "未見明顯內容風險"
+        ],
+        "rule_score": 0,
+        "score": 0
+      }
+    },
+    {
+      "inclusion_reason": "new_item",
+      "item": {
+        "canonical_url": "https://www.facebook.com/HAOWEIWORLD/posts/pfbid034vpioc9YVKHonUJ6zxDQBXeBUKmE4McVtPwngY2S7KzkjgCY7e9SbWy8dpJkVyCXl",
+        "display_snippet": "",
+        "display_title": "2026.05.30\n【宇宙啦啦隊總決賽】#戶外派對 @壹電視攝影棚戶外廣場\n#陳穎臻 @yingzhen_tpe48\n#TPE48 #AKB48 #AKB48TeamTP #TeamTP #宇宙啦啦隊 #總決賽",
+        "external_id": "1603251704986920",
+        "identity_key": "facebook:id:1603251704986920",
+        "interaction_total": 0,
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": 0,
+          "likes": 0,
+          "reposts": null,
+          "shares": 0,
+          "views": null
+        },
+        "platform": "facebook",
+        "public_url": "https://www.facebook.com/HAOWEIWORLD/posts/pfbid034vpioc9YVKHonUJ6zxDQBXeBUKmE4McVtPwngY2S7KzkjgCY7e9SbWy8dpJkVyCXl",
+        "published_at": "2026-06-02T00:09:55+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "2026.05.30\n【宇宙啦啦隊總決賽】#戶外派對 @壹電視攝影棚戶外廣場\n#陳穎臻 @yingzhen_tpe48\n#TPE48 #AKB48 #AKB48TeamTP #TeamTP #宇宙啦啦隊 #總決賽",
+        "source_url": "https://www.facebook.com/HAOWEIWORLD/posts/pfbid034vpioc9YVKHonUJ6zxDQBXeBUKmE4McVtPwngY2S7KzkjgCY7e9SbWy8dpJkVyCXl",
+        "title": "2026.05.30\n【宇宙啦啦隊總決賽】#戶外派對 @壹電視攝影棚戶外廣場\n#陳穎臻 @yingzhen_tpe48\n#TPE48 #AKB48 #AKB48TeamTP #TeamTP #宇宙啦啦隊 #總決賽"
+      },
+      "risk": {
+        "level": "極低",
+        "llm_adjustment": 0,
+        "reasons": [
+          "未見明顯內容風險"
+        ],
+        "rule_score": 0,
+        "score": 0
+      }
+    },
+    {
+      "inclusion_reason": "new_item",
+      "item": {
+        "canonical_url": "https://www.facebook.com/xu.yu.jia.187981/posts/pfbid02eKLaAY1PmWorvPEUAruBrPxHFSdRHsCEyejztejEnSVPLzZXeqbP1ByYQfs9MWsTl",
+        "display_snippet": "",
+        "display_title": "終於把宇宙啦啦隊追完了～\n昨天看最後一集：第13集\n￼我還眼眶泛紅，落了一滴淚。\n銀赫是主持人，\n以前我對他沒什麼感覺～super junior我其實是「始源」的粉絲，偶而看看神童，\n但是這一次看完宇宙啦啦隊，\n尤其是最後一集～\n我好像喜歡上銀赫了，\n他還跟牛奶合舞，\n好棒喔❤️❤️\n麻由是輔導員，\n也有跟女孩們一起跳，\n太感動了～～\n\n從28位女孩之中，\n總共要選九位女孩出道，\n海莉是第一名，\n跟我想的一樣～\n我算是海莉的粉絲：我給10分\n妃妃～我給：8分\n魚肉～我給：7分\n叩叩～我給：5分，但他很強，主將級別人物\nLydia～我給4分，基本上他就是會被選上的那種\n艾莉兒：我給：2分，這兩個姐妹真的是很有才華。￼\n紀欣伶：我給：2分，對話接台詞反應超快。\n靚靚：我給：1分，我完全覺得他不會被選上，他佔了這個名額，我很難過～\n慢慢～我給：1分，唉…一個團體裡就是要有忙內，你上了，莓莓就沒位子了。\n\n黛比：我給～9分，海莉之外，我第2支持的，竟然沒上，我有點不開心☹️我會有40%因為沒選上黛比而棄追～\n我現在一直在google為什麼他沒入選！",
+        "external_id": "27745728188344506",
+        "identity_key": "facebook:id:27745728188344506",
+        "interaction_total": 9,
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": 0,
+          "likes": 8,
+          "reposts": null,
+          "shares": 1,
+          "views": null
+        },
+        "platform": "facebook",
+        "public_url": "https://www.facebook.com/xu.yu.jia.187981/posts/pfbid02eKLaAY1PmWorvPEUAruBrPxHFSdRHsCEyejztejEnSVPLzZXeqbP1ByYQfs9MWsTl",
+        "published_at": "2026-06-01T17:32:04+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "終於把宇宙啦啦隊追完了～\n昨天看最後一集：第13集\n￼我還眼眶泛紅，落了一滴淚。\n銀赫是主持人，\n以前我對他沒什麼感覺～super junior我其實是「始源」的粉絲，偶而看看神童，\n但是這一次看完宇宙啦啦隊，\n尤其是最後一集～\n我好像喜歡上銀赫了，\n他還跟牛奶合舞，\n好棒喔❤️❤️\n麻由是輔導員，\n也有跟女孩們一起跳，\n太感動了～～\n\n從28位女孩之中，\n總共要選九位女孩出道，\n海莉是第一名，\n跟我想的一樣～\n我算是海莉的粉絲：我給10分\n妃妃～我給：8分\n魚肉～我給：7分\n叩叩～我給：5分，但他很強，主將級別人物\nLydia～我給4分，基本上他就是會被選上的那種\n艾莉兒：我給：2分，這兩個姐妹真的是很有才華。￼\n紀欣伶：我給：2分，對話接台詞反應超快。\n靚靚：我給：1分，我完全覺得他不會被選上，他佔了這個名額，我很難過～\n慢慢～我給：1分，唉…一個團體裡就是要有忙內，你上了，莓莓就沒位子了。\n\n黛比：我給～9分，海莉之外，我第2支持的，竟然沒上，我有點不開心☹️我會有40%因為沒選上黛比而棄追～\n我現在一直在google為什麼他沒入選！",
+        "source_url": "https://www.facebook.com/xu.yu.jia.187981/posts/pfbid02eKLaAY1PmWorvPEUAruBrPxHFSdRHsCEyejztejEnSVPLzZXeqbP1ByYQfs9MWsTl",
+        "title": "終於把宇宙啦啦隊追完了～\n昨天看最後一集：第13集\n￼我還眼眶泛紅，落了一滴淚。\n銀赫是主持人，\n以前我對他沒什麼感覺～super junior我其實是「始源」的粉絲，偶而看看神童，\n但是這一次看完宇宙啦啦隊，\n尤其是最後一集～\n我好像喜歡上銀赫了，\n他還跟牛奶合舞，\n好棒喔❤️❤️\n麻由是輔導員，\n也有跟女孩們一起跳，\n太感動了～～\n\n從28位女孩之中，\n總共要選九位女孩出道，\n海莉是第一名，\n跟我想的一樣～\n我算是海莉的粉絲：我給10分\n妃妃～我給：8分\n魚肉～我給：7分\n叩叩～我給：5分，但他很強，主將級別人物\nLydia～我給4分，基本上他就是會被選上的那種\n艾莉兒：我給：2分，這兩個姐妹真的是很有才華。￼\n紀欣伶：我給：2分，對話接台詞反應超快。\n靚靚：我給：1分，我完全覺得他不會被選上，他佔了這個名額，我很難過～\n慢慢～我給：1分，唉…一個團體裡就是要有忙內，你上了，莓莓就沒位子了。\n\n黛比：我給～9分，海莉之外，我第2支持的，竟然沒上，我有點不開心☹️我會有40%因為沒選上黛比而棄追～\n我現在一直在google為什麼他沒入選！"
+      },
+      "risk": {
+        "level": "極低",
+        "llm_adjustment": 0,
+        "reasons": [
+          "未見明顯內容風險"
+        ],
+        "rule_score": 0,
+        "score": 0
+      }
+    },
+    {
+      "inclusion_reason": "new_item",
+      "item": {
+        "canonical_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid021nfMkn9dQ4d7C1wVJs1meNxhB8jnHjBQh7TNHYBVdxqJLUh2be4phpzKgeE3c3DZl&id=100001513001660",
+        "display_snippet": "",
+        "display_title": "【純享版】Cosmic Angels 宇宙啦啦隊〈Ready To Shine〉Official Performance｜全員閃耀舞台✨",
+        "external_id": "27097963403170727",
+        "identity_key": "facebook:id:27097963403170727",
+        "interaction_total": 0,
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": 0,
+          "likes": 0,
+          "reposts": null,
+          "shares": 0,
+          "views": null
+        },
+        "platform": "facebook",
+        "public_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid021nfMkn9dQ4d7C1wVJs1meNxhB8jnHjBQh7TNHYBVdxqJLUh2be4phpzKgeE3c3DZl&id=100001513001660",
+        "published_at": "2026-06-01T15:55:40+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "【純享版】Cosmic Angels 宇宙啦啦隊〈Ready To Shine〉Official Performance｜全員閃耀舞台✨",
+        "source_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid021nfMkn9dQ4d7C1wVJs1meNxhB8jnHjBQh7TNHYBVdxqJLUh2be4phpzKgeE3c3DZl&id=100001513001660",
+        "title": "【純享版】Cosmic Angels 宇宙啦啦隊〈Ready To Shine〉Official Performance｜全員閃耀舞台✨"
+      },
+      "risk": {
+        "level": "極低",
+        "llm_adjustment": 0,
+        "reasons": [
+          "未見明顯內容風險"
+        ],
+        "rule_score": 0,
+        "score": 0
+      }
+    },
+    {
+      "inclusion_reason": "new_item",
+      "item": {
+        "canonical_url": "https://www.facebook.com/bin3333/posts/pfbid0S2R4gjznofzt6Ar6M7KhszK9oUaGZ1zURFnYYtGZYZeyP4T3Sn6EvTYvkigZSMpjl",
+        "display_snippet": "",
+        "display_title": "#宇宙啦啦隊\n錄了半年 終於順利成團出道了！\n製作選秀節目好辛苦，\n每個部門也都盡心盡力！\n希望選上跟沒選上的團員，\n每個人未來都能順利、快樂、發光！\n🎉🎉🎉🕺🏻🕺🏻🕺🏻🕺🏻🕺🏻🎉🎉🎉",
+        "external_id": "10215619745963937",
+        "identity_key": "facebook:id:10215619745963937",
+        "interaction_total": 112,
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": 4,
+          "likes": 108,
+          "reposts": null,
+          "shares": 0,
+          "views": null
+        },
+        "platform": "facebook",
+        "public_url": "https://www.facebook.com/bin3333/posts/pfbid0S2R4gjznofzt6Ar6M7KhszK9oUaGZ1zURFnYYtGZYZeyP4T3Sn6EvTYvkigZSMpjl",
+        "published_at": "2026-06-01T10:28:28+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "#宇宙啦啦隊\n錄了半年 終於順利成團出道了！\n製作選秀節目好辛苦，\n每個部門也都盡心盡力！\n希望選上跟沒選上的團員，\n每個人未來都能順利、快樂、發光！\n🎉🎉🎉🕺🏻🕺🏻🕺🏻🕺🏻🕺🏻🎉🎉🎉",
+        "source_url": "https://www.facebook.com/bin3333/posts/pfbid0S2R4gjznofzt6Ar6M7KhszK9oUaGZ1zURFnYYtGZYZeyP4T3Sn6EvTYvkigZSMpjl",
+        "title": "#宇宙啦啦隊\n錄了半年 終於順利成團出道了！\n製作選秀節目好辛苦，\n每個部門也都盡心盡力！\n希望選上跟沒選上的團員，\n每個人未來都能順利、快樂、發光！\n🎉🎉🎉🕺🏻🕺🏻🕺🏻🕺🏻🕺🏻🎉🎉🎉"
+      },
+      "risk": {
+        "level": "極低",
+        "llm_adjustment": 0,
+        "reasons": [
+          "未見明顯內容風險"
+        ],
+        "rule_score": 0,
+        "score": 0
+      }
+    },
+    {
+      "inclusion_reason": "new_item",
+      "item": {
+        "canonical_url": "https://www.facebook.com/VLcosmicangels/posts/pfbid09292aSz8hVivc4kJoJWX7vq9GfrbPzqnZfVQZSwFU91nZECqfPyxDPzxYiA1Cpp8l",
+        "display_snippet": "",
+        "display_title": "💙【宇宙啦啦隊】 感謝演唱會💛\n時間：7/3(五) 19:30\n地點：三創clapper studio展演廳\n(台北市市民大道三段2號5樓)\n\n演唱會當日除了帶來多首歌曲  \n也將舉辦「感謝簽售會」✨\n詳細活動時間、購票及簽售內容另行公布\n請密切關注宇宙啦啦隊社群平台喔😉💕\n\n#宇宙啦啦隊",
+        "external_id": "122319365690205551",
+        "identity_key": "facebook:id:122319365690205551",
+        "interaction_total": 114,
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": 3,
+          "likes": 102,
+          "reposts": null,
+          "shares": 9,
+          "views": null
+        },
+        "platform": "facebook",
+        "public_url": "https://www.facebook.com/VLcosmicangels/posts/pfbid09292aSz8hVivc4kJoJWX7vq9GfrbPzqnZfVQZSwFU91nZECqfPyxDPzxYiA1Cpp8l",
+        "published_at": "2026-06-01T05:08:17+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "💙【宇宙啦啦隊】 感謝演唱會💛\n時間：7/3(五) 19:30\n地點：三創clapper studio展演廳\n(台北市市民大道三段2號5樓)\n\n演唱會當日除了帶來多首歌曲  \n也將舉辦「感謝簽售會」✨\n詳細活動時間、購票及簽售內容另行公布\n請密切關注宇宙啦啦隊社群平台喔😉💕\n\n#宇宙啦啦隊",
+        "source_url": "https://www.facebook.com/VLcosmicangels/posts/pfbid09292aSz8hVivc4kJoJWX7vq9GfrbPzqnZfVQZSwFU91nZECqfPyxDPzxYiA1Cpp8l",
+        "title": "💙【宇宙啦啦隊】 感謝演唱會💛\n時間：7/3(五) 19:30\n地點：三創clapper studio展演廳\n(台北市市民大道三段2號5樓)\n\n演唱會當日除了帶來多首歌曲  \n也將舉辦「感謝簽售會」✨\n詳細活動時間、購票及簽售內容另行公布\n請密切關注宇宙啦啦隊社群平台喔😉💕\n\n#宇宙啦啦隊"
+      },
+      "risk": {
+        "level": "極低",
+        "llm_adjustment": 0,
+        "reasons": [
+          "未見明顯內容風險"
+        ],
+        "rule_score": 0,
+        "score": 0
+      }
+    },
+    {
+      "inclusion_reason": "new_item",
+      "item": {
+        "canonical_url": "https://www.facebook.com/groups/1638566887567479/posts/1707501844007316/",
+        "display_snippet": "",
+        "display_title": "#售\n宇宙啦啦隊 粉藍網袋 300\n\n全新未拆\n\n有高雄屏東面交為主",
+        "external_id": "1707501844007316",
+        "identity_key": "facebook:id:1707501844007316",
+        "interaction_total": 0,
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": 0,
+          "likes": 0,
+          "reposts": null,
+          "shares": 0,
+          "views": null
+        },
+        "platform": "facebook",
+        "public_url": "https://www.facebook.com/groups/1638566887567479/posts/1707501844007316/",
+        "published_at": "2026-06-02T03:37:57+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "#售\n宇宙啦啦隊 粉藍網袋 300\n\n全新未拆\n\n有高雄屏東面交為主",
+        "source_url": "https://www.facebook.com/groups/1638566887567479/posts/1707501844007316/",
+        "title": "#售\n宇宙啦啦隊 粉藍網袋 300\n\n全新未拆\n\n有高雄屏東面交為主"
+      },
+      "risk": {
+        "level": "極低",
+        "llm_adjustment": 0,
+        "reasons": [
+          "未見明顯內容風險"
+        ],
+        "rule_score": 0,
+        "score": 0
+      }
+    },
+    {
+      "inclusion_reason": "new_item",
+      "item": {
+        "canonical_url": "https://www.facebook.com/YahooTW.OMG/posts/pfbid02KRCLxMjTitQwsM4TiPiFa1DPRg8YXWtxMLgQwXTYKEYUTxChtszxnmpTW5Y29HZSl",
+        "display_snippet": "",
+        "display_title": "⭐️ 《宇宙啦啦隊》總決賽吸365萬人收看 鄭恩地同台銀赫掀話題 ⭐️\n\n本次總決賽以演唱會等級規格打造，大型LED主舞台、升降機關與燈光特效全面升級，其中最受網友討論、也是收視高點之一的橋段，莫過於MC銀赫與牛奶老師驚喜同台演出《OPPA OPPA》。兩位實力派偶像難得合體唱跳，瞬間點燃全場氣氛，播出後迅速攻佔社群版面，不少網友直呼「根本是演唱會彩蛋」、「看到銀赫和牛奶同台就值回票價」，更有人笑稱這段演出完全是「夢幻聯動」。\n\n（詳細報導請見留言）",
+        "external_id": "1560874042072919",
+        "identity_key": "facebook:id:1560874042072919",
+        "interaction_total": 6,
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": 2,
+          "likes": 4,
+          "reposts": null,
+          "shares": 0,
+          "views": null
+        },
+        "platform": "facebook",
+        "public_url": "https://www.facebook.com/YahooTW.OMG/posts/pfbid02KRCLxMjTitQwsM4TiPiFa1DPRg8YXWtxMLgQwXTYKEYUTxChtszxnmpTW5Y29HZSl",
+        "published_at": "2026-06-01T17:33:04+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "⭐️ 《宇宙啦啦隊》總決賽吸365萬人收看 鄭恩地同台銀赫掀話題 ⭐️\n\n本次總決賽以演唱會等級規格打造，大型LED主舞台、升降機關與燈光特效全面升級，其中最受網友討論、也是收視高點之一的橋段，莫過於MC銀赫與牛奶老師驚喜同台演出《OPPA OPPA》。兩位實力派偶像難得合體唱跳，瞬間點燃全場氣氛，播出後迅速攻佔社群版面，不少網友直呼「根本是演唱會彩蛋」、「看到銀赫和牛奶同台就值回票價」，更有人笑稱這段演出完全是「夢幻聯動」。\n\n（詳細報導請見留言）",
+        "source_url": "https://www.facebook.com/YahooTW.OMG/posts/pfbid02KRCLxMjTitQwsM4TiPiFa1DPRg8YXWtxMLgQwXTYKEYUTxChtszxnmpTW5Y29HZSl",
+        "title": "⭐️ 《宇宙啦啦隊》總決賽吸365萬人收看 鄭恩地同台銀赫掀話題 ⭐️\n\n本次總決賽以演唱會等級規格打造，大型LED主舞台、升降機關與燈光特效全面升級，其中最受網友討論、也是收視高點之一的橋段，莫過於MC銀赫與牛奶老師驚喜同台演出《OPPA OPPA》。兩位實力派偶像難得合體唱跳，瞬間點燃全場氣氛，播出後迅速攻佔社群版面，不少網友直呼「根本是演唱會彩蛋」、「看到銀赫和牛奶同台就值回票價」，更有人笑稱這段演出完全是「夢幻聯動」。\n\n（詳細報導請見留言）"
+      },
+      "risk": {
+        "level": "極低",
+        "llm_adjustment": 0,
+        "reasons": [
+          "未見明顯內容風險"
+        ],
+        "rule_score": 0,
+        "score": 0
+      }
+    },
+    {
+      "inclusion_reason": "new_item",
+      "item": {
+        "canonical_url": "https://www.facebook.com/candy.chen.75033/posts/pfbid02kuaDysab4i6BvmAddqJvRbeX26SUr9dWzwJWCJZ61fxcXN4PAyd1dudCQri5a5agl",
+        "display_snippet": "",
+        "display_title": "看見很多厲害的老師們在宇宙啦啦隊選秀節目中，展現了許多很美的作品，也很感情深厚，感覺很棒！\n很開心可以參與到梳化～",
+        "external_id": "26983626571299653",
+        "identity_key": "facebook:id:26983626571299653",
+        "interaction_total": 6,
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": 0,
+          "likes": 6,
+          "reposts": null,
+          "shares": 0,
+          "views": null
+        },
+        "platform": "facebook",
+        "public_url": "https://www.facebook.com/candy.chen.75033/posts/pfbid02kuaDysab4i6BvmAddqJvRbeX26SUr9dWzwJWCJZ61fxcXN4PAyd1dudCQri5a5agl",
+        "published_at": "2026-06-01T15:23:58+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "看見很多厲害的老師們在宇宙啦啦隊選秀節目中，展現了許多很美的作品，也很感情深厚，感覺很棒！\n很開心可以參與到梳化～",
+        "source_url": "https://www.facebook.com/candy.chen.75033/posts/pfbid02kuaDysab4i6BvmAddqJvRbeX26SUr9dWzwJWCJZ61fxcXN4PAyd1dudCQri5a5agl",
+        "title": "看見很多厲害的老師們在宇宙啦啦隊選秀節目中，展現了許多很美的作品，也很感情深厚，感覺很棒！\n很開心可以參與到梳化～"
+      },
+      "risk": {
+        "level": "極低",
+        "llm_adjustment": 0,
+        "reasons": [
+          "未見明顯內容風險"
+        ],
+        "rule_score": 0,
+        "score": 0
+      }
+    },
+    {
+      "inclusion_reason": "new_item",
+      "item": {
+        "canonical_url": "https://www.facebook.com/reel/1240456657984589/",
+        "display_snippet": "",
+        "display_title": "怎麼有辦法連彩排都很精彩？🫨🎉\n\n#宇宙啦啦隊",
+        "external_id": "122319397634205551",
+        "identity_key": "facebook:id:122319397634205551",
+        "interaction_total": 74,
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": 1,
+          "likes": 72,
+          "reposts": null,
+          "shares": 1,
+          "views": null
+        },
+        "platform": "facebook",
+        "public_url": "https://www.facebook.com/reel/1240456657984589/",
+        "published_at": "2026-06-01T12:36:34+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "怎麼有辦法連彩排都很精彩？🫨🎉\n\n#宇宙啦啦隊",
+        "source_url": "https://www.facebook.com/reel/1240456657984589/",
+        "title": "怎麼有辦法連彩排都很精彩？🫨🎉\n\n#宇宙啦啦隊"
+      },
+      "risk": {
+        "level": "極低",
+        "llm_adjustment": 0,
+        "reasons": [
+          "未見明顯內容風險"
+        ],
+        "rule_score": 0,
+        "score": 0
+      }
+    },
+    {
+      "inclusion_reason": "new_item",
+      "item": {
+        "canonical_url": "https://www.facebook.com/reel/2456473971480531/",
+        "display_snippet": "",
+        "display_title": "是我不好才沒能讓你出道🥹😭\n@tong.__.10 \n\n#宇宙啦啦隊 #yula #辛苦了",
+        "external_id": "122223274724552335",
+        "identity_key": "facebook:id:122223274724552335",
+        "interaction_total": 0,
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": 0,
+          "likes": 0,
+          "reposts": null,
+          "shares": 0,
+          "views": null
+        },
+        "platform": "facebook",
+        "public_url": "https://www.facebook.com/reel/2456473971480531/",
+        "published_at": "2026-06-01T15:25:32+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "是我不好才沒能讓你出道🥹😭\n@tong.__.10 \n\n#宇宙啦啦隊 #yula #辛苦了",
+        "source_url": "https://www.facebook.com/reel/2456473971480531/",
+        "title": "是我不好才沒能讓你出道🥹😭\n@tong.__.10 \n\n#宇宙啦啦隊 #yula #辛苦了"
+      },
+      "risk": {
+        "level": "極低",
+        "llm_adjustment": 0,
+        "reasons": [
+          "未見明顯內容風險"
+        ],
+        "rule_score": 0,
+        "score": 0
+      }
+    },
+    {
+      "inclusion_reason": "new_item",
+      "item": {
+        "canonical_url": "https://www.facebook.com/Freedance82626/posts/pfbid0DVjPWBzRS77kraqPVR665GYVZmRxaAixQfaiknzuntRRHnkz2ga5pUWpLdRzJtYQl",
+        "display_snippet": "",
+        "display_title": "恭喜教室的孟蓁老師圓夢成功\n\n在選秀節目《宇宙啦啦隊》中，歷經數個月的訓練、舞台考驗與層層關卡挑戰，一路堅持不懈、全力以赴，最終成功脫穎而出，獲得出道機會！👏\n\n從教室裡認真教課、努力追夢的老師，到站上更大的舞台發光發熱，每一步都充滿著汗水與堅持。能夠見證這份努力開花結果，我們真的感到非常驕傲與感動🥹\n\n期待未來在舞台上看見更加閃耀的妳，也祝福孟蓁老師在全新的旅程中持續發光發熱，勇敢追夢，創造更多精彩的成績！🌟\n\n讓我們一起為孟蓁老師喝采❤️\n\n#宇宙啦啦隊 #成功出道 #圓夢時刻 #恭喜孟蓁老師",
+        "external_id": "1876390953714857",
+        "identity_key": "facebook:id:1876390953714857",
+        "interaction_total": 10,
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": 0,
+          "likes": 10,
+          "reposts": null,
+          "shares": 0,
+          "views": null
+        },
+        "platform": "facebook",
+        "public_url": "https://www.facebook.com/Freedance82626/posts/pfbid0DVjPWBzRS77kraqPVR665GYVZmRxaAixQfaiknzuntRRHnkz2ga5pUWpLdRzJtYQl",
+        "published_at": "2026-06-01T06:51:31+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "恭喜教室的孟蓁老師圓夢成功\n\n在選秀節目《宇宙啦啦隊》中，歷經數個月的訓練、舞台考驗與層層關卡挑戰，一路堅持不懈、全力以赴，最終成功脫穎而出，獲得出道機會！👏\n\n從教室裡認真教課、努力追夢的老師，到站上更大的舞台發光發熱，每一步都充滿著汗水與堅持。能夠見證這份努力開花結果，我們真的感到非常驕傲與感動🥹\n\n期待未來在舞台上看見更加閃耀的妳，也祝福孟蓁老師在全新的旅程中持續發光發熱，勇敢追夢，創造更多精彩的成績！🌟\n\n讓我們一起為孟蓁老師喝采❤️\n\n#宇宙啦啦隊 #成功出道 #圓夢時刻 #恭喜孟蓁老師",
+        "source_url": "https://www.facebook.com/Freedance82626/posts/pfbid0DVjPWBzRS77kraqPVR665GYVZmRxaAixQfaiknzuntRRHnkz2ga5pUWpLdRzJtYQl",
+        "title": "恭喜教室的孟蓁老師圓夢成功\n\n在選秀節目《宇宙啦啦隊》中，歷經數個月的訓練、舞台考驗與層層關卡挑戰，一路堅持不懈、全力以赴，最終成功脫穎而出，獲得出道機會！👏\n\n從教室裡認真教課、努力追夢的老師，到站上更大的舞台發光發熱，每一步都充滿著汗水與堅持。能夠見證這份努力開花結果，我們真的感到非常驕傲與感動🥹\n\n期待未來在舞台上看見更加閃耀的妳，也祝福孟蓁老師在全新的旅程中持續發光發熱，勇敢追夢，創造更多精彩的成績！🌟\n\n讓我們一起為孟蓁老師喝采❤️\n\n#宇宙啦啦隊 #成功出道 #圓夢時刻 #恭喜孟蓁老師"
+      },
+      "risk": {
+        "level": "極低",
+        "llm_adjustment": 0,
+        "reasons": [
+          "未見明顯內容風險"
+        ],
+        "rule_score": 0,
+        "score": 0
+      }
+    },
+    {
+      "inclusion_reason": "new_item",
+      "item": {
+        "canonical_url": "https://www.facebook.com/ENews.StarStar/posts/pfbid02UwUMEV4rL29DkGodqNggSFar7rGa5NGPomT3kYv9ftg3j7NM9HRtMD2qtZrdGF3Nl",
+        "display_snippet": "",
+        "display_title": "這畫面真的太狂！台韓兩大男團傳奇直接在舞台上飆舞🔥\nSJ銀赫搭檔Energy牛奶老師，一首《OPPA OPPA》直接炸翻全場，\n這根本是買一送一的演唱會隱藏大彩蛋啊！\n\n上週末選秀節目《宇宙啦啦隊》的總決賽LIVE直播，直接把硬體規格拉滿。不過整場最讓討論區暴動的瞬間，莫過於MC銀赫與牛奶老師的「夢幻聯動」。兩位實力派舞王罕見同台，瞬間把現場氣氛點燃，不少網友直呼「看到這段直接值回票價」。\n\n除了超燃的男團神曲，另一個亮點則是Apink主唱鄭恩地的登場。她以溫暖的聲線，帶領18位女孩共同演出《Love Me More》。這個橋段讓不少觀眾形容「就像學姊帶著學妹完成最後的舞台」，散發出滿滿韓國大型選秀節目畢業典禮的既視感。\n\n隨著總決賽落幕，最終9人女團「W!nky」也正式宣布成團出道，而人氣王票選冠軍的紀欣伶，未來更將獲得量身打造的專屬單曲。節目中的多首原創歌曲目前也已經全數上架數位平台，官方更預告將在7月3日舉辦感謝簽唱會。\n\n追選秀節目其實就很像在玩一場沉浸式的養成遊戲，一路看著台上的人從海選的青澀，到最後能在華麗的舞台上閃閃發光，見證她們經歷蛻變與成長，那種彷彿參加了一場青春畢業典禮的氛圍，真的很奇妙。\n\n台韓兩大經典偶像大合體，加上全新女團的誕生，這場總決賽的哪個橋段，最讓你印象深刻呢？ #劇迷編\n\n(圖／緯來) #fblifestyle",
+        "external_id": "1306865171636727",
+        "identity_key": "facebook:id:1306865171636727",
+        "interaction_total": 38,
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": 1,
+          "likes": 36,
+          "reposts": null,
+          "shares": 1,
+          "views": null
+        },
+        "platform": "facebook",
+        "public_url": "https://www.facebook.com/ENews.StarStar/posts/pfbid02UwUMEV4rL29DkGodqNggSFar7rGa5NGPomT3kYv9ftg3j7NM9HRtMD2qtZrdGF3Nl",
+        "published_at": "2026-06-01T09:15:00+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "這畫面真的太狂！台韓兩大男團傳奇直接在舞台上飆舞🔥\nSJ銀赫搭檔Energy牛奶老師，一首《OPPA OPPA》直接炸翻全場，\n這根本是買一送一的演唱會隱藏大彩蛋啊！\n\n上週末選秀節目《宇宙啦啦隊》的總決賽LIVE直播，直接把硬體規格拉滿。不過整場最讓討論區暴動的瞬間，莫過於MC銀赫與牛奶老師的「夢幻聯動」。兩位實力派舞王罕見同台，瞬間把現場氣氛點燃，不少網友直呼「看到這段直接值回票價」。\n\n除了超燃的男團神曲，另一個亮點則是Apink主唱鄭恩地的登場。她以溫暖的聲線，帶領18位女孩共同演出《Love Me More》。這個橋段讓不少觀眾形容「就像學姊帶著學妹完成最後的舞台」，散發出滿滿韓國大型選秀節目畢業典禮的既視感。\n\n隨著總決賽落幕，最終9人女團「W!nky」也正式宣布成團出道，而人氣王票選冠軍的紀欣伶，未來更將獲得量身打造的專屬單曲。節目中的多首原創歌曲目前也已經全數上架數位平台，官方更預告將在7月3日舉辦感謝簽唱會。\n\n追選秀節目其實就很像在玩一場沉浸式的養成遊戲，一路看著台上的人從海選的青澀，到最後能在華麗的舞台上閃閃發光，見證她們經歷蛻變與成長，那種彷彿參加了一場青春畢業典禮的氛圍，真的很奇妙。\n\n台韓兩大經典偶像大合體，加上全新女團的誕生，這場總決賽的哪個橋段，最讓你印象深刻呢？ #劇迷編\n\n(圖／緯來) #fblifestyle",
+        "source_url": "https://www.facebook.com/ENews.StarStar/posts/pfbid02UwUMEV4rL29DkGodqNggSFar7rGa5NGPomT3kYv9ftg3j7NM9HRtMD2qtZrdGF3Nl",
+        "title": "這畫面真的太狂！台韓兩大男團傳奇直接在舞台上飆舞🔥\nSJ銀赫搭檔Energy牛奶老師，一首《OPPA OPPA》直接炸翻全場，\n這根本是買一送一的演唱會隱藏大彩蛋啊！\n\n上週末選秀節目《宇宙啦啦隊》的總決賽LIVE直播，直接把硬體規格拉滿。不過整場最讓討論區暴動的瞬間，莫過於MC銀赫與牛奶老師的「夢幻聯動」。兩位實力派舞王罕見同台，瞬間把現場氣氛點燃，不少網友直呼「看到這段直接值回票價」。\n\n除了超燃的男團神曲，另一個亮點則是Apink主唱鄭恩地的登場。她以溫暖的聲線，帶領18位女孩共同演出《Love Me More》。這個橋段讓不少觀眾形容「就像學姊帶著學妹完成最後的舞台」，散發出滿滿韓國大型選秀節目畢業典禮的既視感。\n\n隨著總決賽落幕，最終9人女團「W!nky」也正式宣布成團出道，而人氣王票選冠軍的紀欣伶，未來更將獲得量身打造的專屬單曲。節目中的多首原創歌曲目前也已經全數上架數位平台，官方更預告將在7月3日舉辦感謝簽唱會。\n\n追選秀節目其實就很像在玩一場沉浸式的養成遊戲，一路看著台上的人從海選的青澀，到最後能在華麗的舞台上閃閃發光，見證她們經歷蛻變與成長，那種彷彿參加了一場青春畢業典禮的氛圍，真的很奇妙。\n\n台韓兩大經典偶像大合體，加上全新女團的誕生，這場總決賽的哪個橋段，最讓你印象深刻呢？ #劇迷編\n\n(圖／緯來) #fblifestyle"
+      },
+      "risk": {
+        "level": "極低",
+        "llm_adjustment": 0,
+        "reasons": [
+          "未見明顯內容風險"
+        ],
+        "rule_score": 0,
+        "score": 0
+      }
+    },
+    {
+      "inclusion_reason": "significant_change",
+      "item": {
+        "canonical_url": "https://www.threads.com/@entltn/post/DZACCtaH7JL/%E5%AE%87%E5%AE%99%E5%95%A6%E5%95%A6%E9%9A%8A%E5%A5%B3%E5%9C%98wnky%E6%88%90%E8%BB%8D%E5%B0%8F%E7%B7%A8%E7%A7%81%E5%BF%83%E7%82%BA%E7%B4%80%E6%AC%A3%E4%BC%B6%E5%8A%A0%E6%B2%B9%E5%9B%A0%E7%82%BA%E6%88%91%E5%80%91%E9%83%BD%E6%98%AF%E6%84%9B%E9%BA%97%E9%81%B8%E7%A7%80%E7%AF%80%E7%9B%AE%E5%AE%87%E5%AE%99%E5%95%A6%E5%95%A6%E9%9A%8A%E6%98%A830%E6%97%A5%E6%99%9A%E9%96%93%E8%BF%8E%E4%BE%86live%E7%B8%BD%E6%B1%BA%E8%B3%BD18%E4%BD%8D%E5%A5%B3%E5%AD%A9%E6%AD%B7%E7%B6%9310%E5%80%8B%E6%9C%88%E7%9A%84%E9%AD%94%E9%AC%BC%E8%A8%93%E7%B7%B4%E8%88%87%E5%B1%A4%E5%B1%A4%E6%B7%98%E6%B1%B0%E5%9C%A8%E6%BC%94%E5%94%B1%E6%9C%83/",
+        "display_snippet": "",
+        "display_title": "《宇宙啦啦隊》女團「W!nky」成軍！（小編私心為紀欣伶加油，因為我們都是愛麗！\n\n選秀節目《宇宙啦啦隊》昨（30日）晚間迎來LIVE總決賽，18位女孩歷經10個月的魔鬼訓練與層層淘汰，在演唱會等級的升降舞台上展開終極對決。昨晚YouTube直播最高同時在線人數一舉突破兩萬人，在海量粉絲的見證下，最終9人成團名單正式揭曉，由外籍黑馬海莉勇奪冠軍，並與紀欣伶、靚靚、艾莉兒、叩叩、魚肉、Lydia、妃妃及慢慢組成全新女團「W!nky」正式出道。\n\n照片：緯來電視網提供",
+        "external_id": "DZACCtaH7JL",
+        "identity_key": "threads:id:DZACCtaH7JL",
+        "interaction_total": 3919,
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": 2,
+          "likes": 158,
+          "reposts": 4,
+          "shares": null,
+          "views": 3755
+        },
+        "platform": "threads",
+        "public_url": "https://www.threads.com/@entltn/post/DZACCtaH7JL/%E5%AE%87%E5%AE%99%E5%95%A6%E5%95%A6%E9%9A%8A%E5%A5%B3%E5%9C%98wnky%E6%88%90%E8%BB%8D%E5%B0%8F%E7%B7%A8%E7%A7%81%E5%BF%83%E7%82%BA%E7%B4%80%E6%AC%A3%E4%BC%B6%E5%8A%A0%E6%B2%B9%E5%9B%A0%E7%82%BA%E6%88%91%E5%80%91%E9%83%BD%E6%98%AF%E6%84%9B%E9%BA%97%E9%81%B8%E7%A7%80%E7%AF%80%E7%9B%AE%E5%AE%87%E5%AE%99%E5%95%A6%E5%95%A6%E9%9A%8A%E6%98%A830%E6%97%A5%E6%99%9A%E9%96%93%E8%BF%8E%E4%BE%86live%E7%B8%BD%E6%B1%BA%E8%B3%BD18%E4%BD%8D%E5%A5%B3%E5%AD%A9%E6%AD%B7%E7%B6%9310%E5%80%8B%E6%9C%88%E7%9A%84%E9%AD%94%E9%AC%BC%E8%A8%93%E7%B7%B4%E8%88%87%E5%B1%A4%E5%B1%A4%E6%B7%98%E6%B1%B0%E5%9C%A8%E6%BC%94%E5%94%B1%E6%9C%83/",
+        "published_at": "2026-05-31T10:57:24+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "《宇宙啦啦隊》女團「W!nky」成軍！（小編私心為紀欣伶加油，因為我們都是愛麗！\n\n選秀節目《宇宙啦啦隊》昨（30日）晚間迎來LIVE總決賽，18位女孩歷經10個月的魔鬼訓練與層層淘汰，在演唱會等級的升降舞台上展開終極對決。昨晚YouTube直播最高同時在線人數一舉突破兩萬人，在海量粉絲的見證下，最終9人成團名單正式揭曉，由外籍黑馬海莉勇奪冠軍，並與紀欣伶、靚靚、艾莉兒、叩叩、魚肉、Lydia、妃妃及慢慢組成全新女團「W!nky」正式出道。\n\n照片：緯來電視網提供",
+        "source_url": "https://www.threads.com/@entltn/post/DZACCtaH7JL/%E5%AE%87%E5%AE%99%E5%95%A6%E5%95%A6%E9%9A%8A%E5%A5%B3%E5%9C%98wnky%E6%88%90%E8%BB%8D%E5%B0%8F%E7%B7%A8%E7%A7%81%E5%BF%83%E7%82%BA%E7%B4%80%E6%AC%A3%E4%BC%B6%E5%8A%A0%E6%B2%B9%E5%9B%A0%E7%82%BA%E6%88%91%E5%80%91%E9%83%BD%E6%98%AF%E6%84%9B%E9%BA%97%E9%81%B8%E7%A7%80%E7%AF%80%E7%9B%AE%E5%AE%87%E5%AE%99%E5%95%A6%E5%95%A6%E9%9A%8A%E6%98%A830%E6%97%A5%E6%99%9A%E9%96%93%E8%BF%8E%E4%BE%86live%E7%B8%BD%E6%B1%BA%E8%B3%BD18%E4%BD%8D%E5%A5%B3%E5%AD%A9%E6%AD%B7%E7%B6%9310%E5%80%8B%E6%9C%88%E7%9A%84%E9%AD%94%E9%AC%BC%E8%A8%93%E7%B7%B4%E8%88%87%E5%B1%A4%E5%B1%A4%E6%B7%98%E6%B1%B0%E5%9C%A8%E6%BC%94%E5%94%B1%E6%9C%83/",
+        "title": "《宇宙啦啦隊》女團「W!nky」成軍！（小編私心為紀欣伶加油，因為我們都是愛麗！\n\n選秀節目《宇宙啦啦隊》昨（30日）晚間迎來LIVE總決賽，18位女孩歷經10個月的魔鬼訓練與層層淘汰，在演唱會等級的升降舞台上展開終極對決。昨晚YouTube直播最高同時在線人數一舉突破兩萬人，在海量粉絲的見證下，最終9人成團名單正式揭曉，由外籍黑馬海莉勇奪冠軍，並與紀欣伶、靚靚、艾莉兒、叩叩、魚肉、Lydia、妃妃及慢慢組成全新女團「W!nky」正式出道。\n\n照片：緯來電視網提供"
+      },
+      "risk": {
+        "level": "極低",
+        "llm_adjustment": 0,
+        "reasons": [
+          "未見明顯內容風險"
+        ],
+        "rule_score": 0,
+        "score": 0
+      }
+    },
+    {
+      "inclusion_reason": "new_item",
+      "item": {
+        "canonical_url": "https://www.threads.com/@elainedo10/post/DY_mikBEx2h",
+        "display_snippet": "",
+        "display_title": "【快訊🆙女孩高清照全分享🧏‍♀️宇宙啦啦隊】\n\n緯來原創選秀節目🇹🇼《宇宙啦啦隊💙💛》歷經10個月選拔與比賽，近800位女孩中選出18位，再最終選出9位，由海莉、紀欣伶、靚靚、艾莉兒、叩叩、魚肉、Lydia、妃妃及慢慢成功脫穎而出，以全新女團「W!nky」出道。（提供🆗緯來電視）\n\n💙💛W!nky-象徵陽光、活潑、青春且勇於追夢的精神，延續《宇宙啦啦隊》核心「當你真心渴望，全宇宙都會幫你！」，成為真正的WIN(贏家)，成團後繼續用眼神(Wink)傳遞信念，建立情感連結(Line)，把每次被看見的瞬間化為走向勝利(Win)的力量！",
+        "external_id": "DY_mikBEx2h",
+        "identity_key": "threads:id:DY_mikBEx2h",
+        "interaction_total": 3773,
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": 3,
+          "likes": 127,
+          "reposts": 18,
+          "shares": null,
+          "views": 3625
+        },
+        "platform": "threads",
+        "public_url": "https://www.threads.com/@elainedo10/post/DY_mikBEx2h",
+        "published_at": "2026-05-31T06:57:04+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "【快訊🆙女孩高清照全分享🧏‍♀️宇宙啦啦隊】\n\n緯來原創選秀節目🇹🇼《宇宙啦啦隊💙💛》歷經10個月選拔與比賽，近800位女孩中選出18位，再最終選出9位，由海莉、紀欣伶、靚靚、艾莉兒、叩叩、魚肉、Lydia、妃妃及慢慢成功脫穎而出，以全新女團「W!nky」出道。（提供🆗緯來電視）\n\n💙💛W!nky-象徵陽光、活潑、青春且勇於追夢的精神，延續《宇宙啦啦隊》核心「當你真心渴望，全宇宙都會幫你！」，成為真正的WIN(贏家)，成團後繼續用眼神(Wink)傳遞信念，建立情感連結(Line)，把每次被看見的瞬間化為走向勝利(Win)的力量！",
+        "source_url": "https://www.threads.com/@elainedo10/post/DY_mikBEx2h",
+        "title": "【快訊🆙女孩高清照全分享🧏‍♀️宇宙啦啦隊】\n\n緯來原創選秀節目🇹🇼《宇宙啦啦隊💙💛》歷經10個月選拔與比賽，近800位女孩中選出18位，再最終選出9位，由海莉、紀欣伶、靚靚、艾莉兒、叩叩、魚肉、Lydia、妃妃及慢慢成功脫穎而出，以全新女團「W!nky」出道。（提供🆗緯來電視）\n\n💙💛W!nky-象徵陽光、活潑、青春且勇於追夢的精神，延續《宇宙啦啦隊》核心「當你真心渴望，全宇宙都會幫你！」，成為真正的WIN(贏家)，成團後繼續用眼神(Wink)傳遞信念，建立情感連結(Line)，把每次被看見的瞬間化為走向勝利(Win)的力量！"
+      },
+      "risk": {
+        "level": "極低",
+        "llm_adjustment": 0,
+        "reasons": [
+          "未見明顯內容風險"
+        ],
+        "rule_score": 0,
+        "score": 0
+      }
+    },
+    {
+      "inclusion_reason": "new_item",
+      "item": {
+        "canonical_url": "https://www.threads.com/@kabuto0987/post/DZBe603ksTG/video-20260530-%E5%AE%87%E5%AE%99%E5%95%A6%E5%95%A6%E9%9A%8A-wnky%E6%88%90%E5%9C%98%E6%97%A5%E9%9D%9A%E9%9D%9A%E5%85%A5%E9%81%B8%E7%8F%BE%E5%A0%B4%E7%95%AB%E9%9D%A2%E8%AC%9D%E8%AC%9D%E5%AE%87%E5%AE%99%E5%95%A6%E5%95%A6%E9%9A%8A%E5%96%AE%E4%BD%8D%E9%81%B8%E5%87%BA%E9%9D%9A%E9%9D%9A%E6%8E%A5%E4%B8%8B%E4%BE%86%E7%9A%84%E5%85%A8%E6%96%B0%E7%9A%84%E8%B7%AF%E7%AD%89%E8%91%97%E9%9D%9A%E9%9D%9A%E5%8E%BB%E9%96%83%E4%BA%AEchenny13939-vlcosmican",
+        "display_snippet": "",
+        "display_title": "2026/05/30 宇宙啦啦隊 W!nky成團日\n靚靚入選現場畫面，謝謝宇宙啦啦隊單位選出靚靚！\n接下來的全新的路等著靚靚去閃亮！\n\n@chenny13939 \n@vlcosmicangels",
+        "external_id": "DZBe603ksTG",
+        "identity_key": "threads:id:DZBe603ksTG",
+        "interaction_total": 318,
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": 0,
+          "likes": 7,
+          "reposts": 0,
+          "shares": null,
+          "views": 311
+        },
+        "platform": "threads",
+        "public_url": "https://www.threads.com/@kabuto0987/post/DZBe603ksTG/video-20260530-%E5%AE%87%E5%AE%99%E5%95%A6%E5%95%A6%E9%9A%8A-wnky%E6%88%90%E5%9C%98%E6%97%A5%E9%9D%9A%E9%9D%9A%E5%85%A5%E9%81%B8%E7%8F%BE%E5%A0%B4%E7%95%AB%E9%9D%A2%E8%AC%9D%E8%AC%9D%E5%AE%87%E5%AE%99%E5%95%A6%E5%95%A6%E9%9A%8A%E5%96%AE%E4%BD%8D%E9%81%B8%E5%87%BA%E9%9D%9A%E9%9D%9A%E6%8E%A5%E4%B8%8B%E4%BE%86%E7%9A%84%E5%85%A8%E6%96%B0%E7%9A%84%E8%B7%AF%E7%AD%89%E8%91%97%E9%9D%9A%E9%9D%9A%E5%8E%BB%E9%96%83%E4%BA%AEchenny13939-vlcosmican",
+        "published_at": "2026-06-01T00:29:00+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "2026/05/30 宇宙啦啦隊 W!nky成團日\n靚靚入選現場畫面，謝謝宇宙啦啦隊單位選出靚靚！\n接下來的全新的路等著靚靚去閃亮！\n\n@chenny13939 \n@vlcosmicangels",
+        "source_url": "https://www.threads.com/@kabuto0987/post/DZBe603ksTG/video-20260530-%E5%AE%87%E5%AE%99%E5%95%A6%E5%95%A6%E9%9A%8A-wnky%E6%88%90%E5%9C%98%E6%97%A5%E9%9D%9A%E9%9D%9A%E5%85%A5%E9%81%B8%E7%8F%BE%E5%A0%B4%E7%95%AB%E9%9D%A2%E8%AC%9D%E8%AC%9D%E5%AE%87%E5%AE%99%E5%95%A6%E5%95%A6%E9%9A%8A%E5%96%AE%E4%BD%8D%E9%81%B8%E5%87%BA%E9%9D%9A%E9%9D%9A%E6%8E%A5%E4%B8%8B%E4%BE%86%E7%9A%84%E5%85%A8%E6%96%B0%E7%9A%84%E8%B7%AF%E7%AD%89%E8%91%97%E9%9D%9A%E9%9D%9A%E5%8E%BB%E9%96%83%E4%BA%AEchenny13939-vlcosmican",
+        "title": "2026/05/30 宇宙啦啦隊 W!nky成團日\n靚靚入選現場畫面，謝謝宇宙啦啦隊單位選出靚靚！\n接下來的全新的路等著靚靚去閃亮！\n\n@chenny13939 \n@vlcosmicangels"
+      },
+      "risk": {
+        "level": "極低",
+        "llm_adjustment": 0,
+        "reasons": [
+          "未見明顯內容風險"
+        ],
+        "rule_score": 0,
+        "score": 0
+      }
+    },
+    {
+      "inclusion_reason": "new_item",
+      "item": {
+        "canonical_url": "https://www.threads.com/@ant_lo216/post/DZA6OmqkxSB",
+        "display_snippet": "",
+        "display_title": "#錄了快一年的宇宙啦啦隊終於殺青了👏👏\n\n每一次的選秀節目 工作時間都是早出晚歸的連錄兩天\n工作人員們永遠都是最早來 最晚走\n做好一個節目實在不容易啊💪\n我們最終也是又陪一群孩子們畢業了\n舞台結束畢業才是剛開始 期待女孩們繼續發光✨️✨️\n\n#宇宙啦啦隊 #Wink",
+        "external_id": "DZA6OmqkxSB",
+        "identity_key": "threads:id:DZA6OmqkxSB",
+        "interaction_total": 1721,
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": 0,
+          "likes": 86,
+          "reposts": 0,
+          "shares": null,
+          "views": 1635
+        },
+        "platform": "threads",
+        "public_url": "https://www.threads.com/@ant_lo216/post/DZA6OmqkxSB",
+        "published_at": "2026-05-31T19:08:21+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "#錄了快一年的宇宙啦啦隊終於殺青了👏👏\n\n每一次的選秀節目 工作時間都是早出晚歸的連錄兩天\n工作人員們永遠都是最早來 最晚走\n做好一個節目實在不容易啊💪\n我們最終也是又陪一群孩子們畢業了\n舞台結束畢業才是剛開始 期待女孩們繼續發光✨️✨️\n\n#宇宙啦啦隊 #Wink",
+        "source_url": "https://www.threads.com/@ant_lo216/post/DZA6OmqkxSB",
+        "title": "#錄了快一年的宇宙啦啦隊終於殺青了👏👏\n\n每一次的選秀節目 工作時間都是早出晚歸的連錄兩天\n工作人員們永遠都是最早來 最晚走\n做好一個節目實在不容易啊💪\n我們最終也是又陪一群孩子們畢業了\n舞台結束畢業才是剛開始 期待女孩們繼續發光✨️✨️\n\n#宇宙啦啦隊 #Wink"
+      },
+      "risk": {
+        "level": "極低",
+        "llm_adjustment": 0,
+        "reasons": [
+          "未見明顯內容風險"
+        ],
+        "rule_score": 0,
+        "score": 0
+      }
+    },
+    {
+      "inclusion_reason": "new_item",
+      "item": {
+        "canonical_url": "https://www.threads.com/@yu_lu.067/post/DZCZL0Uk_gJ/%E5%AE%87%E5%AE%99%E5%95%A6%E5%95%A6%E9%9A%8Amc",
+        "display_snippet": "",
+        "display_title": "宇宙啦啦隊MC",
+        "external_id": "DZCZL0Uk_gJ",
+        "identity_key": "threads:id:DZCZL0Uk_gJ",
+        "interaction_total": 1799,
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": 1,
+          "likes": 1,
+          "reposts": 0,
+          "shares": null,
+          "views": 1797
+        },
+        "platform": "threads",
+        "public_url": "https://www.threads.com/@yu_lu.067/post/DZCZL0Uk_gJ/%E5%AE%87%E5%AE%99%E5%95%A6%E5%95%A6%E9%9A%8Amc",
+        "published_at": "2026-06-01T08:58:06+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "宇宙啦啦隊MC",
+        "source_url": "https://www.threads.com/@yu_lu.067/post/DZCZL0Uk_gJ/%E5%AE%87%E5%AE%99%E5%95%A6%E5%95%A6%E9%9A%8Amc",
+        "title": "宇宙啦啦隊MC"
+      },
+      "risk": {
+        "level": "極低",
+        "llm_adjustment": 0,
+        "reasons": [
+          "未見明顯內容風險"
+        ],
+        "rule_score": 0,
+        "score": 0
+      }
+    },
+    {
+      "inclusion_reason": "new_item",
+      "item": {
+        "canonical_url": "https://www.threads.com/@jonathan__0709/post/DZB9v_zE4pj/%E5%AE%87%E5%AE%99%E5%95%A6%E5%95%A6%E9%9A%8A-ep13%E7%B8%BD%E6%B1%BA%E8%B3%BD-%E5%8A%87%E7%85%A7shot-for-vlcosmicangels-photographerjonathan__0709-host-be4eunhy/",
+        "display_snippet": "",
+        "display_title": "📣宇宙啦啦隊 ep13總決賽 劇照📣\nShot for @vlcosmicangels \n\nPhotographer／@jonathan__0709 \n\nHost / be4eunhyuk",
+        "external_id": "DZB9v_zE4pj",
+        "identity_key": "threads:id:DZB9v_zE4pj",
+        "interaction_total": 3713,
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": 2,
+          "likes": 299,
+          "reposts": 38,
+          "shares": null,
+          "views": 3374
+        },
+        "platform": "threads",
+        "public_url": "https://www.threads.com/@jonathan__0709/post/DZB9v_zE4pj/%E5%AE%87%E5%AE%99%E5%95%A6%E5%95%A6%E9%9A%8A-ep13%E7%B8%BD%E6%B1%BA%E8%B3%BD-%E5%8A%87%E7%85%A7shot-for-vlcosmicangels-photographerjonathan__0709-host-be4eunhy/",
+        "published_at": "2026-06-01T04:58:22+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "📣宇宙啦啦隊 ep13總決賽 劇照📣\nShot for @vlcosmicangels \n\nPhotographer／@jonathan__0709 \n\nHost / be4eunhyuk",
+        "source_url": "https://www.threads.com/@jonathan__0709/post/DZB9v_zE4pj/%E5%AE%87%E5%AE%99%E5%95%A6%E5%95%A6%E9%9A%8A-ep13%E7%B8%BD%E6%B1%BA%E8%B3%BD-%E5%8A%87%E7%85%A7shot-for-vlcosmicangels-photographerjonathan__0709-host-be4eunhy/",
+        "title": "📣宇宙啦啦隊 ep13總決賽 劇照📣\nShot for @vlcosmicangels \n\nPhotographer／@jonathan__0709 \n\nHost / be4eunhyuk"
+      },
+      "risk": {
+        "level": "極低",
+        "llm_adjustment": 0,
+        "reasons": [
+          "未見明顯內容風險"
+        ],
+        "rule_score": 0,
+        "score": 0
+      }
+    },
+    {
+      "inclusion_reason": "significant_change",
+      "item": {
+        "canonical_url": "https://www.threads.com/@yeh_naiwen/post/DZAOIhzGG1_/%E5%AE%87%E5%AE%99%E5%95%A6%E5%95%A6%E9%9A%8A%E6%B1%BA%E8%B3%BD%E5%9C%93%E6%BB%BF%E8%90%BD%E5%B9%95-%E6%98%A8%E5%A4%A9%E5%AE%87%E5%AE%99%E5%95%A6%E5%95%A6%E9%9A%8A%E7%9A%84%E6%B1%BA%E8%B3%BD%E7%9B%B4%E6%92%AD%E9%A0%86%E5%88%A9%E7%B5%90%E6%9D%9F-%E6%81%AD%E5%96%9C%E6%88%90%E5%8A%9F%E5%87%BA%E9%81%93%E7%9A%84-9-%E4%BD%8D%E6%88%90%E5%93%A1%E5%80%91-%E9%80%99%E6%AC%A1%E5%BE%88%E9%96%8B%E5%BF%83%E5%8F%97%E9%82%80%E6%93%94%E4%BB%BB%E6%95%B4%E5%AD%A3%E7%AF%80%E7%9B%AE%E7%9A%84%E8%A9%95%E5%AF%A9%E9%95%B7-%E4%B8%80%E8%B7%AF%E7%9C%8B%E8%91%97%E5%A5%B3%E5%AD%A9%E5%80%91%E5%BE%9E%E5%88%9D%E7%99%BB%E5%A0%B4%E5%88%B0%E6%9C%80%E5%BE%8C%E6%B1%BA%E8%B3%BD-%E6%AF%8F/",
+        "display_snippet": "",
+        "display_title": "🏆 宇宙啦啦隊決賽圓滿落幕 🏆\n 昨天宇宙啦啦隊的決賽直播順利結束， 恭喜成功出道的 9 位成員們 🎉👏 \n\n這次很開心受邀擔任整季節目的評審長， 一路看著女孩們從初登場到最後決賽， 每一次的進步與蛻變，都讓人印象深刻。 \n一直以來，我都認為近年啦啦隊產業發展得非常蓬勃，也很需要有這樣的平台與節目。\n \n之前在經營經紀公司的時候， 常常有人推薦愛唱歌跳舞的女生新人給我，詢問是否有合作機會。 而我的答案幾乎都一樣 有機會就先去啦啦隊磨練。 因為在那裡不只可以直接面對球迷表演、練習舞台魅力與團隊合作，未來的發展也會更加多元。 \n\n 這次在節目中， 我選擇用比較嚴格的方式擔任評審。 因為我非常清楚， 現在的環境競爭非常激烈， 觀眾的標準越來越高，眼光也越來越專業。 與其未來站上更大的舞台才被放大檢視， 不如在比賽階段就先面對問題、修正不足。 希望女孩們能透過每一次演出、每一次評語， 更了解自己的優缺點與需要進步的地方。\n\n完整文章請繼續看留言\n\n#宇宙啦啦隊 #啦啦隊  #reelsinstagram #explorepage✨ #選秀",
+        "external_id": "DZAOIhzGG1_",
+        "identity_key": "threads:id:DZAOIhzGG1_",
+        "interaction_total": 26576,
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": 27,
+          "likes": 416,
+          "reposts": 14,
+          "shares": null,
+          "views": 26119
+        },
+        "platform": "threads",
+        "public_url": "https://www.threads.com/@yeh_naiwen/post/DZAOIhzGG1_/%E5%AE%87%E5%AE%99%E5%95%A6%E5%95%A6%E9%9A%8A%E6%B1%BA%E8%B3%BD%E5%9C%93%E6%BB%BF%E8%90%BD%E5%B9%95-%E6%98%A8%E5%A4%A9%E5%AE%87%E5%AE%99%E5%95%A6%E5%95%A6%E9%9A%8A%E7%9A%84%E6%B1%BA%E8%B3%BD%E7%9B%B4%E6%92%AD%E9%A0%86%E5%88%A9%E7%B5%90%E6%9D%9F-%E6%81%AD%E5%96%9C%E6%88%90%E5%8A%9F%E5%87%BA%E9%81%93%E7%9A%84-9-%E4%BD%8D%E6%88%90%E5%93%A1%E5%80%91-%E9%80%99%E6%AC%A1%E5%BE%88%E9%96%8B%E5%BF%83%E5%8F%97%E9%82%80%E6%93%94%E4%BB%BB%E6%95%B4%E5%AD%A3%E7%AF%80%E7%9B%AE%E7%9A%84%E8%A9%95%E5%AF%A9%E9%95%B7-%E4%B8%80%E8%B7%AF%E7%9C%8B%E8%91%97%E5%A5%B3%E5%AD%A9%E5%80%91%E5%BE%9E%E5%88%9D%E7%99%BB%E5%A0%B4%E5%88%B0%E6%9C%80%E5%BE%8C%E6%B1%BA%E8%B3%BD-%E6%AF%8F/",
+        "published_at": "2026-05-31T12:43:03+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "🏆 宇宙啦啦隊決賽圓滿落幕 🏆\n 昨天宇宙啦啦隊的決賽直播順利結束， 恭喜成功出道的 9 位成員們 🎉👏 \n\n這次很開心受邀擔任整季節目的評審長， 一路看著女孩們從初登場到最後決賽， 每一次的進步與蛻變，都讓人印象深刻。 \n一直以來，我都認為近年啦啦隊產業發展得非常蓬勃，也很需要有這樣的平台與節目。\n \n之前在經營經紀公司的時候， 常常有人推薦愛唱歌跳舞的女生新人給我，詢問是否有合作機會。 而我的答案幾乎都一樣 有機會就先去啦啦隊磨練。 因為在那裡不只可以直接面對球迷表演、練習舞台魅力與團隊合作，未來的發展也會更加多元。 \n\n 這次在節目中， 我選擇用比較嚴格的方式擔任評審。 因為我非常清楚， 現在的環境競爭非常激烈， 觀眾的標準越來越高，眼光也越來越專業。 與其未來站上更大的舞台才被放大檢視， 不如在比賽階段就先面對問題、修正不足。 希望女孩們能透過每一次演出、每一次評語， 更了解自己的優缺點與需要進步的地方。\n\n完整文章請繼續看留言\n\n#宇宙啦啦隊 #啦啦隊  #reelsinstagram #explorepage✨ #選秀",
+        "source_url": "https://www.threads.com/@yeh_naiwen/post/DZAOIhzGG1_/%E5%AE%87%E5%AE%99%E5%95%A6%E5%95%A6%E9%9A%8A%E6%B1%BA%E8%B3%BD%E5%9C%93%E6%BB%BF%E8%90%BD%E5%B9%95-%E6%98%A8%E5%A4%A9%E5%AE%87%E5%AE%99%E5%95%A6%E5%95%A6%E9%9A%8A%E7%9A%84%E6%B1%BA%E8%B3%BD%E7%9B%B4%E6%92%AD%E9%A0%86%E5%88%A9%E7%B5%90%E6%9D%9F-%E6%81%AD%E5%96%9C%E6%88%90%E5%8A%9F%E5%87%BA%E9%81%93%E7%9A%84-9-%E4%BD%8D%E6%88%90%E5%93%A1%E5%80%91-%E9%80%99%E6%AC%A1%E5%BE%88%E9%96%8B%E5%BF%83%E5%8F%97%E9%82%80%E6%93%94%E4%BB%BB%E6%95%B4%E5%AD%A3%E7%AF%80%E7%9B%AE%E7%9A%84%E8%A9%95%E5%AF%A9%E9%95%B7-%E4%B8%80%E8%B7%AF%E7%9C%8B%E8%91%97%E5%A5%B3%E5%AD%A9%E5%80%91%E5%BE%9E%E5%88%9D%E7%99%BB%E5%A0%B4%E5%88%B0%E6%9C%80%E5%BE%8C%E6%B1%BA%E8%B3%BD-%E6%AF%8F/",
+        "title": "🏆 宇宙啦啦隊決賽圓滿落幕 🏆\n 昨天宇宙啦啦隊的決賽直播順利結束， 恭喜成功出道的 9 位成員們 🎉👏 \n\n這次很開心受邀擔任整季節目的評審長， 一路看著女孩們從初登場到最後決賽， 每一次的進步與蛻變，都讓人印象深刻。 \n一直以來，我都認為近年啦啦隊產業發展得非常蓬勃，也很需要有這樣的平台與節目。\n \n之前在經營經紀公司的時候， 常常有人推薦愛唱歌跳舞的女生新人給我，詢問是否有合作機會。 而我的答案幾乎都一樣 有機會就先去啦啦隊磨練。 因為在那裡不只可以直接面對球迷表演、練習舞台魅力與團隊合作，未來的發展也會更加多元。 \n\n 這次在節目中， 我選擇用比較嚴格的方式擔任評審。 因為我非常清楚， 現在的環境競爭非常激烈， 觀眾的標準越來越高，眼光也越來越專業。 與其未來站上更大的舞台才被放大檢視， 不如在比賽階段就先面對問題、修正不足。 希望女孩們能透過每一次演出、每一次評語， 更了解自己的優缺點與需要進步的地方。\n\n完整文章請繼續看留言\n\n#宇宙啦啦隊 #啦啦隊  #reelsinstagram #explorepage✨ #選秀"
+      },
+      "risk": {
+        "level": "極低",
+        "llm_adjustment": 0,
+        "reasons": [
+          "未見明顯內容風險"
+        ],
+        "rule_score": 0,
+        "score": 0
+      }
+    },
+    {
+      "inclusion_reason": "significant_change",
+      "item": {
+        "canonical_url": "https://www.threads.com/@b2_studio/post/DZACxEDEphO/%E8%AC%9D%E8%AC%9D%E6%88%91%E5%80%91%E6%B3%B0%E5%9D%A6%E6%98%9F%E7%9A%84%E5%90%8C%E4%BA%8B%E4%BB%A5%E5%8F%8A%E6%89%80%E6%9C%89%E8%A3%BD%E4%BD%9C%E5%AE%87%E5%AE%99%E5%95%A6%E5%95%A6%E9%9A%8A%E7%9A%84%E5%A4%A5%E4%BC%B4%E7%B7%AF%E4%BE%86%E7%B6%9C%E5%90%88%E7%B7%AF%E4%BE%86%E9%AB%94%E8%82%B2%E5%92%8C%E6%A5%AD%E5%8B%99%E9%83%A8%E7%9A%84%E5%90%8C%E4%BB%81%E5%80%91%E4%BB%A5%E5%8F%8A%E6%89%80%E6%9C%89%E5%8F%83%E8%88%87%E9%81%8E%E7%AF%80%E7%9B%AE%E9%8C%84%E8%A3%BD%E7%9A%84%E8%80%81%E5%B8%AB%E5%8F%8A%E5%98%89%E8%B3%93%E6%96%B0%E7%9A%84%E9%96%8B%E5%A7%8B-%E6%96%B0%E7%9A%84%E6%8C%91%E6%88%B0-wnky%E6%88%90%E5%9C%98-%E6%BA%96%E5%82%99%E6%8C%91%E6%88%B0%E5%9C%8B%E9%9A%9B/",
+        "display_snippet": "",
+        "display_title": "謝謝我們泰坦星的同事以及所有製作「宇宙啦啦隊」的夥伴\n緯來綜合、緯來體育和業務部的同仁們\n以及所有參與過節目錄製的老師及嘉賓。\n\n新的開始  新的挑戰 \n\nW!nky成團  準備挑戰國際視野！\n\n宇宙啦啦隊  團員續約完成！\n\n活動及演唱活動將即將啟動！ \n\n請大家繼續支持 宇宙啦啦隊及 \n\n  W!nky",
+        "external_id": "DZACxEDEphO",
+        "identity_key": "threads:id:DZACxEDEphO",
+        "interaction_total": 22827,
+        "matched_keywords": [
+          "宇宙啦啦隊"
+        ],
+        "matched_prefixes": [],
+        "matched_queries": [
+          "宇宙啦啦隊"
+        ],
+        "metrics": {
+          "comments": 32,
+          "likes": 879,
+          "reposts": 47,
+          "shares": null,
+          "views": 21869
+        },
+        "platform": "threads",
+        "public_url": "https://www.threads.com/@b2_studio/post/DZACxEDEphO/%E8%AC%9D%E8%AC%9D%E6%88%91%E5%80%91%E6%B3%B0%E5%9D%A6%E6%98%9F%E7%9A%84%E5%90%8C%E4%BA%8B%E4%BB%A5%E5%8F%8A%E6%89%80%E6%9C%89%E8%A3%BD%E4%BD%9C%E5%AE%87%E5%AE%99%E5%95%A6%E5%95%A6%E9%9A%8A%E7%9A%84%E5%A4%A5%E4%BC%B4%E7%B7%AF%E4%BE%86%E7%B6%9C%E5%90%88%E7%B7%AF%E4%BE%86%E9%AB%94%E8%82%B2%E5%92%8C%E6%A5%AD%E5%8B%99%E9%83%A8%E7%9A%84%E5%90%8C%E4%BB%81%E5%80%91%E4%BB%A5%E5%8F%8A%E6%89%80%E6%9C%89%E5%8F%83%E8%88%87%E9%81%8E%E7%AF%80%E7%9B%AE%E9%8C%84%E8%A3%BD%E7%9A%84%E8%80%81%E5%B8%AB%E5%8F%8A%E5%98%89%E8%B3%93%E6%96%B0%E7%9A%84%E9%96%8B%E5%A7%8B-%E6%96%B0%E7%9A%84%E6%8C%91%E6%88%B0-wnky%E6%88%90%E5%9C%98-%E6%BA%96%E5%82%99%E6%8C%91%E6%88%B0%E5%9C%8B%E9%9A%9B/",
+        "published_at": "2026-05-31T11:03:43+00:00",
+        "seen_at": "2026-06-02T04:07:19.443721+00:00",
+        "snippet": "謝謝我們泰坦星的同事以及所有製作「宇宙啦啦隊」的夥伴\n緯來綜合、緯來體育和業務部的同仁們\n以及所有參與過節目錄製的老師及嘉賓。\n\n新的開始  新的挑戰 \n\nW!nky成團  準備挑戰國際視野！\n\n宇宙啦啦隊  團員續約完成！\n\n活動及演唱活動將即將啟動！ \n\n請大家繼續支持 宇宙啦啦隊及 \n\n  W!nky",
+        "source_url": "https://www.threads.com/@b2_studio/post/DZACxEDEphO/%E8%AC%9D%E8%AC%9D%E6%88%91%E5%80%91%E6%B3%B0%E5%9D%A6%E6%98%9F%E7%9A%84%E5%90%8C%E4%BA%8B%E4%BB%A5%E5%8F%8A%E6%89%80%E6%9C%89%E8%A3%BD%E4%BD%9C%E5%AE%87%E5%AE%99%E5%95%A6%E5%95%A6%E9%9A%8A%E7%9A%84%E5%A4%A5%E4%BC%B4%E7%B7%AF%E4%BE%86%E7%B6%9C%E5%90%88%E7%B7%AF%E4%BE%86%E9%AB%94%E8%82%B2%E5%92%8C%E6%A5%AD%E5%8B%99%E9%83%A8%E7%9A%84%E5%90%8C%E4%BB%81%E5%80%91%E4%BB%A5%E5%8F%8A%E6%89%80%E6%9C%89%E5%8F%83%E8%88%87%E9%81%8E%E7%AF%80%E7%9B%AE%E9%8C%84%E8%A3%BD%E7%9A%84%E8%80%81%E5%B8%AB%E5%8F%8A%E5%98%89%E8%B3%93%E6%96%B0%E7%9A%84%E9%96%8B%E5%A7%8B-%E6%96%B0%E7%9A%84%E6%8C%91%E6%88%B0-wnky%E6%88%90%E5%9C%98-%E6%BA%96%E5%82%99%E6%8C%91%E6%88%B0%E5%9C%8B%E9%9A%9B/",
+        "title": "謝謝我們泰坦星的同事以及所有製作「宇宙啦啦隊」的夥伴\n緯來綜合、緯來體育和業務部的同仁們\n以及所有參與過節目錄製的老師及嘉賓。\n\n新的開始  新的挑戰 \n\nW!nky成團  準備挑戰國際視野！\n\n宇宙啦啦隊  團員續約完成！\n\n活動及演唱活動將即將啟動！ \n\n請大家繼續支持 宇宙啦啦隊及 \n\n  W!nky"
+      },
+      "risk": {
+        "level": "極低",
+        "llm_adjustment": 0,
+        "reasons": [
+          "未見明顯內容風險"
+        ],
+        "rule_score": 0,
+        "score": 0
+      }
+    }
+  ],
+  "request": {
+    "actor_selection": {
+      "actor_overrides": {
+        "facebook": "powerai/facebook-post-search-scraper",
+        "threads": "futurizerush/threads-keyword-search"
+      },
+      "allow_override": true,
+      "mode": "auto_by_apify_skill",
+      "persist_decision": true
+    },
+    "filters": {
+      "exclude_sources": [],
+      "exclude_terms": [],
+      "min_risk_score": 0,
+      "sensitivity": "normal"
+    },
+    "keywords": [
+      {
+        "aliases": [],
+        "exclude_terms": [],
+        "term": "宇宙啦啦隊"
+      }
+    ],
+    "limits": {
+      "facebook": 20,
+      "google_news": 50,
+      "google_search": 50,
+      "threads": 20
+    },
+    "llm": {
+      "fallback_provider": "openai",
+      "output_language": "zh-TW",
+      "preserve_source_language": true,
+      "provider": "hermes"
+    },
+    "locale": {
+      "language": "zh-TW",
+      "region": "TW"
+    },
+    "output": {
+      "publish": {
+        "branch": "gh-pages",
+        "enabled": true,
+        "path_mode": "timestamp_query_slug",
+        "publish_artifacts": {
+          "audit_json": true,
+          "html": true,
+          "snapshot_json": true,
+          "summary": true
+        },
+        "target": "github_pages"
+      },
+      "root_dir": "outputs"
+    },
+    "platforms": [
+      "google_news",
+      "facebook",
+      "threads"
+    ],
+    "prefixes": [],
+    "query_mode": "expanded_optional_prefix",
+    "time_window": {
+      "since_days": 2
+    }
+  }
+}
